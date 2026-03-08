@@ -1254,39 +1254,50 @@ def build_sidebar():
 
 # ─── Market Overview Cards ────────────────────────────────────────────────────
 def render_market_overview(idx):
-    # Market status badge
+    """Render market index cards as a responsive CSS grid (4-col desktop, 2×2 mobile)."""
     market_open = is_market_open()
-    badge_bg   = "#00c853" if market_open else "#e53935"
-    badge_text = "🟢 MARKET OPEN" if market_open else "🔴 MARKET CLOSED"
-    st.markdown(
-        f"<div style='display:flex;align-items:center;gap:14px;margin-bottom:6px'>"
-        f"<span style='font-size:1.05em;font-weight:700;color:#1a1a2e'>🌐 Market Overview</span>"
-        f"<span style='background:{badge_bg};color:#fff;padding:3px 13px;"
-        f"border-radius:20px;font-size:0.76em;font-weight:700;letter-spacing:0.4px'>"
-        f"{badge_text}</span></div>",
-        unsafe_allow_html=True,
-    )
-    c1, c2, c3, c4 = st.columns(4)
+    badge_bg    = "#00c853" if market_open else "#e53935"
+    badge_text  = "🟢 OPEN" if market_open else "🔴 CLOSED"
 
-    def index_card(col, label, data, key, invert_delta=False):
-        if key in data:
-            d = data[key]
-            arrow = "▲" if d["change"] >= 0 else "▼"
-            fmt = f"{d['close']:.2f}" if key == "vix" else f"{d['close']:,.2f}"
-            col.metric(
-                label=label,
-                value=fmt,
-                delta=f"{arrow} {abs(d['change']):.2f}  ({d['pct']:+.2f}%)",
-                delta_color=("inverse" if d["change"] >= 0 else "normal") if invert_delta
-                             else ("normal" if d["change"] >= 0 else "inverse"),
+    def _card(key, label, invert=False):
+        if key not in idx:
+            return (
+                f"<div class='market-card'>"
+                f"<div class='mkt-lbl'>{label}</div>"
+                f"<div class='mkt-val'>N/A</div>"
+                f"<div class='mkt-delta'>–</div>"
+                f"</div>"
             )
-        else:
-            col.metric(label, "N/A", "–")
+        d   = idx[key]
+        up  = d["change"] >= 0
+        if invert:
+            up = not up          # VIX: rising is bearish
+        cls = "mkt-pos" if up else "mkt-neg"
+        arr = "▲" if d["change"] >= 0 else "▼"
+        fmt = f"{d['close']:.2f}" if key == "vix" else f"{d['close']:,.2f}"
+        return (
+            f"<div class='market-card'>"
+            f"<div class='mkt-lbl'>{label}</div>"
+            f"<div class='mkt-val'>{fmt}</div>"
+            f"<div class='mkt-delta {cls}'>{arr} {abs(d['change']):.2f}"
+            f" <span style='opacity:0.75'>({d['pct']:+.2f}%)</span></div>"
+            f"</div>"
+        )
 
-    index_card(c1, "NIFTY 50",   idx, "nifty")
-    index_card(c2, "SENSEX",     idx, "sensex")
-    index_card(c3, "BANK NIFTY", idx, "banknifty")
-    index_card(c4, "India VIX",  idx, "vix", invert_delta=True)  # VIX up = bad
+    html = (
+        f"<div style='display:flex;align-items:center;gap:12px;margin-bottom:10px'>"
+        f"<span style='font-size:1.0em;font-weight:700;color:#1a1a2e'>🌐 Market Overview</span>"
+        f"<span class='badge-pulse' style='background:{badge_bg};color:#fff;padding:3px 12px;"
+        f"border-radius:20px;font-size:0.76em;font-weight:700;letter-spacing:0.4px'>"
+        f"{badge_text}</span></div>"
+        f"<div class='market-grid'>"
+    )
+    html += _card("nifty",     "NIFTY 50")
+    html += _card("sensex",    "SENSEX")
+    html += _card("banknifty", "BANK NIFTY")
+    html += _card("vix",       "India VIX", invert=True)
+    html += "</div>"
+    st.markdown(html, unsafe_allow_html=True)
 
 
 # ─── Tab 1: Market Overview ──────────────────────────────────────────────────
@@ -1300,14 +1311,14 @@ def _gainer_loser_html(rows_df: pd.DataFrame, is_gainer: bool) -> str:
         f"overflow:hidden;margin-bottom:4px'>"
         f"<div style='background:{accent}18;padding:10px 16px;font-weight:700;"
         f"font-size:0.95em;border-bottom:1px solid #e8edf5'>{title}</div>"
+        f"<div style='overflow-x:auto;-webkit-overflow-scrolling:touch'>"
         f"<table style='width:100%;border-collapse:collapse;font-size:0.82em'>"
         f"<thead><tr style='background:#f7f9ff;color:#555'>"
-        f"<th style='padding:7px 12px;text-align:left'>Name</th>"
-        f"<th style='padding:7px 8px;text-align:center'>Cap</th>"
-        f"<th style='padding:7px 8px;text-align:right'>Close</th>"
-        f"<th style='padding:7px 8px;text-align:right'>% Chg</th>"
-        f"<th style='padding:7px 8px;text-align:center'>RSI</th>"
-        f"<th style='padding:7px 8px;text-align:center'>Signal</th>"
+        f"<th style='padding:7px 10px;text-align:left'>Name</th>"
+        f"<th style='padding:7px 6px;text-align:right'>₹ Close</th>"
+        f"<th style='padding:7px 6px;text-align:right'>% Chg</th>"
+        f"<th style='padding:7px 6px;text-align:center'>RSI</th>"
+        f"<th style='padding:7px 6px;text-align:center'>Signal</th>"
         f"</tr></thead><tbody>"
     )
     rsi_col  = "RSI"  if "RSI"  in rows_df.columns else None
@@ -1332,23 +1343,22 @@ def _gainer_loser_html(rows_df: pd.DataFrame, is_gainer: bool) -> str:
 
         html += (
             f"<tr style='border-bottom:1px solid #f0f0f0'>"
-            f"<td style='padding:7px 12px;font-weight:600;max-width:160px;overflow:hidden;"
-            f"white-space:nowrap;text-overflow:ellipsis'>{r['Name']}</td>"
-            f"<td style='padding:7px 8px;text-align:center'>"
-            f"<span style='background:{cat_c}22;color:{cat_c};border-radius:4px;"
-            f"padding:2px 6px;font-size:0.78em;font-weight:600'>{cat.replace(' Cap','')}</span></td>"
-            f"<td style='padding:7px 8px;text-align:right;font-weight:600'>₹{r['Close']:,.2f}</td>"
-            f"<td style='padding:7px 8px;text-align:right'>"
-            f"<span style='color:{pct_c};font-weight:700'>{icon} {abs(pct):.2f}%</span>"
+            f"<td style='padding:6px 10px;font-weight:600;max-width:130px;overflow:hidden;"
+            f"white-space:nowrap;text-overflow:ellipsis'>"
+            f"<span style='color:{cat_c};font-size:0.65em;vertical-align:middle;margin-right:3px'>●</span>"
+            f"{r['Name']}</td>"
+            f"<td style='padding:6px 6px;text-align:right;font-weight:600;white-space:nowrap'>₹{r['Close']:,.0f}</td>"
+            f"<td style='padding:6px 6px;text-align:right'>"
+            f"<span style='color:{pct_c};font-weight:700'>{icon}{abs(pct):.1f}%</span>"
             f"<div style='background:{bar_c};height:3px;border-radius:2px;width:{bar_w:.0f}%;margin-top:2px;margin-left:auto'></div>"
             f"</td>"
-            f"<td style='padding:7px 8px;text-align:center;background:{rsi_bg};border-radius:4px'>"
+            f"<td style='padding:6px 6px;text-align:center;background:{rsi_bg};border-radius:4px'>"
             f"<span style='font-weight:600'>{rsi_str}</span></td>"
-            f"<td style='padding:7px 8px;text-align:center'>"
-            f"<span style='color:{rec_c};font-weight:700;font-size:0.8em'>{rec_val or '–'}</span></td>"
+            f"<td style='padding:6px 6px;text-align:center'>"
+            f"<span style='color:{rec_c};font-weight:700;font-size:0.78em'>{rec_val or '–'}</span></td>"
             f"</tr>"
         )
-    html += "</tbody></table></div>"
+    html += "</tbody></table></div></div>"
     return html
 
 
@@ -1381,9 +1391,9 @@ def tab_overview(df: pd.DataFrame):
         textfont_size=12,
     )
     fig_tm.update_layout(
-        height=420,
+        height=380,
         margin=dict(t=30, l=0, r=0, b=0),
-        coloraxis_colorbar=dict(title="% Change", ticksuffix="%"),
+        coloraxis_colorbar=dict(title="% Change", ticksuffix="%", thickness=12),
     )
     st.plotly_chart(fig_tm, use_container_width=True)
 
@@ -1479,7 +1489,7 @@ def tab_technical(df: pd.DataFrame):
             color_discrete_map={"Large Cap":"#4c9be8","Mid Cap":"#f4a261","Small Cap":"#2ec4b6"},
         )
         fig4.add_vline(x=25, line_dash="dash", line_color="orange", annotation_text="Strong Trend")
-        fig4.update_layout(height=550, yaxis={"categoryorder": "total ascending"})
+        fig4.update_layout(height=420, yaxis={"categoryorder": "total ascending"})
         st.plotly_chart(fig4, use_container_width=True)
 
     with col4:
@@ -1672,7 +1682,7 @@ def tab_levels(df: pd.DataFrame):
                       color="Category", title="Top 20 Stocks by Risk:Reward Ratio (Target 1)",
                       color_discrete_map={"Large Cap":"#4c9be8","Mid Cap":"#f4a261","Small Cap":"#2ec4b6"})
         fig1.add_vline(x=2, line_dash="dash", line_color="green", annotation_text="R:R 1:2")
-        fig1.update_layout(height=500, yaxis={"categoryorder": "total ascending"})
+        fig1.update_layout(height=400, yaxis={"categoryorder": "total ascending"})
         st.plotly_chart(fig1, use_container_width=True)
     else:
         st.info("No stocks with R:R >= 1.5 found.")
@@ -1765,7 +1775,7 @@ def render_ema_chart(hist: pd.DataFrame, name: str) -> go.Figure:
         fig.add_hline(y=30, line_dash="dash", line_color="rgba(81,207,102,0.7)",
                       annotation_text="OS 30", row=3, col=1)
     fig.update_layout(
-        height=560, xaxis_rangeslider_visible=False,
+        height=480, xaxis_rangeslider_visible=False,
         plot_bgcolor="#ffffff", paper_bgcolor="#ffffff", font_color="#1a1a2e",
         legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1,
                     bgcolor="rgba(255,255,255,0.8)", bordercolor="#ddd", borderwidth=1),
@@ -2544,18 +2554,26 @@ def main():
     # ── Global CSS ────────────────────────────────────────────────────────────
     st.markdown("""
     <style>
+    /* ═══════════════════════════════════════════════════════
+       GLOBAL BASE
+    ═══════════════════════════════════════════════════════ */
     .block-container { padding-top: 0.5rem; }
     [data-testid="stMetricDelta"] span { font-weight: 600; }
 
-    /* Index metric cards */
+    /* ── Pulse animation for market status ── */
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.65} }
+    .badge-pulse { animation: pulse 2.5s infinite; }
+
+    /* ── Index metric cards ── */
     [data-testid="stMetric"] {
         background: #f7f9ff;
-        border-radius: 10px;
+        border-radius: 12px;
         padding: 14px 16px;
         border: 1px solid #dce3f5;
+        transition: box-shadow .15s;
     }
 
-    /* Gradient dashboard header */
+    /* ── Dashboard header ── */
     .dash-header {
         background: linear-gradient(135deg, #0d1b2a 0%, #1a3a5c 60%, #0d2840 100%);
         border-radius: 14px;
@@ -2563,40 +2581,66 @@ def main():
         margin-bottom: 18px;
         box-shadow: 0 4px 24px rgba(13,27,42,0.22);
     }
-    .dash-header h1 { color: #fff; margin: 0; font-size: 1.75em; line-height: 1.2; }
-    .dash-header .sub { color: #93b4d0; font-size: 0.85em; margin-top: 5px; }
+    .dash-header h1   { color:#fff; margin:0; font-size:1.75em; line-height:1.2; }
+    .dash-header .sub { color:#93b4d0; font-size:0.85em; margin-top:5px; }
     .dash-header .badge {
-        display: inline-block;
-        padding: 4px 14px;
-        border-radius: 20px;
-        font-size: 0.78em;
-        font-weight: 700;
-        letter-spacing: 0.4px;
-        color: #fff;
+        display:inline-block; padding:4px 14px;
+        border-radius:20px; font-size:0.78em; font-weight:700;
+        letter-spacing:0.4px; color:#fff;
     }
 
-    /* Colored KPI cards */
-    .kpi-grid { display: flex; gap: 12px; flex-wrap: wrap; margin: 4px 0 16px; }
-    .kpi-card {
-        flex: 1; min-width: 130px;
-        background: #fff;
-        border-radius: 10px;
-        padding: 14px 18px;
-        border-left: 5px solid #aaa;
-        box-shadow: 0 1px 8px rgba(0,0,0,0.07);
+    /* ── Market overview cards — CSS grid, 4 cols desktop ── */
+    .market-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 12px;
+        margin-bottom: 14px;
     }
-    .kpi-card .lbl { color: #777; font-size: 0.75em; font-weight: 600;
-                     text-transform: uppercase; letter-spacing: 0.5px; }
-    .kpi-card .val { font-size: 2em; font-weight: 800; color: #1a1a2e;
-                     line-height: 1.1; margin-top: 4px; }
-    .kpi-card .sub2 { color: #999; font-size: 0.75em; margin-top: 3px; }
+    .market-card {
+        background: #f7f9ff;
+        border-radius: 12px;
+        padding: 14px 16px;
+        border: 1px solid #dce3f5;
+    }
+    .market-card .mkt-lbl {
+        color: #666; font-size: 0.74em; font-weight: 700;
+        text-transform: uppercase; letter-spacing: 0.5px;
+    }
+    .market-card .mkt-val {
+        font-size: 1.55em; font-weight: 800; color: #1a1a2e;
+        margin-top: 4px; line-height: 1.1;
+    }
+    .market-card .mkt-delta { font-size: 0.78em; font-weight: 600; margin-top: 5px; }
+    .mkt-pos { color: #00873a; }
+    .mkt-neg { color: #c62828; }
+
+    /* ── KPI cards — CSS grid, 4 cols desktop ── */
+    .kpi-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 12px;
+        margin: 4px 0 16px;
+    }
+    .kpi-card {
+        background: #fff;
+        border-radius: 12px;
+        padding: 14px 16px;
+        border-left: 5px solid #aaa;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+    }
+    .kpi-card .lbl {
+        color: #777; font-size: 0.72em; font-weight: 700;
+        text-transform: uppercase; letter-spacing: 0.6px;
+    }
+    .kpi-card .val  { font-size: 2em; font-weight: 800; color: #1a1a2e; line-height: 1.1; margin-top: 4px; }
+    .kpi-card .sub2 { color: #999; font-size: 0.72em; margin-top: 3px; }
     .kpi-neutral  { border-left-color: #1a73e8; }
     .kpi-change   { border-left-color: #888; }
     .kpi-buy      { border-left-color: #00c853; background: #f0fff4; }
     .kpi-hold     { border-left-color: #f9a825; background: #fffde7; }
     .kpi-sell     { border-left-color: #e53935; background: #fff5f5; }
 
-    /* Breadth bar */
+    /* ── Breadth bar ── */
     .breadth-wrap {
         background: #f7f9ff;
         border-radius: 12px;
@@ -2605,71 +2649,181 @@ def main():
         border: 1px solid #dce3f5;
     }
 
-    /* ── Mobile / PWA responsive ──────────────────────────────────────────── */
+    /* ── Tab list: horizontal scroll, no wrap ── */
+    [data-baseweb="tab-list"] {
+        overflow-x: auto !important;
+        -webkit-overflow-scrolling: touch !important;
+        flex-wrap: nowrap !important;
+        scrollbar-width: none !important;
+        -ms-overflow-style: none !important;
+    }
+    [data-baseweb="tab-list"]::-webkit-scrollbar { display: none !important; }
+    button[role="tab"] {
+        white-space: nowrap !important;
+        font-weight: 600 !important;
+    }
+
+    /* ── Hide Plotly mode-bar (zoom/pan icons) — saves vertical space ── */
+    .modebar-container { display: none !important; }
+
+    /* ── Touch targets: 44px minimum ── */
+    .stButton > button         { min-height: 44px !important; border-radius: 8px !important; }
+    .stSelectbox select        { min-height: 44px !important; }
+    .stTextInput > div > input { min-height: 44px !important; }
+    .stDownloadButton > button { min-height: 44px !important; border-radius: 8px !important; }
+
+    /* ═══════════════════════════════════════════════════════
+       MOBILE  (≤ 768px)
+    ═══════════════════════════════════════════════════════ */
     @media screen and (max-width: 768px) {
-        /* Tighter container padding */
-        .block-container { padding: 0.3rem 0.6rem 2rem !important; }
 
-        /* Header scales down */
-        .dash-header { padding: 14px 16px !important; }
-        .dash-header h1 { font-size: 1.25em !important; }
-        .dash-header .sub { font-size: 0.78em !important; }
-        .dash-header .badge { font-size: 0.7em !important; padding: 3px 10px !important; }
+        /* Container: extra bottom padding for iOS home indicator */
+        .block-container { padding: 0.3rem 0.5rem 5rem !important; }
 
-        /* Stack all columns to full width on phone */
+        /* Header: compact */
+        .dash-header {
+            padding: 12px 14px !important;
+            border-radius: 10px !important;
+            margin-bottom: 12px !important;
+        }
+        .dash-header h1  { font-size: 1.05em !important; line-height: 1.3 !important; }
+        .dash-header .sub { display: none !important; }
+        .dash-header .badge { font-size: 0.68em !important; padding: 3px 9px !important; }
+
+        /* Stack all st.columns to full width */
         [data-testid="column"] {
             min-width: 100% !important;
             width:     100% !important;
         }
 
-        /* KPI cards: 2-per-row grid */
-        .kpi-grid { gap: 8px !important; }
-        .kpi-card {
-            min-width: calc(50% - 4px) !important;
-            max-width: calc(50% - 4px) !important;
-            padding: 10px 12px !important;
+        /* Market cards: 2×2 grid */
+        .market-grid {
+            grid-template-columns: repeat(2, 1fr) !important;
+            gap: 8px !important;
+            margin-bottom: 10px !important;
         }
-        .kpi-card .val { font-size: 1.6em !important; }
-        .kpi-card .lbl { font-size: 0.68em !important; }
+        .market-card { padding: 10px 12px !important; }
+        .market-card .mkt-val   { font-size: 1.25em !important; }
+        .market-card .mkt-lbl   { font-size: 0.67em !important; }
+        .market-card .mkt-delta { font-size: 0.71em !important; }
 
-        /* Breadth bar */
-        .breadth-wrap { padding: 10px 12px !important; }
+        /* KPI cards: 2×4 grid */
+        .kpi-grid {
+            grid-template-columns: repeat(2, 1fr) !important;
+            gap: 8px !important;
+            margin-bottom: 12px !important;
+        }
+        .kpi-card { padding: 10px 12px !important; border-radius: 10px !important; }
+        .kpi-card .val  { font-size: 1.55em !important; }
+        .kpi-card .lbl  { font-size: 0.62em !important; }
+        .kpi-card .sub2 { display: none !important; }
 
-        /* Plotly charts: cap height on phone */
-        .js-plotly-plot { max-height: 320px !important; }
+        /* Metric cards (st.metric) */
+        [data-testid="stMetric"]        { padding: 10px 11px !important; }
+        [data-testid="stMetricLabel"] > div { font-size: 0.72em !important; }
+        [data-testid="stMetricValue"] > div { font-size: 1.3em  !important; }
+        [data-testid="stMetricDelta"] span  { font-size: 0.68em !important; }
 
-        /* Tabs: smaller text */
+        /* Breadth bar: compact */
+        .breadth-wrap { padding: 10px 12px !important; margin-bottom: 8px !important; }
+        .breadth-wrap * { font-size: 0.77em !important; }
+
+        /* Tabs: compact scrollable */
         button[role="tab"] {
-            font-size: 0.78em !important;
+            font-size: 0.71em !important;
             padding: 6px 8px !important;
+            min-height: 38px !important;
         }
 
-        /* Gainers/Losers table: hide Volume column */
-        table td:last-child, table th:last-child { display: none !important; }
+        /* Data tables: horizontal scroll + compact font */
+        .stDataFrame {
+            overflow-x: auto !important;
+            -webkit-overflow-scrolling: touch !important;
+        }
+        .stDataFrame table { font-size: 0.72em !important; white-space: nowrap !important; }
+
+        /* Inline HTML tables */
+        table { font-size: 0.78em !important; }
+
+        /* Plotly charts: limit height, enable panning */
+        .js-plotly-plot .main-svg { max-height: 265px !important; }
+        .plot-container { overflow-x: auto !important; }
+
+        /* Section headings */
+        h3 { font-size: 1.0em !important;  margin-top: 14px !important; margin-bottom: 5px !important; }
+        h4 { font-size: 0.92em !important; margin-top: 10px !important; }
+
+        /* Horizontal block gap */
+        [data-testid="stHorizontalBlock"] { gap: 8px !important; }
+
+        /* HR separators */
+        hr { margin: 8px 0 !important; }
+
+        /* Download button: full width */
+        .stDownloadButton > button { width: 100% !important; min-height: 48px !important; }
+
+        /* Alert / info boxes */
+        [data-testid="stAlert"] { font-size: 0.82em !important; padding: 8px 12px !important; }
+
+        /* Expander header */
+        .streamlit-expanderHeader { min-height: 44px !important; font-size: 0.85em !important; }
 
         /* Sidebar toggle: bigger tap target */
-        [data-testid="collapsedControl"] {
-            width: 44px !important;
-            height: 44px !important;
-        }
+        [data-testid="collapsedControl"] { width: 48px !important; height: 48px !important; }
+
+        /* Spinner text */
+        [data-testid="stSpinner"] { font-size: 0.85em !important; }
     }
 
-    /* ── Standalone (installed PWA) chrome ───────────────────────────────── */
+    /* ═══════════════════════════════════════════════════════
+       SMALL PHONES  (≤ 400px)
+    ═══════════════════════════════════════════════════════ */
+    @media screen and (max-width: 400px) {
+        .dash-header h1        { font-size: 0.92em !important; }
+        .kpi-card .val         { font-size: 1.35em !important; }
+        button[role="tab"]     { font-size: 0.64em !important; padding: 5px 6px !important; }
+        .market-card .mkt-val  { font-size: 1.1em !important; }
+        table                  { font-size: 0.72em !important; }
+        .market-card .mkt-delta { display: none !important; }
+    }
+
+    /* ═══════════════════════════════════════════════════════
+       STANDALONE / INSTALLED PWA
+    ═══════════════════════════════════════════════════════ */
     @media (display-mode: standalone) {
-        /* Account for iOS notch / home indicator */
         .block-container {
-            padding-top:    env(safe-area-inset-top,    0.5rem) !important;
-            padding-bottom: env(safe-area-inset-bottom, 1.5rem) !important;
+            padding-top:    max(env(safe-area-inset-top,    0.3rem), 0.3rem) !important;
+            padding-bottom: max(env(safe-area-inset-bottom, 1rem),   5rem  ) !important;
+            padding-left:   max(env(safe-area-inset-left,   0px),    0.5rem) !important;
+            padding-right:  max(env(safe-area-inset-right,  0px),    0.5rem) !important;
         }
-        /* Hide Streamlit footer in standalone mode */
-        footer { display: none !important; }
+        footer                    { display: none !important; }
+        #MainMenu                 { display: none !important; }
+        [data-testid="stToolbar"] { display: none !important; }
     }
-
-    /* Minimum 44px touch targets on all interactive elements */
-    .stButton > button          { min-height: 44px !important; }
-    .stSelectbox select         { min-height: 44px !important; }
-    .stTextInput > div > input  { min-height: 44px !important; }
     </style>
+
+    <script>
+    /* Dynamically resize Plotly charts on mobile so no SVG clipping occurs */
+    (function(){
+        if(window.innerWidth>768) return;
+        var MAX_H=260, runs=0;
+        function resize(){
+            var plots=document.querySelectorAll('.js-plotly-plot:not([data-mr])');
+            plots.forEach(function(el){
+                if(!el._fullLayout) return;
+                var h=el._fullLayout.height||0;
+                if(h>MAX_H){
+                    try{window.Plotly&&Plotly.relayout(el,{height:MAX_H});el.setAttribute('data-mr','1');}
+                    catch(e){}
+                }
+            });
+        }
+        var iv=setInterval(function(){resize();if(++runs>40)clearInterval(iv);},350);
+        var ob=new MutationObserver(function(){setTimeout(resize,120);});
+        ob.observe(document.body,{childList:true,subtree:true});
+    })();
+    </script>
     """, unsafe_allow_html=True)
 
     # ── Gradient header ───────────────────────────────────────────────────────
@@ -2680,13 +2834,13 @@ def main():
     st.markdown(
         f"""
         <div class="dash-header">
-          <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:10px">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:8px">
             <div>
-              <h1>📊 NSE/BSE Stock Analysis Dashboard</h1>
-              <div class="sub">🕐 {now_str} &nbsp;·&nbsp; Data via Yahoo Finance (yfinance)</div>
+              <h1>📊 <span style="display:inline">NSE/BSE</span> Stock Dashboard</h1>
+              <div class="sub">🕐 {now_str} &nbsp;·&nbsp; Data via Yahoo Finance</div>
             </div>
             <div style="text-align:right;padding-top:4px">
-              <span class="badge" style="background:{badge_bg}">● {badge_label}</span>
+              <span class="badge badge-pulse" style="background:{badge_bg}">● {badge_label}</span>
             </div>
           </div>
         </div>

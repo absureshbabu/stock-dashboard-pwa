@@ -11,6 +11,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    env:
+      ANDROID_HOME: /usr/local/lib/android/sdk
+      ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
+      BUBBLEWRAP_KEYSTORE_PASSWORD: StockDash2024
+      BUBBLEWRAP_KEY_PASSWORD: StockDash2024
+
     steps:
       - uses: actions/checkout@v4
 
@@ -50,13 +56,17 @@ jobs:
           cp android.keystore twa-build/
           cd twa-build
 
-          # Write expect script to automate bubblewrap init prompts
+          # Write expect script — handles ALL bubblewrap init prompts including setup
           cat > /tmp/init.exp << 'EXPEOF'
           #!/usr/bin/expect -f
-          set timeout 180
+          set timeout 300
           log_user 1
 
+          # Pre-configure environment so bubblewrap finds JDK/SDK
           set env(BUBBLEWRAP_KEYSTORE_PASSWORD) "StockDash2024"
+          set env(BUBBLEWRAP_KEY_PASSWORD) "StockDash2024"
+          set env(ANDROID_HOME) "/usr/local/lib/android/sdk"
+          set env(ANDROID_SDK_ROOT) "/usr/local/lib/android/sdk"
           set env(TERM) "dumb"
           set env(NO_COLOR) "1"
           set env(FORCE_COLOR) "0"
@@ -64,6 +74,24 @@ jobs:
           spawn bubblewrap init --manifest "https://raw.githubusercontent.com/absureshbabu/stock-dashboard-pwa/main/static/manifest.json"
 
           expect {
+            # ── First-time setup: JDK / Android SDK install prompts ──
+            -re {[Ii]nstall.*JDK|JDK.*install|JDK.*recommended} {
+              send "N\r"
+              exp_continue
+            }
+            -re {[Jj][Dd][Kk].*path|path.*[Jj][Dd][Kk]|[Jj]ava.*home|JAVA_HOME} {
+              send "$env(JAVA_HOME)\r"
+              exp_continue
+            }
+            -re {[Ii]nstall.*[Aa]ndroid|[Aa]ndroid.*[Ss][Dd][Kk].*install|[Aa]ndroid.*recommended} {
+              send "N\r"
+              exp_continue
+            }
+            -re {[Aa]ndroid.*[Ss][Dd][Kk].*path|path.*[Aa]ndroid|ANDROID_HOME|ANDROID_SDK} {
+              send "/usr/local/lib/android/sdk\r"
+              exp_continue
+            }
+            # ── App configuration prompts ──
             -re {[Dd]omain.*\[} {
               send "stock-dashboard-p-haugxzet3zxoc4oehcrtdd.streamlit.app\r"
               exp_continue
@@ -72,7 +100,7 @@ jobs:
               send "\r"
               exp_continue
             }
-            -re {[Ss]hort.name.*\[} {
+            -re {[Ss]hort.name.*\[|[Ll]auncher.*name.*\[} {
               send "\r"
               exp_continue
             }
@@ -100,7 +128,7 @@ jobs:
               send "\r"
               exp_continue
             }
-            -re {[Aa]pplication version.*\[1\.0\.0\]} {
+            -re {[Aa]pplication version.*\[1} {
               send "\r"
               exp_continue
             }
@@ -112,7 +140,7 @@ jobs:
               send "\r"
               exp_continue
             }
-            -re {[Kk]ey.*alias.*\[|alias.*\[} {
+            -re {[Kk]ey.*alias.*\[|[Aa]lias.*\[} {
               send "\r"
               exp_continue
             }
@@ -124,11 +152,16 @@ jobs:
               send "StockDash2024\r"
               exp_continue
             }
+            # ── Catch-all yes/no ──
+            -re {\(Y/n\)|\(y/N\)} {
+              send "N\r"
+              exp_continue
+            }
             eof {
               puts "\n✅ bubblewrap init completed"
             }
             timeout {
-              puts "\nTimeout reached - checking if init succeeded"
+              puts "\nTimeout — proceeding with whatever was created"
             }
           }
           EXPEOF
@@ -141,31 +174,28 @@ jobs:
         run: |
           echo "=== twa-build contents ==="
           ls -la
+          echo ""
           echo "=== twa-manifest.json ==="
-          cat twa-manifest.json 2>/dev/null || echo "twa-manifest.json not found"
+          cat twa-manifest.json 2>/dev/null || echo "⚠️ twa-manifest.json not found"
 
       - name: Build APK
         working-directory: twa-build
-        env:
-          BUBBLEWRAP_KEYSTORE_PASSWORD: StockDash2024
-          BUBBLEWRAP_KEY_PASSWORD: StockDash2024
         run: |
-          echo "Building APK with bubblewrap..."
+          echo "Building APK..."
           bubblewrap build --skipPwaValidation \
           || bubblewrap build \
-          || (echo "bubblewrap build failed, trying gradle directly" && \
+          || (echo "Trying gradle directly..." && \
               chmod +x gradlew && \
               ./gradlew assembleRelease \
-                -Pandroid.injected.signing.store.file=android.keystore \
+                -Pandroid.injected.signing.store.file=$(pwd)/android.keystore \
                 -Pandroid.injected.signing.store.password=StockDash2024 \
                 -Pandroid.injected.signing.key.alias=android \
                 -Pandroid.injected.signing.key.password=StockDash2024)
 
       - name: Find APK files
         run: |
-          echo "=== Searching for APK files ==="
-          find . -name "*.apk" -type f 2>/dev/null
-          find . -name "*.apk" -type f 2>/dev/null | wc -l
+          echo "=== APK files ==="
+          find . -name "*.apk" -type f
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4

@@ -12,13 +12,13 @@
   "categories": ["finance", "business"],
   "icons": [
     {
-      "src": "/app/static/icon.svg",
+      "src": "https://stock-dashboard-p-haugxzet3zxoc4oehcrtdd.streamlit.app/app/static/icon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any"
     },
     {
-      "src": "/app/static/icon-maskable.svg",
+      "src": "https://stock-dashboard-p-haugxzet3zxoc4oehcrtdd.streamlit.app/app/static/icon-maskable.svg",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "maskable"
@@ -30,7 +30,7 @@
       "short_name": "Search",
       "description": "Look up any NSE or BSE stock",
       "url": "/?search=1",
-      "icons": [{ "src": "/app/static/icon.svg", "sizes": "any" }]
+      "icons": [{ "src": "https://stock-dashboard-p-haugxzet3zxoc4oehcrtdd.streamlit.app/app/static/icon.svg", "sizes": "any" }]
     }
   ]
 }

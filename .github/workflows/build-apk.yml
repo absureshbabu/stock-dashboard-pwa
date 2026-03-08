@@ -168,29 +168,21 @@ jobs:
           print(subprocess.check_output(['find','twa','-type','f']).decode())
           PYEOF
 
-      - name: Download Gradle wrapper jar
-        run: |
-          # Download gradle-wrapper.jar (needed to run gradlew)
-          mkdir -p twa/gradle/wrapper
-          curl -sL "https://raw.githubusercontent.com/GoogleChrome/android-browser-helper/main/demos/twa-basic/gradle/wrapper/gradle-wrapper.jar" \
-            -o twa/gradle/wrapper/gradle-wrapper.jar
-
-          # Create gradlew script
-          curl -sL "https://raw.githubusercontent.com/GoogleChrome/android-browser-helper/main/demos/twa-basic/gradlew" \
-            -o twa/gradlew
-          chmod +x twa/gradlew
-          echo "✅ Gradle wrapper ready"
+      - name: Setup Gradle 8.4
+        uses: gradle/actions/setup-gradle@v3
+        with:
+          gradle-version: '8.4'
 
       - name: Accept Android SDK licenses
         run: |
-          yes | $ANDROID_HOME/tools/bin/sdkmanager --licenses 2>/dev/null || \
           yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses 2>/dev/null || \
-          echo "Licenses accepted (or sdkmanager not found, continuing anyway)"
+          yes | $ANDROID_HOME/tools/bin/sdkmanager --licenses 2>/dev/null || \
+          echo "Licenses accepted"
 
       - name: Build APK
         working-directory: twa
         run: |
-          ./gradlew assembleDebug --no-daemon --stacktrace 2>&1 | tail -80
+          gradle assembleDebug --no-daemon --stacktrace 2>&1 | tail -100
 
       - name: Find APK
         run: |

@@ -1,0 +1,18 @@
+[theme]
+primaryColor      = "#1a73e8"
+backgroundColor   = "#ffffff"
+secondaryBackgroundColor = "#f7f9ff"
+textColor         = "#1a1a2e"
+font              = "sans serif"
+
+[server]
+headless          = true      # Required for Streamlit Cloud
+enableCORS        = false
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats  = false     # Disable telemetry
+
+[client]
+showErrorDetails  = false     # Clean error pages in production
+toolbarMode       = "minimal" # Hides the hamburger menu — cleaner on mobile

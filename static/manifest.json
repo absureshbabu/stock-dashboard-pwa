@@ -1,0 +1,36 @@
+{
+  "name": "NSE/BSE Stock Analysis Dashboard",
+  "short_name": "Stock Dashboard",
+  "description": "Real-time NSE/BSE stock analysis — technical indicators, sector heatmap, and buy/sell signals.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0d1b2a",
+  "theme_color": "#1a73e8",
+  "lang": "en-IN",
+  "categories": ["finance", "business"],
+  "icons": [
+    {
+      "src": "/app/static/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/app/static/icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Search a Stock",
+      "short_name": "Search",
+      "description": "Look up any NSE or BSE stock",
+      "url": "/?search=1",
+      "icons": [{ "src": "/app/static/icon.svg", "sizes": "any" }]
+    }
+  ]
+}

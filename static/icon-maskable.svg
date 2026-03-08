@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Full bleed background (maskable icons must fill the whole canvas) -->
+  <rect width="512" height="512" fill="#0d1b2a"/>
+
+  <!-- Safe zone: content within centre 80% (approx 56px margin each side) -->
+  <!-- Grid lines -->
+  <line x1="100" y1="380" x2="412" y2="380" stroke="#1a3a5c" stroke-width="2"/>
+  <line x1="100" y1="300" x2="412" y2="300" stroke="#1a3a5c" stroke-width="2"/>
+  <line x1="100" y1="220" x2="412" y2="220" stroke="#1a3a5c" stroke-width="2"/>
+
+  <!-- Price line -->
+  <polyline
+    points="100,345 178,295 240,318 312,228 374,188 412,158"
+    stroke="#1a73e8" stroke-width="16"
+    fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Area fill -->
+  <polygon
+    points="100,345 178,295 240,318 312,228 374,188 412,158 412,380 100,380"
+    fill="#1a73e8" fill-opacity="0.15"/>
+
+  <!-- Green segment -->
+  <polyline
+    points="312,228 374,188 412,158"
+    stroke="#00c853" stroke-width="16"
+    fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <circle cx="312" cy="228" r="10" fill="#1a73e8"/>
+  <circle cx="412" cy="158" r="12" fill="#00c853"/>
+</svg>

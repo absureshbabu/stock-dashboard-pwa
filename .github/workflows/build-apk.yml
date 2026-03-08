@@ -154,11 +154,11 @@ jobs:
           f'<resources><color name="colorPrimary">{COLOR}</color></resources>\n')
 
           # ── res/values/styles.xml ────────────────────────────────────────────
+          # Use base Android theme (no AppCompat needed — TWA handles its own rendering)
           w('twa/app/src/main/res/values/styles.xml', """\
           <?xml version="1.0" encoding="utf-8"?>
           <resources>
-            <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-              <item name="colorPrimary">@color/colorPrimary</item>
+            <style name="AppTheme" parent="android:Theme.Light.NoTitleBar">
             </style>
           </resources>
           """)

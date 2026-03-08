@@ -6,9 +6,10 @@ textColor         = "#1a1a2e"
 font              = "sans serif"
 
 [server]
-headless          = true      # Required for Streamlit Cloud
-enableCORS        = false
+headless             = true      # Required for Streamlit Cloud
+enableCORS           = false
 enableXsrfProtection = true
+enableStaticServing  = true      # Serve files from ./static/ at /app/static/
 
 [browser]
 gatherUsageStats  = false     # Disable telemetry

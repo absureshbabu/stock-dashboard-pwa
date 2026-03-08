@@ -1,0 +1,175 @@
+name: Build Android APK (TWA)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/build-apk.yml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Bubblewrap CLI
+        run: npm install -g @bubblewrap/cli
+
+      - name: Install expect
+        run: sudo apt-get install -y expect
+
+      - name: Generate Android keystore
+        run: |
+          keytool -genkey -v \
+            -keystore android.keystore \
+            -alias android \
+            -keyalg RSA \
+            -keysize 2048 \
+            -validity 10000 \
+            -storepass StockDash2024 \
+            -keypass StockDash2024 \
+            -dname "CN=StockDash,OU=App,O=absureshbabu,L=IN,ST=IN,C=IN"
+          echo "✅ Keystore created"
+
+      - name: Initialize TWA project with Bubblewrap
+        run: |
+          mkdir -p twa-build
+          cp android.keystore twa-build/
+          cd twa-build
+
+          # Write expect script to automate bubblewrap init prompts
+          cat > /tmp/init.exp << 'EXPEOF'
+          #!/usr/bin/expect -f
+          set timeout 180
+          log_user 1
+
+          set env(BUBBLEWRAP_KEYSTORE_PASSWORD) "StockDash2024"
+          set env(TERM) "dumb"
+          set env(NO_COLOR) "1"
+          set env(FORCE_COLOR) "0"
+
+          spawn bubblewrap init --manifest "https://raw.githubusercontent.com/absureshbabu/stock-dashboard-pwa/main/static/manifest.json"
+
+          expect {
+            -re {[Dd]omain.*\[} {
+              send "stock-dashboard-p-haugxzet3zxoc4oehcrtdd.streamlit.app\r"
+              exp_continue
+            }
+            -re {[Nn]ame.*[Aa]pplication.*\[} {
+              send "\r"
+              exp_continue
+            }
+            -re {[Ss]hort.name.*\[} {
+              send "\r"
+              exp_continue
+            }
+            -re {[Ss]tart.*[Uu]rl.*\[} {
+              send "\r"
+              exp_continue
+            }
+            -re {[Tt]heme.*[Cc]olor.*\[} {
+              send "\r"
+              exp_continue
+            }
+            -re {[Bb]ackground.*[Cc]olor.*\[} {
+              send "\r"
+              exp_continue
+            }
+            -re {[Ii]con.*[Uu][Rr][Ll].*\[} {
+              send "\r"
+              exp_continue
+            }
+            -re {[Mm]askable.*\[} {
+              send "\r"
+              exp_continue
+            }
+            -re {version.*numeric.*\[|version code.*\[} {
+              send "\r"
+              exp_continue
+            }
+            -re {[Aa]pplication version.*\[1\.0\.0\]} {
+              send "\r"
+              exp_continue
+            }
+            -re {[Pp]ackage.*[Ii][Dd].*\[} {
+              send "com.absureshbabu.stockdashboard\r"
+              exp_continue
+            }
+            -re {[Kk]eystore.*path.*\[} {
+              send "\r"
+              exp_continue
+            }
+            -re {[Kk]ey.*alias.*\[|alias.*\[} {
+              send "\r"
+              exp_continue
+            }
+            -re {[Pp]assword.*:} {
+              send "StockDash2024\r"
+              exp_continue
+            }
+            -re {[Cc]onfirm.*:} {
+              send "StockDash2024\r"
+              exp_continue
+            }
+            eof {
+              puts "\n✅ bubblewrap init completed"
+            }
+            timeout {
+              puts "\nTimeout reached - checking if init succeeded"
+            }
+          }
+          EXPEOF
+
+          chmod +x /tmp/init.exp
+          /tmp/init.exp
+
+      - name: Verify project was created
+        working-directory: twa-build
+        run: |
+          echo "=== twa-build contents ==="
+          ls -la
+          echo "=== twa-manifest.json ==="
+          cat twa-manifest.json 2>/dev/null || echo "twa-manifest.json not found"
+
+      - name: Build APK
+        working-directory: twa-build
+        env:
+          BUBBLEWRAP_KEYSTORE_PASSWORD: StockDash2024
+          BUBBLEWRAP_KEY_PASSWORD: StockDash2024
+        run: |
+          echo "Building APK with bubblewrap..."
+          bubblewrap build --skipPwaValidation \
+          || bubblewrap build \
+          || (echo "bubblewrap build failed, trying gradle directly" && \
+              chmod +x gradlew && \
+              ./gradlew assembleRelease \
+                -Pandroid.injected.signing.store.file=android.keystore \
+                -Pandroid.injected.signing.store.password=StockDash2024 \
+                -Pandroid.injected.signing.key.alias=android \
+                -Pandroid.injected.signing.key.password=StockDash2024)
+
+      - name: Find APK files
+        run: |
+          echo "=== Searching for APK files ==="
+          find . -name "*.apk" -type f 2>/dev/null
+          find . -name "*.apk" -type f 2>/dev/null | wc -l
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: stock-dashboard-apk
+          path: '**/*.apk'
+          if-no-files-found: error

@@ -145,22 +145,19 @@ def main():
                 st.caption(f"India VIX: {ov['india_vix']}")
 
         st.divider()
-        m1, m2, m3 = st.columns(3)
+        m1, m2, m3, m4 = st.columns(4)
         m1.metric("Win Rate",  f"{mb.get('current_win_rate', '—')}%")
         m2.metric("Precision", f"{mb.get('precision', '—')}%")
         m3.metric("Samples",   mb.get("n_samples", "—"))
+        _brier = mb.get("brier_score")
+        _brier_n = mb.get("brier_n") or ""
+        m4.metric("Brier Score",
+                  f"{_brier:.4f}" if _brier is not None else "—",
+                  help=f"Calibration quality on {_brier_n} OOF rows. 0.25=random, lower=better.")
 
-        auc   = mb.get("cv_roc_auc")
-        brier = mb.get("brier_score")
-        brier_n = mb.get("brier_n")
-        if auc or brier:
-            a1, a2 = st.columns(2)
-            if auc:
-                a1.metric("AUC (CV)", f"{auc:.1f}%",
-                          help="ROC-AUC from time-series cross-validation. 50%=random, higher=better.")
-            if brier is not None:
-                a2.metric("Brier Score", f"{brier:.4f}",
-                          help=f"Brier score on {brier_n} OOF rows. 0.25=random, lower=better.")
+        auc = mb.get("cv_roc_auc")
+        if auc:
+            st.caption(f"AUC (CV): {auc:.1f}%  ·  {'✓ Calibrated' if mb.get('calibrated') else 'Uncalibrated'}")
 
         st.divider()
         must_ct = sum(1 for s in buy_signals if "MUST" in (s.get("signal") or "").upper())

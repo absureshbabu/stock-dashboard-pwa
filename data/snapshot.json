@@ -71,7 +71,7 @@
       "shap": [
         {
           "f": "pre_result_oi_change_pct",
-          "v": -0.38
+          "v": -0.3
         },
         {
           "f": "pre5_return_pct",
@@ -79,7 +79,7 @@
         },
         {
           "f": "volume_spike",
-          "v": 0.16
+          "v": 0.18
         }
       ],
       "signal": "STRONG BUY",
@@ -113,7 +113,7 @@
       ],
       "beta": 0.65,
       "bull_drivers": [
-        "stoch position"
+        "pre result news count"
       ],
       "change_abs": -10.1,
       "change_pct": -1.03,
@@ -169,15 +169,15 @@
       "shap": [
         {
           "f": "pre_result_oi_change_pct",
-          "v": -0.39
+          "v": -0.31
         },
         {
           "f": "pre5_return_pct",
-          "v": -0.18
+          "v": -0.2
         },
         {
-          "f": "stoch_position",
-          "v": 0.17
+          "f": "pre_result_news_count",
+          "v": 0.15
         }
       ],
       "signal": "BUY NOW",
@@ -267,15 +267,15 @@
       "shap": [
         {
           "f": "pre_result_oi_change_pct",
-          "v": -0.39
+          "v": -0.29
         },
         {
           "f": "volume_spike",
-          "v": 0.18
+          "v": 0.2
         },
         {
           "f": "pre5_return_pct",
-          "v": -0.18
+          "v": -0.19
         }
       ],
       "signal": "BUY NOW",
@@ -366,15 +366,15 @@
       "shap": [
         {
           "f": "pre_result_oi_change_pct",
-          "v": -0.42
+          "v": -0.34
         },
         {
           "f": "bb_position",
-          "v": -0.26
+          "v": -0.23
         },
         {
           "f": "pre5_return_pct",
-          "v": -0.15
+          "v": -0.16
         }
       ],
       "signal": "BUY NOW",
@@ -4043,14 +4043,14 @@
   "in_focus_stale": false,
   "model_bar": {
     "brier_n": 230,
-    "brier_score": 0.2288,
+    "brier_score": 0.2296,
     "calibrated": true,
-    "calibration": 56,
-    "current_win_rate": 55.7,
+    "calibration": 57,
+    "current_win_rate": 57.0,
     "cv_roc_auc": 59.4,
-    "delta_2w": 3.1,
-    "delta_today": 0.8,
-    "delta_week": 0.9,
+    "delta_2w": 2.9,
+    "delta_today": 0.0,
+    "delta_week": 0.4,
     "llm_avg_chart_adj": -2.2,
     "llm_avg_doc_adj": -1.7,
     "llm_covered": 1882,
@@ -4058,10 +4058,9 @@
     "llm_model": "Groq 70B",
     "llm_total": 1782,
     "n_samples": 1147,
-    "precision": 50,
-    "recall": 49,
+    "precision": 51,
+    "recall": 50,
     "trend_14d": [
-      56.3,
       56.5,
       57.5,
       57.0,
@@ -4074,30 +4073,31 @@
       55.2,
       58.6,
       58.6,
+      59.4,
       59.4
     ]
   },
   "overview": {
-    "banknifty_abs": 322.9,
-    "banknifty_close": 57137.69921875,
-    "banknifty_pct": 0.57,
+    "banknifty_abs": 305.0,
+    "banknifty_close": 57119.80078125,
+    "banknifty_pct": 0.54,
     "date": "2026-06-16",
-    "generated_at": "2026-06-16T12:17:04.908321",
-    "india_vix": 13.609999656677246,
+    "generated_at": "2026-06-16T13:02:15.371340",
+    "india_vix": 13.524999618530273,
     "india_vix_context": "Moderate",
-    "india_vix_pct": -7.54,
+    "india_vix_pct": -8.12,
     "market_headwind": false,
-    "midcap_abs": 730.2,
-    "midcap_close": 61498.30078125,
-    "midcap_pct": 1.2,
-    "nifty_close": 23924.349609375,
-    "nifty_pct": 1.28,
+    "midcap_abs": 650.8,
+    "midcap_close": 61418.8984375,
+    "midcap_pct": 1.07,
+    "nifty_close": 23929.849609375,
+    "nifty_pct": 1.3,
     "nifty_regime_pct": 16620.53,
-    "niftyit_abs": 499.8,
-    "niftyit_close": 28295.599609375,
-    "niftyit_pct": 1.8,
-    "sensex_close": 76614.9765625,
-    "sensex_pct": 1.44,
+    "niftyit_abs": 522.2,
+    "niftyit_close": 28318.0,
+    "niftyit_pct": 1.88,
+    "sensex_close": 76606.6328125,
+    "sensex_pct": 1.43,
     "top_gainer_pct": 13.06,
     "top_gainer_ticker": "AARTIIND.NS",
     "top_loser_pct": -4.38,
@@ -8314,7 +8314,7 @@
       }
     ]
   },
-  "updated_at": "12:19",
+  "updated_at": "13:05",
   "screener": {
     "date": "2026-06-16",
     "results": [
@@ -8634,5 +8634,5 @@
       }
     ]
   },
-  "synced_at": "2026-06-16T06:49:14.680518+00:00"
+  "synced_at": "2026-06-16T07:35:14.939533+00:00"
 }

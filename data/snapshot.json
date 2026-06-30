@@ -14,13 +14,19 @@
       ],
       "beta": 1.02,
       "bull_drivers": [
-        "adx norm",
-        "volatility"
+        "roce pct",
+        "tt pct from 52w high"
       ],
       "change_abs": -2.41,
       "change_pct": -1.63,
       "close": 148.11,
-      "data_gaps": [],
+      "data_gaps": [
+        [
+          "screener",
+          "Not in screener",
+          "Screener runs at 8:30 AM on trading days"
+        ]
+      ],
       "date": "2026-06-30",
       "debt_equity": 43.91,
       "dividend_yield": 0.33,
@@ -44,7 +50,7 @@
       "llm_target": 159.9,
       "macd_hist": -0.0985,
       "market_cap": 1548.5,
-      "meta_score": 86.4,
+      "meta_score": 87.0,
       "mfi": 50.2,
       "ml": 92,
       "momentum_score": 25.2,
@@ -64,8 +70,8 @@
       "roe": 10.1,
       "rsi": 60.8,
       "s1": "₹148",
-      "screener_action": "WATCH",
-      "screener_conviction": "MEDIUM",
+      "screener_action": "",
+      "screener_conviction": "",
       "screener_rr": "",
       "screener_stage": "",
       "screener_thesis": "",
@@ -73,16 +79,16 @@
       "sector": "Consumer Cyclical",
       "shap": [
         {
-          "f": "horizon_imm_rr",
-          "v": -0.39
+          "f": "roce_pct",
+          "v": 0.85
         },
         {
-          "f": "adx_norm",
-          "v": 0.36
+          "f": "nifty_50d_trend_pct",
+          "v": -0.48
         },
         {
-          "f": "volatility_20d",
-          "v": 0.18
+          "f": "tt_pct_from_52w_high",
+          "v": 0.4
         }
       ],
       "signal": "MUST BUY",
@@ -94,110 +100,12 @@
       "t1": "₹161",
       "t2": "₹169",
       "ticker": "MOTHERSON",
-      "tt_count": 5,
+      "tt_count": 0,
       "volume": 2199028,
       "week52_high": 155.2,
       "week52_low": 89.7,
       "williams_r": -51.0,
       "win": 92
-    },
-    {
-      "adjusted_score": 76,
-      "adx": 32.5,
-      "analyst_n": 2,
-      "analyst_rec": "none",
-      "analyst_target": 10695.0,
-      "avg_volume": 240088,
-      "bb_position": 0.862,
-      "bear_risks": [
-        "max drawdown -1.7%"
-      ],
-      "beta": 0.43,
-      "bull_drivers": [
-        "52-week range position",
-        "tt count"
-      ],
-      "change_abs": -98.06,
-      "change_pct": -0.91,
-      "close": 10775.5,
-      "data_gaps": [],
-      "date": "2026-06-30",
-      "debt_equity": 0.41,
-      "dividend_yield": 6.06,
-      "entry": "₹10,745–₹10,776",
-      "llm_chart_narrative": "OFSS has staged a powerful breakout above the Ichimoku cloud, supported by a significant surge in volume on June 24th and 25th. While the stock is currently trading at a local high, the momentum remains strong, though traders should watch for potential consolidation near the 10,500 level given the rapid ascent.",
-      "llm_confidence": "HIGH",
-      "llm_doc_narrative": "This announcement pertains solely to the routine allotment of 1,879 equity shares under the existing ESOP scheme, which has a negligible impact on the total equity base of 87 million shares. As this is a standard administrative corporate action with no material impact on earnings quality or cash flow, it remains neutral for the stock's valuation.",
-      "llm_dominant_pattern": "Breakout with High Volume Accumulation",
-      "llm_green_flags": [],
-      "llm_pattern_flags": [
-        "bullish-breakout",
-        "volume-expansion",
-        "momentum-shift"
-      ],
-      "llm_pre_run_risk": "LOW",
-      "llm_resistance": 11035.0,
-      "llm_risk_flags": [],
-      "llm_support": 9600.0,
-      "llm_target": 11500.0,
-      "macd_hist": 117.3225,
-      "market_cap": 945.6,
-      "meta_score": 84.1,
-      "mfi": 73.6,
-      "ml": 93,
-      "momentum_score": 99.2,
-      "name": "Oracle Financial",
-      "np_yoy_pct": -39.5,
-      "obv_trend": "Rising",
-      "pb_ratio": 12.0,
-      "pe_ratio": 35.6,
-      "price": "₹10,776",
-      "promoter_pct": 72.6,
-      "quality": "High quality",
-      "r1": "₹11,030",
-      "r2": "₹11,185",
-      "ret_5d": 9.97,
-      "revenue_yoy_pct": 21.4,
-      "risk": -1.7,
-      "roe": 32.6,
-      "rsi": 78.2,
-      "s1": "₹10,745",
-      "screener_action": "WATCH",
-      "screener_conviction": "MEDIUM",
-      "screener_rr": "",
-      "screener_stage": "",
-      "screener_thesis": "",
-      "sec": 0,
-      "sector": "Technology",
-      "shap": [
-        {
-          "f": "tt_52w_position",
-          "v": 0.33
-        },
-        {
-          "f": "horizon_imm_rr",
-          "v": -0.3
-        },
-        {
-          "f": "tt_count",
-          "v": 0.17
-        }
-      ],
-      "signal": "MUST BUY",
-      "sizing_hint": "Full",
-      "sl": "₹10,452",
-      "sma_200": 8188.4,
-      "sma_50": 9628.3,
-      "stoch_k": 89.5,
-      "t1": "₹11,663",
-      "t2": "₹12,254",
-      "ticker": "OFSS",
-      "tt_count": 5,
-      "volume": 10731,
-      "week52_high": 11055.0,
-      "week52_low": 6234.5,
-      "williams_r": -10.4,
-      "win": 93
     },
     {
       "adjusted_score": 48,
@@ -213,12 +121,18 @@
       ],
       "beta": 0.26,
       "bull_drivers": [
-        "adx norm"
+        "roce pct"
       ],
       "change_abs": 5.29,
       "change_pct": 2.0,
       "close": 264.6,
-      "data_gaps": [],
+      "data_gaps": [
+        [
+          "screener",
+          "Not in screener",
+          "Screener runs at 8:30 AM on trading days"
+        ]
+      ],
       "date": "2026-06-30",
       "debt_equity": 14.83,
       "dividend_yield": null,
@@ -242,7 +156,7 @@
       "llm_target": 275.5,
       "macd_hist": 0.7326,
       "market_cap": 2369.3,
-      "meta_score": 85.0,
+      "meta_score": 85.4,
       "mfi": 63.1,
       "ml": 91,
       "momentum_score": 30.7,
@@ -262,8 +176,8 @@
       "roe": 1.2,
       "rsi": 73.7,
       "s1": "₹257",
-      "screener_action": "WATCH",
-      "screener_conviction": "MEDIUM",
+      "screener_action": "",
+      "screener_conviction": "",
       "screener_rr": "",
       "screener_stage": "",
       "screener_thesis": "",
@@ -271,16 +185,16 @@
       "sector": "Consumer Cyclical",
       "shap": [
         {
-          "f": "horizon_imm_rr",
-          "v": -0.37
+          "f": "roce_pct",
+          "v": 0.83
         },
         {
-          "f": "adx_norm",
-          "v": 0.29
+          "f": "nifty_50d_trend_pct",
+          "v": -0.39
         },
         {
-          "f": "pre_run_risk_encoded",
-          "v": -0.18
+          "f": "vix_us",
+          "v": -0.29
         }
       ],
       "signal": "MUST BUY",
@@ -292,7 +206,7 @@
       "t1": "₹284",
       "t2": "₹297",
       "ticker": "ETERNAL",
-      "tt_count": 3,
+      "tt_count": 0,
       "volume": 1524891,
       "week52_high": 368.4,
       "week52_low": 212.6,
@@ -300,294 +214,108 @@
       "win": 91
     },
     {
-      "adjusted_score": 59,
-      "adx": 23.4,
-      "analyst_n": 29,
-      "analyst_rec": "buy",
-      "analyst_target": 1518.8,
-      "avg_volume": 1531004,
-      "bb_position": 0.98,
-      "bear_risks": [
-        "max drawdown -2.7%"
-      ],
-      "beta": 0.04,
-      "bull_drivers": [
-        "52-week range position",
-        "adx norm"
-      ],
-      "change_abs": 31.89,
-      "change_pct": 2.02,
-      "close": 1578.7,
-      "data_gaps": [],
-      "date": "2026-06-30",
-      "debt_equity": 21.31,
-      "dividend_yield": 0.26,
-      "entry": "₹1,547–₹1,579",
-      "llm_chart_narrative": "Auropharma is exhibiting strong bullish momentum, having successfully reclaimed the Ichimoku cloud and established a higher-low structure above the ₹1391 support level. Despite the potential for volatility indicated by the XGBoost drawdown model, the current price action near ₹1567 suggests a breakout attempt toward the ₹1632.9 target, provided it maintains support above the recent consolidation zone.",
-      "llm_confidence": "HIGH",
-      "llm_doc_narrative": "The announcement is purely administrative, concerning a routine newspaper publication for the re-lodgement of physical share transfer requests. It contains no material financial, operational, or strategic information that would impact the company's valuation or cash flow profile.",
-      "llm_dominant_pattern": "Ascending Channel",
-      "llm_green_flags": [],
-      "llm_pattern_flags": [
-        "bullish-cloud-breakout",
-        "ascending-channel",
-        "volume-expansion"
-      ],
-      "llm_pre_run_risk": "LOW",
-      "llm_resistance": 1585.3,
-      "llm_risk_flags": [],
-      "llm_support": 1391.0,
-      "llm_target": 1632.9,
-      "macd_hist": 12.0274,
-      "market_cap": 898.1,
-      "meta_score": 81.4,
-      "mfi": 81.4,
-      "ml": 92,
-      "momentum_score": 96.9,
-      "name": "Aurobindo Pharma",
-      "np_yoy_pct": 69.6,
-      "obv_trend": "Falling",
-      "pb_ratio": 2.4,
-      "pe_ratio": 26.2,
-      "price": "₹1,579",
-      "promoter_pct": 54.8,
-      "quality": "High quality",
-      "r1": "₹1,576",
-      "r2": "₹1,604",
-      "ret_5d": 1.79,
-      "revenue_yoy_pct": 2.0,
-      "risk": 2.7,
-      "roe": 9.9,
-      "rsi": 70.1,
-      "s1": "₹1,529",
-      "screener_action": "WATCH",
-      "screener_conviction": "MEDIUM",
-      "screener_rr": "",
-      "screener_stage": "",
-      "screener_thesis": "",
-      "sec": 0,
-      "sector": "Healthcare",
-      "shap": [
-        {
-          "f": "horizon_imm_rr",
-          "v": -0.37
-        },
-        {
-          "f": "tt_52w_position",
-          "v": 0.35
-        },
-        {
-          "f": "adx_norm",
-          "v": 0.33
-        }
-      ],
-      "signal": "MUST BUY",
-      "sizing_hint": "Full",
-      "sl": "₹1,510",
-      "sma_200": 1362.3,
-      "sma_50": 1465.1,
-      "stoch_k": 87.8,
-      "t1": "₹1,681",
-      "t2": "₹1,749",
-      "ticker": "AUROPHARMA",
-      "tt_count": 5,
-      "volume": 83321,
-      "week52_high": 1588.9,
-      "week52_low": 1016.1,
-      "williams_r": -12.2,
-      "win": 92
-    },
-    {
-      "adjusted_score": 59,
-      "adx": 7.6,
-      "analyst_n": 25,
-      "analyst_rec": "strong_buy",
-      "analyst_target": 1956.3,
-      "avg_volume": 2714626,
-      "bb_position": 0.546,
+      "adjusted_score": 76,
+      "adx": 32.5,
+      "analyst_n": 2,
+      "analyst_rec": "none",
+      "analyst_target": 10695.0,
+      "avg_volume": 240088,
+      "bb_position": 0.862,
       "bear_risks": [
         "max drawdown -1.7%"
       ],
-      "beta": 0.52,
+      "beta": 0.43,
       "bull_drivers": [
-        "adx norm"
+        "roce pct",
+        "tt pct from 52w high"
       ],
-      "change_abs": 34.76,
-      "change_pct": 1.92,
-      "close": 1810.2,
-      "data_gaps": [],
+      "change_abs": -98.06,
+      "change_pct": -0.91,
+      "close": 10775.5,
+      "data_gaps": [
+        [
+          "screener",
+          "Not in screener",
+          "Screener runs at 8:30 AM on trading days"
+        ]
+      ],
       "date": "2026-06-30",
-      "debt_equity": 64.05,
-      "dividend_yield": 0.42,
-      "entry": "₹1,774–₹1,810",
-      "llm_chart_narrative": "ADANIPORTS is currently trading within the Ichimoku cloud, indicating a lack of clear directional momentum and ongoing consolidation between ₹1737.9 and ₹1850.0. Given the significant XGBoost downside risk and the recent failure to sustain levels above ₹1840, the stock remains in a neutral-to-cautious state until a breakout above the resistance level occurs.",
+      "debt_equity": 0.41,
+      "dividend_yield": 6.06,
+      "entry": "₹10,745–₹10,776",
+      "llm_chart_narrative": "OFSS has staged a powerful breakout above the Ichimoku cloud, supported by a significant surge in volume on June 24th and 25th. While the stock is currently trading at a local high, the momentum remains strong, though traders should watch for potential consolidation near the 10,500 level given the rapid ascent.",
       "llm_confidence": "HIGH",
-      "llm_doc_narrative": "The announcement pertains to the procedural outcome of the 27th Annual General Meeting, confirming the adoption of financial statements and the approval of dividends. As this is a routine regulatory filing regarding shareholder resolutions and board appointments, it contains no new financial performance data or qualitative shifts affecting the investment thesis.",
-      "llm_dominant_pattern": "Consolidation within Ichimoku Cloud",
+      "llm_doc_narrative": "This announcement pertains solely to the routine allotment of 1,879 equity shares under the existing ESOP scheme, which has a negligible impact on the total equity base of 87 million shares. As this is a standard administrative corporate action with no material impact on earnings quality or cash flow, it remains neutral for the stock's valuation.",
+      "llm_dominant_pattern": "Breakout with High Volume Accumulation",
       "llm_green_flags": [],
       "llm_pattern_flags": [
-        "consolidation",
-        "ichimoku-neutral"
+        "bullish-breakout",
+        "volume-expansion",
+        "momentum-shift"
       ],
       "llm_pre_run_risk": "LOW",
-      "llm_resistance": 1850.0,
+      "llm_resistance": 11035.0,
       "llm_risk_flags": [],
-      "llm_support": 1737.9,
-      "llm_target": 1905.5,
-      "macd_hist": -8.0893,
-      "market_cap": 4119.5,
-      "meta_score": 81.4,
-      "mfi": 68.5,
-      "ml": 88,
-      "momentum_score": 62.4,
-      "name": "Adani Ports",
-      "np_yoy_pct": -75.1,
-      "obv_trend": "Falling",
-      "pb_ratio": 4.3,
-      "pe_ratio": 31.1,
-      "price": "₹1,810",
-      "promoter_pct": 68.1,
+      "llm_support": 9600.0,
+      "llm_target": 11500.0,
+      "macd_hist": 117.3225,
+      "market_cap": 945.6,
+      "meta_score": 85.2,
+      "mfi": 73.6,
+      "ml": 93,
+      "momentum_score": 99.2,
+      "name": "Oracle Financial",
+      "np_yoy_pct": -39.5,
+      "obv_trend": "Rising",
+      "pb_ratio": 12.0,
+      "pe_ratio": 35.6,
+      "price": "₹10,776",
+      "promoter_pct": 72.6,
       "quality": "High quality",
-      "r1": "₹1,800",
-      "r2": "₹1,824",
-      "ret_5d": 0.27,
-      "revenue_yoy_pct": 30.1,
-      "risk": 1.7,
-      "roe": 15.6,
-      "rsi": 49.4,
-      "s1": "₹1,761",
-      "screener_action": "WATCH",
-      "screener_conviction": "MEDIUM",
-      "screener_rr": "",
-      "screener_stage": "",
-      "screener_thesis": "",
-      "sec": 43,
-      "sector": "Industrials",
-      "shap": [
-        {
-          "f": "horizon_imm_rr",
-          "v": -0.4
-        },
-        {
-          "f": "adx_norm",
-          "v": 0.36
-        },
-        {
-          "f": "macd_sign",
-          "v": -0.21
-        }
-      ],
-      "signal": "MUST BUY",
-      "sizing_hint": "Full",
-      "sl": "₹1,746",
-      "sma_200": 1610.9,
-      "sma_50": 1759.5,
-      "stoch_k": 23.2,
-      "t1": "₹1,910",
-      "t2": "₹1,976",
-      "ticker": "ADANIPORTS",
-      "tt_count": 5,
-      "volume": 173821,
-      "week52_high": 1857.8,
-      "week52_low": 1290.5,
-      "williams_r": -76.8,
-      "win": 88
-    },
-    {
-      "adjusted_score": 57,
-      "adx": 22.6,
-      "analyst_n": 8,
-      "analyst_rec": "none",
-      "analyst_target": 1409.2,
-      "avg_volume": 3820719,
-      "bb_position": 0.478,
-      "bear_risks": [
-        "max drawdown -5.8%"
-      ],
-      "beta": 1.17,
-      "bull_drivers": [
-        "adx norm"
-      ],
-      "change_abs": -10.3,
-      "change_pct": -0.69,
-      "close": 1492.2,
-      "data_gaps": [],
-      "date": "2026-06-30",
-      "debt_equity": 346.55,
-      "dividend_yield": null,
-      "entry": "₹1,475–₹1,492",
-      "llm_chart_narrative": "ADANIGREEN is maintaining a bullish posture by holding above the Ichimoku cloud and key support at ₹1396.0. While the stock shows consolidation near the ₹1557.0 resistance, the lack of extreme volatility and stable volume suggest potential for a breakout toward the ₹1603.7 target, provided the price remains above the cloud.",
-      "llm_confidence": "HIGH",
-      "llm_doc_narrative": "The announcement pertains to the procedural disclosure of voting results from the 11th Annual General Meeting, confirming the adoption of financial statements and the appointment of statutory auditors. As this is a routine regulatory compliance filing, it contains no new financial performance data or qualitative signals that would impact the stock's valuation.",
-      "llm_dominant_pattern": "Consolidation within an Uptrend",
-      "llm_green_flags": [],
-      "llm_pattern_flags": [
-        "bullish-ichimoku",
-        "consolidation"
-      ],
-      "llm_pre_run_risk": "LOW",
-      "llm_resistance": 1557.0,
-      "llm_risk_flags": [],
-      "llm_support": 1396.0,
-      "llm_target": 1603.7,
-      "macd_hist": -8.1809,
-      "market_cap": 2468.1,
-      "meta_score": 81.0,
-      "mfi": 48.2,
-      "ml": 90,
-      "momentum_score": 54.1,
-      "name": "Adani Green Energy",
-      "np_yoy_pct": -84.3,
-      "obv_trend": "Falling",
-      "pb_ratio": 12.7,
-      "pe_ratio": 155.1,
-      "price": "₹1,492",
-      "promoter_pct": 82.3,
-      "quality": "High quality",
-      "r1": "₹1,524",
-      "r2": "₹1,546",
-      "ret_5d": -0.91,
-      "revenue_yoy_pct": -3.3,
-      "risk": -5.8,
-      "roe": 7.6,
-      "rsi": 51.8,
-      "s1": "₹1,475",
-      "screener_action": "WATCH",
-      "screener_conviction": "MEDIUM",
+      "r1": "₹11,030",
+      "r2": "₹11,185",
+      "ret_5d": 9.97,
+      "revenue_yoy_pct": 21.4,
+      "risk": -1.7,
+      "roe": 32.6,
+      "rsi": 78.2,
+      "s1": "₹10,745",
+      "screener_action": "",
+      "screener_conviction": "",
       "screener_rr": "",
       "screener_stage": "",
       "screener_thesis": "",
       "sec": 0,
-      "sector": "Utilities",
+      "sector": "Technology",
       "shap": [
         {
-          "f": "horizon_imm_rr",
-          "v": -0.41
+          "f": "roce_pct",
+          "v": 0.79
         },
         {
-          "f": "adx_norm",
-          "v": 0.3
+          "f": "nifty_50d_trend_pct",
+          "v": -0.43
         },
         {
-          "f": "horizon_alignment",
-          "v": -0.14
+          "f": "tt_pct_from_52w_high",
+          "v": 0.38
         }
       ],
       "signal": "MUST BUY",
       "sizing_hint": "Full",
-      "sl": "₹1,447",
-      "sma_200": 1176.6,
-      "sma_50": 1406.7,
-      "stoch_k": 44.1,
-      "t1": "₹1,608",
-      "t2": "₹1,685",
-      "ticker": "ADANIGREEN",
-      "tt_count": 5,
-      "volume": 157882,
-      "week52_high": 1557.0,
-      "week52_low": 765.0,
-      "williams_r": -55.9,
-      "win": 90
+      "sl": "₹10,452",
+      "sma_200": 8188.4,
+      "sma_50": 9628.3,
+      "stoch_k": 89.5,
+      "t1": "₹11,663",
+      "t2": "₹12,254",
+      "ticker": "OFSS",
+      "tt_count": 0,
+      "volume": 10731,
+      "week52_high": 11055.0,
+      "week52_low": 6234.5,
+      "williams_r": -10.4,
+      "win": 93
     },
     {
       "adjusted_score": 90,
@@ -602,8 +330,8 @@
       ],
       "beta": 0.85,
       "bull_drivers": [
-        "52-week range position",
-        "adx norm",
+        "roce pct",
+        "tt pct from 52w high",
         "debt-reduction"
       ],
       "change_abs": 0.33,
@@ -614,6 +342,11 @@
           "llm_chart",
           "No chart analysis",
           "LLM chart run pending"
+        ],
+        [
+          "screener",
+          "Not in screener",
+          "Screener runs at 8:30 AM on trading days"
         ]
       ],
       "date": "2026-06-30",
@@ -635,7 +368,7 @@
       "llm_target": null,
       "macd_hist": 0.865,
       "market_cap": 1438.8,
-      "meta_score": 80.8,
+      "meta_score": 82.4,
       "mfi": 71.9,
       "ml": 90,
       "momentum_score": 50.6,
@@ -655,8 +388,8 @@
       "roe": 6.3,
       "rsi": 60.9,
       "s1": "₹400",
-      "screener_action": "WATCH",
-      "screener_conviction": "MEDIUM",
+      "screener_action": "",
+      "screener_conviction": "",
       "screener_rr": "",
       "screener_stage": "",
       "screener_thesis": "",
@@ -664,16 +397,16 @@
       "sector": "Industrials",
       "shap": [
         {
-          "f": "horizon_imm_rr",
-          "v": -0.38
+          "f": "roce_pct",
+          "v": 0.78
         },
         {
-          "f": "tt_52w_position",
-          "v": 0.35
+          "f": "nifty_50d_trend_pct",
+          "v": -0.45
         },
         {
-          "f": "adx_norm",
-          "v": 0.31
+          "f": "tt_pct_from_52w_high",
+          "v": 0.38
         }
       ],
       "signal": "MUST BUY",
@@ -685,12 +418,632 @@
       "t1": "₹449",
       "t2": "₹472",
       "ticker": "BHEL",
-      "tt_count": 5,
+      "tt_count": 0,
       "volume": 1065777,
       "week52_high": 424.9,
       "week52_low": 205.1,
       "williams_r": -18.7,
       "win": 90
+    },
+    {
+      "adjusted_score": 59,
+      "adx": 23.4,
+      "analyst_n": 29,
+      "analyst_rec": "buy",
+      "analyst_target": 1518.8,
+      "avg_volume": 1531004,
+      "bb_position": 0.98,
+      "bear_risks": [
+        "max drawdown -2.7%"
+      ],
+      "beta": 0.04,
+      "bull_drivers": [
+        "roce pct",
+        "tt pct from 52w high"
+      ],
+      "change_abs": 31.89,
+      "change_pct": 2.02,
+      "close": 1578.7,
+      "data_gaps": [
+        [
+          "screener",
+          "Not in screener",
+          "Screener runs at 8:30 AM on trading days"
+        ]
+      ],
+      "date": "2026-06-30",
+      "debt_equity": 21.31,
+      "dividend_yield": 0.26,
+      "entry": "₹1,547–₹1,579",
+      "llm_chart_narrative": "Auropharma is exhibiting strong bullish momentum, having successfully reclaimed the Ichimoku cloud and established a higher-low structure above the ₹1391 support level. Despite the potential for volatility indicated by the XGBoost drawdown model, the current price action near ₹1567 suggests a breakout attempt toward the ₹1632.9 target, provided it maintains support above the recent consolidation zone.",
+      "llm_confidence": "HIGH",
+      "llm_doc_narrative": "The announcement is purely administrative, concerning a routine newspaper publication for the re-lodgement of physical share transfer requests. It contains no material financial, operational, or strategic information that would impact the company's valuation or cash flow profile.",
+      "llm_dominant_pattern": "Ascending Channel",
+      "llm_green_flags": [],
+      "llm_pattern_flags": [
+        "bullish-cloud-breakout",
+        "ascending-channel",
+        "volume-expansion"
+      ],
+      "llm_pre_run_risk": "LOW",
+      "llm_resistance": 1585.3,
+      "llm_risk_flags": [],
+      "llm_support": 1391.0,
+      "llm_target": 1632.9,
+      "macd_hist": 12.0274,
+      "market_cap": 898.1,
+      "meta_score": 81.9,
+      "mfi": 81.4,
+      "ml": 92,
+      "momentum_score": 96.9,
+      "name": "Aurobindo Pharma",
+      "np_yoy_pct": 69.6,
+      "obv_trend": "Falling",
+      "pb_ratio": 2.4,
+      "pe_ratio": 26.2,
+      "price": "₹1,579",
+      "promoter_pct": 54.8,
+      "quality": "High quality",
+      "r1": "₹1,576",
+      "r2": "₹1,604",
+      "ret_5d": 1.79,
+      "revenue_yoy_pct": 2.0,
+      "risk": 2.7,
+      "roe": 9.9,
+      "rsi": 70.1,
+      "s1": "₹1,529",
+      "screener_action": "",
+      "screener_conviction": "",
+      "screener_rr": "",
+      "screener_stage": "",
+      "screener_thesis": "",
+      "sec": 0,
+      "sector": "Healthcare",
+      "shap": [
+        {
+          "f": "roce_pct",
+          "v": 0.8
+        },
+        {
+          "f": "nifty_50d_trend_pct",
+          "v": -0.43
+        },
+        {
+          "f": "tt_pct_from_52w_high",
+          "v": 0.39
+        }
+      ],
+      "signal": "MUST BUY",
+      "sizing_hint": "Full",
+      "sl": "₹1,510",
+      "sma_200": 1362.3,
+      "sma_50": 1465.1,
+      "stoch_k": 87.8,
+      "t1": "₹1,681",
+      "t2": "₹1,749",
+      "ticker": "AUROPHARMA",
+      "tt_count": 0,
+      "volume": 83321,
+      "week52_high": 1588.9,
+      "week52_low": 1016.1,
+      "williams_r": -12.2,
+      "win": 92
+    },
+    {
+      "adjusted_score": 59,
+      "adx": 7.6,
+      "analyst_n": 25,
+      "analyst_rec": "strong_buy",
+      "analyst_target": 1956.3,
+      "avg_volume": 2714626,
+      "bb_position": 0.546,
+      "bear_risks": [
+        "max drawdown -1.7%"
+      ],
+      "beta": 0.52,
+      "bull_drivers": [
+        "roce pct",
+        "adx norm"
+      ],
+      "change_abs": 34.76,
+      "change_pct": 1.92,
+      "close": 1810.2,
+      "data_gaps": [
+        [
+          "screener",
+          "Not in screener",
+          "Screener runs at 8:30 AM on trading days"
+        ]
+      ],
+      "date": "2026-06-30",
+      "debt_equity": 64.05,
+      "dividend_yield": 0.42,
+      "entry": "₹1,774–₹1,810",
+      "llm_chart_narrative": "ADANIPORTS is currently trading within the Ichimoku cloud, indicating a lack of clear directional momentum and ongoing consolidation between ₹1737.9 and ₹1850.0. Given the significant XGBoost downside risk and the recent failure to sustain levels above ₹1840, the stock remains in a neutral-to-cautious state until a breakout above the resistance level occurs.",
+      "llm_confidence": "HIGH",
+      "llm_doc_narrative": "The announcement pertains to the procedural outcome of the 27th Annual General Meeting, confirming the adoption of financial statements and the approval of dividends. As this is a routine regulatory filing regarding shareholder resolutions and board appointments, it contains no new financial performance data or qualitative shifts affecting the investment thesis.",
+      "llm_dominant_pattern": "Consolidation within Ichimoku Cloud",
+      "llm_green_flags": [],
+      "llm_pattern_flags": [
+        "consolidation",
+        "ichimoku-neutral"
+      ],
+      "llm_pre_run_risk": "LOW",
+      "llm_resistance": 1850.0,
+      "llm_risk_flags": [],
+      "llm_support": 1737.9,
+      "llm_target": 1905.5,
+      "macd_hist": -8.0893,
+      "market_cap": 4119.5,
+      "meta_score": 81.9,
+      "mfi": 68.5,
+      "ml": 88,
+      "momentum_score": 62.4,
+      "name": "Adani Ports",
+      "np_yoy_pct": -75.1,
+      "obv_trend": "Falling",
+      "pb_ratio": 4.3,
+      "pe_ratio": 31.1,
+      "price": "₹1,810",
+      "promoter_pct": 68.1,
+      "quality": "High quality",
+      "r1": "₹1,800",
+      "r2": "₹1,824",
+      "ret_5d": 0.27,
+      "revenue_yoy_pct": 30.1,
+      "risk": 1.7,
+      "roe": 15.6,
+      "rsi": 49.4,
+      "s1": "₹1,761",
+      "screener_action": "",
+      "screener_conviction": "",
+      "screener_rr": "",
+      "screener_stage": "",
+      "screener_thesis": "",
+      "sec": 43,
+      "sector": "Industrials",
+      "shap": [
+        {
+          "f": "roce_pct",
+          "v": 0.86
+        },
+        {
+          "f": "adx_norm",
+          "v": 0.55
+        },
+        {
+          "f": "nifty_50d_trend_pct",
+          "v": -0.39
+        }
+      ],
+      "signal": "MUST BUY",
+      "sizing_hint": "Full",
+      "sl": "₹1,746",
+      "sma_200": 1610.9,
+      "sma_50": 1759.5,
+      "stoch_k": 23.2,
+      "t1": "₹1,910",
+      "t2": "₹1,976",
+      "ticker": "ADANIPORTS",
+      "tt_count": 0,
+      "volume": 173821,
+      "week52_high": 1857.8,
+      "week52_low": 1290.5,
+      "williams_r": -76.8,
+      "win": 88
+    },
+    {
+      "adjusted_score": 57,
+      "adx": 22.6,
+      "analyst_n": 8,
+      "analyst_rec": "none",
+      "analyst_target": 1409.2,
+      "avg_volume": 3820719,
+      "bb_position": 0.478,
+      "bear_risks": [
+        "max drawdown -5.8%"
+      ],
+      "beta": 1.17,
+      "bull_drivers": [
+        "roce pct",
+        "tt pct from 52w high"
+      ],
+      "change_abs": -10.3,
+      "change_pct": -0.69,
+      "close": 1492.2,
+      "data_gaps": [
+        [
+          "screener",
+          "Not in screener",
+          "Screener runs at 8:30 AM on trading days"
+        ]
+      ],
+      "date": "2026-06-30",
+      "debt_equity": 346.55,
+      "dividend_yield": null,
+      "entry": "₹1,475–₹1,492",
+      "llm_chart_narrative": "ADANIGREEN is maintaining a bullish posture by holding above the Ichimoku cloud and key support at ₹1396.0. While the stock shows consolidation near the ₹1557.0 resistance, the lack of extreme volatility and stable volume suggest potential for a breakout toward the ₹1603.7 target, provided the price remains above the cloud.",
+      "llm_confidence": "HIGH",
+      "llm_doc_narrative": "The announcement pertains to the procedural disclosure of voting results from the 11th Annual General Meeting, confirming the adoption of financial statements and the appointment of statutory auditors. As this is a routine regulatory compliance filing, it contains no new financial performance data or qualitative signals that would impact the stock's valuation.",
+      "llm_dominant_pattern": "Consolidation within an Uptrend",
+      "llm_green_flags": [],
+      "llm_pattern_flags": [
+        "bullish-ichimoku",
+        "consolidation"
+      ],
+      "llm_pre_run_risk": "LOW",
+      "llm_resistance": 1557.0,
+      "llm_risk_flags": [],
+      "llm_support": 1396.0,
+      "llm_target": 1603.7,
+      "macd_hist": -8.1809,
+      "market_cap": 2468.1,
+      "meta_score": 81.5,
+      "mfi": 48.2,
+      "ml": 90,
+      "momentum_score": 54.1,
+      "name": "Adani Green Energy",
+      "np_yoy_pct": -84.3,
+      "obv_trend": "Falling",
+      "pb_ratio": 12.7,
+      "pe_ratio": 155.1,
+      "price": "₹1,492",
+      "promoter_pct": 82.3,
+      "quality": "High quality",
+      "r1": "₹1,524",
+      "r2": "₹1,546",
+      "ret_5d": -0.91,
+      "revenue_yoy_pct": -3.3,
+      "risk": -5.8,
+      "roe": 7.6,
+      "rsi": 51.8,
+      "s1": "₹1,475",
+      "screener_action": "",
+      "screener_conviction": "",
+      "screener_rr": "",
+      "screener_stage": "",
+      "screener_thesis": "",
+      "sec": 0,
+      "sector": "Utilities",
+      "shap": [
+        {
+          "f": "roce_pct",
+          "v": 0.87
+        },
+        {
+          "f": "nifty_50d_trend_pct",
+          "v": -0.47
+        },
+        {
+          "f": "tt_pct_from_52w_high",
+          "v": 0.37
+        }
+      ],
+      "signal": "MUST BUY",
+      "sizing_hint": "Full",
+      "sl": "₹1,447",
+      "sma_200": 1176.6,
+      "sma_50": 1406.7,
+      "stoch_k": 44.1,
+      "t1": "₹1,608",
+      "t2": "₹1,685",
+      "ticker": "ADANIGREEN",
+      "tt_count": 0,
+      "volume": 157882,
+      "week52_high": 1557.0,
+      "week52_low": 765.0,
+      "williams_r": -55.9,
+      "win": 90
+    },
+    {
+      "adjusted_score": 54,
+      "adx": 24.8,
+      "analyst_n": 39,
+      "analyst_rec": "strong_buy",
+      "analyst_target": 13684.8,
+      "avg_volume": 320687,
+      "bb_position": 0.557,
+      "bear_risks": [
+        "max drawdown -0.4%"
+      ],
+      "beta": 0.45,
+      "bull_drivers": [
+        "roce pct"
+      ],
+      "change_abs": -82.15,
+      "change_pct": -0.73,
+      "close": 11253.0,
+      "data_gaps": [
+        [
+          "screener",
+          "Not in screener",
+          "Screener runs at 8:30 AM on trading days"
+        ]
+      ],
+      "date": "2026-06-30",
+      "debt_equity": 29.43,
+      "dividend_yield": 0.68,
+      "entry": "₹11,253",
+      "llm_chart_narrative": "The stock is currently trading within a consolidation range, struggling to reclaim the Ichimoku cloud which acts as overhead resistance between ₹11353 and ₹11494. While the Tenkan-Kijun bullish cross suggests a minor recovery attempt, the price remains capped by the ₹11674 resistance level, indicating a lack of strong directional momentum.",
+      "llm_confidence": "HIGH",
+      "llm_doc_narrative": "The announcement is a corporate dossier providing a strategic overview of UltraTech Cement's business model, capacity expansion roadmap, and product diversification. As this is an informational document rather than a quarterly financial report, it contains no new earnings or cash flow data to adjust the current valuation.",
+      "llm_dominant_pattern": "Consolidation within Ichimoku Cloud",
+      "llm_green_flags": [],
+      "llm_pattern_flags": [
+        "consolidation",
+        "ichimoku-cloud-resistance"
+      ],
+      "llm_pre_run_risk": "LOW",
+      "llm_resistance": 11674.0,
+      "llm_risk_flags": [],
+      "llm_support": 10706.0,
+      "llm_target": 12024.2,
+      "macd_hist": 30.4698,
+      "market_cap": 3318.2,
+      "meta_score": 80.9,
+      "mfi": 51.0,
+      "ml": 91,
+      "momentum_score": 23.4,
+      "name": "UltraTech Cement",
+      "np_yoy_pct": -3.1,
+      "obv_trend": "Rising",
+      "pb_ratio": 4.6,
+      "pe_ratio": 40.5,
+      "price": "₹11,253",
+      "promoter_pct": 61.7,
+      "quality": "High quality",
+      "r1": "₹11,479",
+      "r2": "₹11,622",
+      "ret_5d": -1.0,
+      "revenue_yoy_pct": 16.3,
+      "risk": 0.4,
+      "roe": 10.6,
+      "rsi": 61.6,
+      "s1": "₹11,253",
+      "screener_action": "",
+      "screener_conviction": "",
+      "screener_rr": "",
+      "screener_stage": "",
+      "screener_thesis": "",
+      "sec": 69,
+      "sector": "Basic Materials",
+      "shap": [
+        {
+          "f": "roce_pct",
+          "v": 0.85
+        },
+        {
+          "f": "nifty_50d_trend_pct",
+          "v": -0.49
+        },
+        {
+          "f": "vix_us",
+          "v": -0.3
+        }
+      ],
+      "signal": "MUST BUY",
+      "sizing_hint": "Full",
+      "sl": "₹10,915",
+      "sma_200": 11722.7,
+      "sma_50": 11521.4,
+      "stoch_k": 60.1,
+      "t1": "₹11,854",
+      "t2": "₹12,255",
+      "ticker": "ULTRACEMCO",
+      "tt_count": 0,
+      "volume": 15187,
+      "week52_high": 13110.0,
+      "week52_low": 10325.0,
+      "williams_r": -39.9,
+      "win": 91
+    },
+    {
+      "adjusted_score": 60,
+      "adx": 16.8,
+      "analyst_n": 35,
+      "analyst_rec": "buy",
+      "analyst_target": 1696.0,
+      "avg_volume": null,
+      "bb_position": 0.596,
+      "bear_risks": [
+        "max drawdown -1.2%"
+      ],
+      "beta": 0.23,
+      "bull_drivers": [
+        "roce pct",
+        "adx norm",
+        "new-order-win"
+      ],
+      "change_abs": -25.21,
+      "change_pct": -1.72,
+      "close": 1465.7,
+      "data_gaps": [
+        [
+          "screener",
+          "Not in screener",
+          "Screener runs at 8:30 AM on trading days"
+        ]
+      ],
+      "date": "2026-06-30",
+      "debt_equity": 7.52,
+      "dividend_yield": 1.07,
+      "entry": "₹1,444–₹1,466",
+      "llm_chart_narrative": "Coforge is exhibiting a constructive uptrend, maintaining its position above the Ichimoku cloud with a bullish Tenkan-Kijun cross. While the stock has shown volatility, the recent consolidation near the ₹1490 level suggests accumulation, keeping the risk profile low as it approaches the ₹1554 resistance.",
+      "llm_confidence": "HIGH",
+      "llm_doc_narrative": "The announcement highlights a strategic industry award for a large-scale public sector digital transformation, reinforcing Coforge's specialized capabilities in the Pega ecosystem. While this validates long-term partnership strength and delivery expertise, it is a qualitative development that does not provide immediate visibility into quarterly cash flow or margin impact.",
+      "llm_dominant_pattern": "Ascending Channel",
+      "llm_green_flags": [
+        "new-order-win"
+      ],
+      "llm_pattern_flags": [
+        "bullish-cloud-crossover",
+        "ascending-channel"
+      ],
+      "llm_pre_run_risk": "LOW",
+      "llm_resistance": 1554.0,
+      "llm_risk_flags": [],
+      "llm_support": 1356.2,
+      "llm_target": 1600.6,
+      "macd_hist": -2.039,
+      "market_cap": 660.2,
+      "meta_score": 75.4,
+      "mfi": 41.4,
+      "ml": 84,
+      "momentum_score": 6.7,
+      "name": "Coforge",
+      "np_yoy_pct": 284.0,
+      "obv_trend": "Falling",
+      "pb_ratio": 5.2,
+      "pe_ratio": 33.4,
+      "price": "₹1,466",
+      "promoter_pct": 21.8,
+      "quality": "Medium quality",
+      "r1": null,
+      "r2": null,
+      "ret_5d": 1.92,
+      "revenue_yoy_pct": 42.1,
+      "risk": -1.2,
+      "roe": 18.6,
+      "rsi": 63.0,
+      "s1": null,
+      "screener_action": "",
+      "screener_conviction": "",
+      "screener_rr": "",
+      "screener_stage": "",
+      "screener_thesis": "",
+      "sec": 0,
+      "sector": "Technology",
+      "shap": [
+        {
+          "f": "roce_pct",
+          "v": 0.85
+        },
+        {
+          "f": "adx_norm",
+          "v": 0.46
+        },
+        {
+          "f": "nifty_50d_trend_pct",
+          "v": -0.4
+        }
+      ],
+      "signal": "STRONG BUY",
+      "sizing_hint": "Full",
+      "sl": "₹1,363",
+      "sma_200": null,
+      "sma_50": null,
+      "stoch_k": 80.8,
+      "t1": "₹1,517",
+      "t2": "₹1,568",
+      "ticker": "COFORGE",
+      "tt_count": 0,
+      "volume": null,
+      "week52_high": 1994.0,
+      "week52_low": 1008.1,
+      "williams_r": -19.2,
+      "win": 84
+    },
+    {
+      "adjusted_score": 53,
+      "adx": 28.3,
+      "analyst_n": 17,
+      "analyst_rec": "hold",
+      "analyst_target": 3401.2,
+      "avg_volume": 138165,
+      "bb_position": 0.845,
+      "bear_risks": [
+        "max drawdown -2.7%"
+      ],
+      "beta": 0.32,
+      "bull_drivers": [
+        "roce pct"
+      ],
+      "change_abs": 39.34,
+      "change_pct": 1.34,
+      "close": 2935.9,
+      "data_gaps": [
+        [
+          "screener",
+          "Not in screener",
+          "Screener runs at 8:30 AM on trading days"
+        ]
+      ],
+      "date": "2026-06-30",
+      "debt_equity": 1.31,
+      "dividend_yield": 1.14,
+      "entry": "₹2,877–₹2,936",
+      "llm_chart_narrative": "The stock is currently oscillating within a defined range between the ₹2700 support and ₹3022 resistance levels, showing signs of consolidation after recent volatility. Given the significant XGBoost worst-case drawdown prediction of -15.6%, the risk profile remains elevated despite the recent attempt to reclaim the ₹2900 level.",
+      "llm_confidence": "HIGH",
+      "llm_doc_narrative": "This announcement is purely administrative, confirming the release of a management podcast interview. It contains no material financial data, operational updates, or forward-looking guidance that would impact the current valuation or cash flow assessment.",
+      "llm_dominant_pattern": "Range-bound consolidation",
+      "llm_green_flags": [],
+      "llm_pattern_flags": [
+        "consolidation",
+        "range-bound"
+      ],
+      "llm_pre_run_risk": "HIGH",
+      "llm_resistance": 3022.0,
+      "llm_risk_flags": [],
+      "llm_support": 2700.0,
+      "llm_target": 3112.7,
+      "macd_hist": 26.0257,
+      "market_cap": 322.4,
+      "meta_score": 75.3,
+      "mfi": 56.9,
+      "ml": 89,
+      "momentum_score": 52.8,
+      "name": "Escorts Kubota",
+      "np_yoy_pct": 9.1,
+      "obv_trend": "Falling",
+      "pb_ratio": 2.6,
+      "pe_ratio": 23.6,
+      "price": "₹2,936",
+      "promoter_pct": 73.1,
+      "quality": "High quality",
+      "r1": "₹2,964",
+      "r2": "₹3,032",
+      "ret_5d": -0.64,
+      "revenue_yoy_pct": 21.4,
+      "risk": 2.7,
+      "roe": 12.0,
+      "rsi": 65.7,
+      "s1": "₹2,855",
+      "screener_action": "",
+      "screener_conviction": "",
+      "screener_rr": "",
+      "screener_stage": "",
+      "screener_thesis": "",
+      "sec": 67,
+      "sector": "Industrials",
+      "shap": [
+        {
+          "f": "roce_pct",
+          "v": 0.84
+        },
+        {
+          "f": "nifty_50d_trend_pct",
+          "v": -0.37
+        },
+        {
+          "f": "tt_52w_position",
+          "v": -0.3
+        }
+      ],
+      "signal": "MUST BUY",
+      "sizing_hint": "Full",
+      "sl": "₹2,813",
+      "sma_200": 3135.9,
+      "sma_50": 2983.7,
+      "stoch_k": 71.2,
+      "t1": "₹3,158",
+      "t2": "₹3,307",
+      "ticker": "ESCORTS",
+      "tt_count": 0,
+      "volume": 3224,
+      "week52_high": 4180.0,
+      "week52_low": 2700.0,
+      "williams_r": -28.8,
+      "win": 89
     },
     {
       "adjusted_score": 73,
@@ -706,14 +1059,20 @@
       ],
       "beta": 0.2,
       "bull_drivers": [
-        "adx norm",
-        "volatility",
+        "roce pct",
+        "tt pct from 52w high",
         "strong-cash-flow"
       ],
       "change_abs": 60.18,
       "change_pct": 4.04,
       "close": 1489.5,
-      "data_gaps": [],
+      "data_gaps": [
+        [
+          "screener",
+          "Not in screener",
+          "Screener runs at 8:30 AM on trading days"
+        ]
+      ],
       "date": "2026-06-30",
       "debt_equity": 302.87,
       "dividend_yield": null,
@@ -738,7 +1097,7 @@
       "llm_target": 1568.0,
       "macd_hist": 13.0834,
       "market_cap": 231.2,
-      "meta_score": 71.3,
+      "meta_score": 72.7,
       "mfi": 71.7,
       "ml": 94,
       "momentum_score": 90.7,
@@ -758,25 +1117,25 @@
       "roe": 10.5,
       "rsi": 66.7,
       "s1": "₹1,416",
-      "screener_action": "ENTER NOW",
-      "screener_conviction": "HIGH",
-      "screener_rr": "1:2",
-      "screener_stage": "STAGE2-ADVANCING",
-      "screener_thesis": "This stock is entering a new uptrend, as it has broken above its 200-day MA and 50-day MA, with a bullish MACD crossover and rising ADX. The stock is also near its 52-week high, with a clear support level at ₹1415.8. The sector breadth is also strong, with 7 stocks signalling.",
+      "screener_action": "",
+      "screener_conviction": "",
+      "screener_rr": "",
+      "screener_stage": "",
+      "screener_thesis": "",
       "sec": 0,
       "sector": "Financial Services",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": 0.42
+          "f": "roce_pct",
+          "v": 0.79
         },
         {
-          "f": "horizon_imm_rr",
-          "v": -0.35
+          "f": "nifty_50d_trend_pct",
+          "v": -0.45
         },
         {
-          "f": "volatility_20d",
-          "v": 0.26
+          "f": "tt_pct_from_52w_high",
+          "v": 0.4
         }
       ],
       "signal": "MUST BUY",
@@ -788,498 +1147,12 @@
       "t1": "₹1,623",
       "t2": "₹1,712",
       "ticker": "CREDITACC",
-      "tt_count": 5,
+      "tt_count": 0,
       "volume": 8640,
       "week52_high": 1568.0,
       "week52_low": 1113.0,
       "williams_r": -17.0,
       "win": 94
-    },
-    {
-      "adjusted_score": 54,
-      "adx": 24.8,
-      "analyst_n": 39,
-      "analyst_rec": "strong_buy",
-      "analyst_target": 13684.8,
-      "avg_volume": 320687,
-      "bb_position": 0.557,
-      "bear_risks": [
-        "max drawdown -0.4%"
-      ],
-      "beta": 0.45,
-      "bull_drivers": [
-        "adx norm",
-        "volatility"
-      ],
-      "change_abs": -82.15,
-      "change_pct": -0.73,
-      "close": 11253.0,
-      "data_gaps": [],
-      "date": "2026-06-30",
-      "debt_equity": 29.43,
-      "dividend_yield": 0.68,
-      "entry": "₹11,253",
-      "llm_chart_narrative": "The stock is currently trading within a consolidation range, struggling to reclaim the Ichimoku cloud which acts as overhead resistance between ₹11353 and ₹11494. While the Tenkan-Kijun bullish cross suggests a minor recovery attempt, the price remains capped by the ₹11674 resistance level, indicating a lack of strong directional momentum.",
-      "llm_confidence": "HIGH",
-      "llm_doc_narrative": "The announcement is a corporate dossier providing a strategic overview of UltraTech Cement's business model, capacity expansion roadmap, and product diversification. As this is an informational document rather than a quarterly financial report, it contains no new earnings or cash flow data to adjust the current valuation.",
-      "llm_dominant_pattern": "Consolidation within Ichimoku Cloud",
-      "llm_green_flags": [],
-      "llm_pattern_flags": [
-        "consolidation",
-        "ichimoku-cloud-resistance"
-      ],
-      "llm_pre_run_risk": "LOW",
-      "llm_resistance": 11674.0,
-      "llm_risk_flags": [],
-      "llm_support": 10706.0,
-      "llm_target": 12024.2,
-      "macd_hist": 30.4698,
-      "market_cap": 3318.2,
-      "meta_score": 80.5,
-      "mfi": 51.0,
-      "ml": 91,
-      "momentum_score": 23.4,
-      "name": "UltraTech Cement",
-      "np_yoy_pct": -3.1,
-      "obv_trend": "Rising",
-      "pb_ratio": 4.6,
-      "pe_ratio": 40.5,
-      "price": "₹11,253",
-      "promoter_pct": 61.7,
-      "quality": "High quality",
-      "r1": "₹11,479",
-      "r2": "₹11,622",
-      "ret_5d": -1.0,
-      "revenue_yoy_pct": 16.3,
-      "risk": 0.4,
-      "roe": 10.6,
-      "rsi": 61.6,
-      "s1": "₹11,253",
-      "screener_action": "WATCH",
-      "screener_conviction": "MEDIUM",
-      "screener_rr": "",
-      "screener_stage": "",
-      "screener_thesis": "",
-      "sec": 69,
-      "sector": "Basic Materials",
-      "shap": [
-        {
-          "f": "adx_norm",
-          "v": 0.38
-        },
-        {
-          "f": "horizon_imm_rr",
-          "v": -0.37
-        },
-        {
-          "f": "volatility_20d",
-          "v": 0.2
-        }
-      ],
-      "signal": "MUST BUY",
-      "sizing_hint": "Full",
-      "sl": "₹10,915",
-      "sma_200": 11722.7,
-      "sma_50": 11521.4,
-      "stoch_k": 60.1,
-      "t1": "₹11,854",
-      "t2": "₹12,255",
-      "ticker": "ULTRACEMCO",
-      "tt_count": 1,
-      "volume": 15187,
-      "week52_high": 13110.0,
-      "week52_low": 10325.0,
-      "williams_r": -39.9,
-      "win": 91
-    },
-    {
-      "adjusted_score": 46,
-      "adx": 32.5,
-      "analyst_n": 28,
-      "analyst_rec": "strong_buy",
-      "analyst_target": 436.9,
-      "avg_volume": 11976743,
-      "bb_position": 0.441,
-      "bear_risks": [
-        "max drawdown -2.7%"
-      ],
-      "beta": 0.27,
-      "bull_drivers": [
-        "volatility"
-      ],
-      "change_abs": 0.53,
-      "change_pct": 0.15,
-      "close": 356.65,
-      "data_gaps": [],
-      "date": "2026-06-30",
-      "debt_equity": 118.13,
-      "dividend_yield": 3.19,
-      "entry": "₹352–₹357",
-      "llm_chart_narrative": "NTPC is currently trading below the Ichimoku cloud with a bearish Tenkan-Kijun cross, indicating sustained downward pressure. Despite a recent volume spike, the stock remains trapped in a distribution phase below the ₹389 resistance level, making a test of the ₹346.9 support likely.",
-      "llm_confidence": "HIGH",
-      "llm_doc_narrative": "This announcement is purely procedural, concerning a regulatory requirement for the transfer and dematerialization of physical securities. It contains no financial or operational data that would impact the company's earnings quality or cash flow profile.",
-      "llm_dominant_pattern": "Bearish Consolidation",
-      "llm_green_flags": [],
-      "llm_pattern_flags": [
-        "distribution",
-        "bearish-cross",
-        "below-cloud"
-      ],
-      "llm_pre_run_risk": "LOW",
-      "llm_resistance": 389.0,
-      "llm_risk_flags": [],
-      "llm_support": 346.9,
-      "llm_target": 400.7,
-      "macd_hist": 0.7884,
-      "market_cap": 3442.8,
-      "meta_score": 79.0,
-      "mfi": 61.9,
-      "ml": 88,
-      "momentum_score": 40.7,
-      "name": "NTPC",
-      "np_yoy_pct": 51.4,
-      "obv_trend": "Rising",
-      "pb_ratio": 1.7,
-      "pe_ratio": 11.7,
-      "price": "₹357",
-      "promoter_pct": 53.6,
-      "quality": "High quality",
-      "r1": "₹359",
-      "r2": "₹362",
-      "ret_5d": -2.62,
-      "revenue_yoy_pct": -1.8,
-      "risk": 2.7,
-      "roe": 13.7,
-      "rsi": 55.4,
-      "s1": "₹352",
-      "screener_action": "WATCH",
-      "screener_conviction": "MEDIUM",
-      "screener_rr": "",
-      "screener_stage": "",
-      "screener_thesis": "",
-      "sec": 0,
-      "sector": "Utilities",
-      "shap": [
-        {
-          "f": "adx_norm",
-          "v": -0.33
-        },
-        {
-          "f": "horizon_imm_rr",
-          "v": -0.31
-        },
-        {
-          "f": "volatility_20d",
-          "v": 0.2
-        }
-      ],
-      "signal": "MUST BUY",
-      "sizing_hint": "Full",
-      "sl": "₹346",
-      "sma_200": 378.1,
-      "sma_50": 380.1,
-      "stoch_k": 36.3,
-      "t1": "₹376",
-      "t2": "₹389",
-      "ticker": "NTPC",
-      "tt_count": 2,
-      "volume": 438707,
-      "week52_high": 414.4,
-      "week52_low": 315.6,
-      "williams_r": -63.7,
-      "win": 88
-    },
-    {
-      "adjusted_score": 60,
-      "adx": 16.8,
-      "analyst_n": 35,
-      "analyst_rec": "buy",
-      "analyst_target": 1696.0,
-      "avg_volume": null,
-      "bb_position": 0.596,
-      "bear_risks": [
-        "max drawdown -1.2%"
-      ],
-      "beta": 0.23,
-      "bull_drivers": [
-        "adx norm",
-        "new-order-win"
-      ],
-      "change_abs": -25.21,
-      "change_pct": -1.72,
-      "close": 1465.7,
-      "data_gaps": [],
-      "date": "2026-06-30",
-      "debt_equity": 7.52,
-      "dividend_yield": 1.07,
-      "entry": "₹1,444–₹1,466",
-      "llm_chart_narrative": "Coforge is exhibiting a constructive uptrend, maintaining its position above the Ichimoku cloud with a bullish Tenkan-Kijun cross. While the stock has shown volatility, the recent consolidation near the ₹1490 level suggests accumulation, keeping the risk profile low as it approaches the ₹1554 resistance.",
-      "llm_confidence": "HIGH",
-      "llm_doc_narrative": "The announcement highlights a strategic industry award for a large-scale public sector digital transformation, reinforcing Coforge's specialized capabilities in the Pega ecosystem. While this validates long-term partnership strength and delivery expertise, it is a qualitative development that does not provide immediate visibility into quarterly cash flow or margin impact.",
-      "llm_dominant_pattern": "Ascending Channel",
-      "llm_green_flags": [
-        "new-order-win"
-      ],
-      "llm_pattern_flags": [
-        "bullish-cloud-crossover",
-        "ascending-channel"
-      ],
-      "llm_pre_run_risk": "LOW",
-      "llm_resistance": 1554.0,
-      "llm_risk_flags": [],
-      "llm_support": 1356.2,
-      "llm_target": 1600.6,
-      "macd_hist": -2.039,
-      "market_cap": 660.2,
-      "meta_score": 74.9,
-      "mfi": 41.4,
-      "ml": 84,
-      "momentum_score": 6.7,
-      "name": "Coforge",
-      "np_yoy_pct": 284.0,
-      "obv_trend": "Falling",
-      "pb_ratio": 5.2,
-      "pe_ratio": 33.4,
-      "price": "₹1,466",
-      "promoter_pct": 21.8,
-      "quality": "Medium quality",
-      "r1": null,
-      "r2": null,
-      "ret_5d": 1.92,
-      "revenue_yoy_pct": 42.1,
-      "risk": -1.2,
-      "roe": 18.6,
-      "rsi": 63.0,
-      "s1": null,
-      "screener_action": "WATCH",
-      "screener_conviction": "MEDIUM",
-      "screener_rr": "",
-      "screener_stage": "",
-      "screener_thesis": "",
-      "sec": 0,
-      "sector": "Technology",
-      "shap": [
-        {
-          "f": "adx_norm",
-          "v": 0.41
-        },
-        {
-          "f": "horizon_imm_rr",
-          "v": -0.39
-        },
-        {
-          "f": "volatility_20d",
-          "v": -0.34
-        }
-      ],
-      "signal": "STRONG BUY",
-      "sizing_hint": "Full",
-      "sl": "₹1,363",
-      "sma_200": null,
-      "sma_50": null,
-      "stoch_k": 80.8,
-      "t1": "₹1,517",
-      "t2": "₹1,568",
-      "ticker": "COFORGE",
-      "tt_count": 1,
-      "volume": null,
-      "week52_high": 1994.0,
-      "week52_low": 1008.1,
-      "williams_r": -19.2,
-      "win": 84
-    },
-    {
-      "adjusted_score": 53,
-      "adx": 28.3,
-      "analyst_n": 17,
-      "analyst_rec": "hold",
-      "analyst_target": 3401.2,
-      "avg_volume": 138165,
-      "bb_position": 0.845,
-      "bear_risks": [
-        "max drawdown -2.7%"
-      ],
-      "beta": 0.32,
-      "bull_drivers": [
-        "adx norm"
-      ],
-      "change_abs": 39.34,
-      "change_pct": 1.34,
-      "close": 2935.9,
-      "data_gaps": [],
-      "date": "2026-06-30",
-      "debt_equity": 1.31,
-      "dividend_yield": 1.14,
-      "entry": "₹2,877–₹2,936",
-      "llm_chart_narrative": "The stock is currently oscillating within a defined range between the ₹2700 support and ₹3022 resistance levels, showing signs of consolidation after recent volatility. Given the significant XGBoost worst-case drawdown prediction of -15.6%, the risk profile remains elevated despite the recent attempt to reclaim the ₹2900 level.",
-      "llm_confidence": "HIGH",
-      "llm_doc_narrative": "This announcement is purely administrative, confirming the release of a management podcast interview. It contains no material financial data, operational updates, or forward-looking guidance that would impact the current valuation or cash flow assessment.",
-      "llm_dominant_pattern": "Range-bound consolidation",
-      "llm_green_flags": [],
-      "llm_pattern_flags": [
-        "consolidation",
-        "range-bound"
-      ],
-      "llm_pre_run_risk": "HIGH",
-      "llm_resistance": 3022.0,
-      "llm_risk_flags": [],
-      "llm_support": 2700.0,
-      "llm_target": 3112.7,
-      "macd_hist": 26.0257,
-      "market_cap": 322.4,
-      "meta_score": 75.2,
-      "mfi": 56.9,
-      "ml": 89,
-      "momentum_score": 52.8,
-      "name": "Escorts Kubota",
-      "np_yoy_pct": 9.1,
-      "obv_trend": "Falling",
-      "pb_ratio": 2.6,
-      "pe_ratio": 23.6,
-      "price": "₹2,936",
-      "promoter_pct": 73.1,
-      "quality": "High quality",
-      "r1": "₹2,964",
-      "r2": "₹3,032",
-      "ret_5d": -0.64,
-      "revenue_yoy_pct": 21.4,
-      "risk": 2.7,
-      "roe": 12.0,
-      "rsi": 65.7,
-      "s1": "₹2,855",
-      "screener_action": "WATCH",
-      "screener_conviction": "MEDIUM",
-      "screener_rr": "",
-      "screener_stage": "",
-      "screener_thesis": "",
-      "sec": 67,
-      "sector": "Industrials",
-      "shap": [
-        {
-          "f": "adx_norm",
-          "v": 0.45
-        },
-        {
-          "f": "horizon_imm_rr",
-          "v": -0.37
-        },
-        {
-          "f": "pre_run_risk_encoded",
-          "v": -0.17
-        }
-      ],
-      "signal": "MUST BUY",
-      "sizing_hint": "Full",
-      "sl": "₹2,813",
-      "sma_200": 3135.9,
-      "sma_50": 2983.7,
-      "stoch_k": 71.2,
-      "t1": "₹3,158",
-      "t2": "₹3,307",
-      "ticker": "ESCORTS",
-      "tt_count": 0,
-      "volume": 3224,
-      "week52_high": 4180.0,
-      "week52_low": 2700.0,
-      "williams_r": -28.8,
-      "win": 89
-    },
-    {
-      "adjusted_score": 98,
-      "adx": 26.2,
-      "analyst_n": null,
-      "analyst_rec": "none",
-      "analyst_target": null,
-      "avg_volume": 95776,
-      "bb_position": 0.754,
-      "bear_risks": [
-        "max drawdown -3.0%"
-      ],
-      "beta": 0.16,
-      "bull_drivers": [
-        "adx norm",
-        "5-day pre-run"
-      ],
-      "change_abs": 2.36,
-      "change_pct": 0.37,
-      "close": 638.15,
-      "data_gaps": [],
-      "date": "2026-06-30",
-      "debt_equity": 24.13,
-      "dividend_yield": 2.36,
-      "entry": "₹629–₹638",
-      "llm_chart_narrative": "The stock is currently trading below the 52W high and above the 50W support level.",
-      "llm_confidence": "",
-      "llm_doc_narrative": "",
-      "llm_dominant_pattern": "distribution",
-      "llm_green_flags": [],
-      "llm_pattern_flags": [
-        "distribution",
-        "breakdown"
-      ],
-      "llm_pre_run_risk": "",
-      "llm_resistance": 668.1,
-      "llm_risk_flags": [],
-      "llm_support": 567.0,
-      "llm_target": 688.1,
-      "macd_hist": 0.0676,
-      "market_cap": 28.9,
-      "meta_score": 61.5,
-      "mfi": 62.8,
-      "ml": 98,
-      "momentum_score": 17.1,
-      "name": "Siyaram Silk Mills",
-      "np_yoy_pct": 31.9,
-      "obv_trend": "Rising",
-      "pb_ratio": 2.0,
-      "pe_ratio": 12.5,
-      "price": "₹638",
-      "promoter_pct": 69.3,
-      "quality": "High quality",
-      "r1": "₹647",
-      "r2": "₹657",
-      "ret_5d": 1.19,
-      "revenue_yoy_pct": 15.9,
-      "risk": -3.0,
-      "roe": 16.8,
-      "rsi": 53.0,
-      "s1": "₹629",
-      "screener_action": "ENTER NOW",
-      "screener_conviction": "HIGH",
-      "screener_rr": "1:2",
-      "screener_stage": "STAGE2-ADVANCING",
-      "screener_thesis": "SIYSIL is entering a new uptrend, breaking above the 200-day MA and 50-day MA, with a strong MA stack and near the 52-week high. The RSI is healthy at 53.03, and the ADX is trending at 26.25. The stock has a strong 5-day momentum and 20-day momentum.",
-      "sec": 0,
-      "sector": "Consumer Cyclical",
-      "shap": [
-        {
-          "f": "adx_norm",
-          "v": 0.42
-        },
-        {
-          "f": "horizon_imm_rr",
-          "v": -0.33
-        },
-        {
-          "f": "pre5_return_pct",
-          "v": 0.13
-        }
-      ],
-      "signal": "MUST BUY",
-      "sizing_hint": "Full",
-      "sl": "₹619",
-      "sma_200": 557.4,
-      "sma_50": 594.3,
-      "stoch_k": 59.4,
-      "t1": "₹705",
-      "t2": "₹750",
-      "ticker": "SIYSIL",
-      "tt_count": 5,
-      "volume": 1031,
-      "week52_high": 848.8,
-      "week52_low": 433.4,
-      "williams_r": -40.6,
-      "win": 98
     },
     {
       "adjusted_score": 70,
@@ -1295,13 +1168,20 @@
       ],
       "beta": 0.3,
       "bull_drivers": [
-        "adx norm",
+        "roce pct",
+        "tt pct from 52w high",
         "stable-dividend"
       ],
       "change_abs": 15.22,
       "change_pct": 0.86,
       "close": 1769.2,
-      "data_gaps": [],
+      "data_gaps": [
+        [
+          "screener",
+          "Not in screener",
+          "Screener runs at 8:30 AM on trading days"
+        ]
+      ],
       "date": "2026-06-30",
       "debt_equity": 15.77,
       "dividend_yield": 0.46,
@@ -1327,7 +1207,7 @@
       "llm_target": 1784.9,
       "macd_hist": 10.6213,
       "market_cap": 637.5,
-      "meta_score": 70.6,
+      "meta_score": 71.9,
       "mfi": 87.6,
       "ml": 92,
       "momentum_score": 69.9,
@@ -1347,8 +1227,8 @@
       "roe": 14.9,
       "rsi": 86.1,
       "s1": "₹1,736",
-      "screener_action": "WATCH",
-      "screener_conviction": "MEDIUM",
+      "screener_action": "",
+      "screener_conviction": "",
       "screener_rr": "",
       "screener_stage": "",
       "screener_thesis": "",
@@ -1356,16 +1236,16 @@
       "sector": "Real Estate",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": 0.39
+          "f": "roce_pct",
+          "v": 0.79
         },
         {
-          "f": "horizon_imm_rr",
-          "v": -0.37
+          "f": "nifty_50d_trend_pct",
+          "v": -0.42
         },
         {
-          "f": "pre_run_risk_encoded",
-          "v": -0.17
+          "f": "tt_pct_from_52w_high",
+          "v": 0.36
         }
       ],
       "signal": "MUST BUY",
@@ -1377,12 +1257,219 @@
       "t1": "₹1,891",
       "t2": "₹1,972",
       "ticker": "OBEROIRLTY",
-      "tt_count": 4,
+      "tt_count": 0,
       "volume": 51449,
       "week52_high": 1940.0,
       "week52_low": 1391.2,
       "williams_r": -14.9,
       "win": 92
+    },
+    {
+      "adjusted_score": 44,
+      "adx": 32.5,
+      "analyst_n": 28,
+      "analyst_rec": "strong_buy",
+      "analyst_target": 436.9,
+      "avg_volume": 11976743,
+      "bb_position": 0.441,
+      "bear_risks": [
+        "max drawdown -2.7%",
+        "cash-flow-weak"
+      ],
+      "beta": 0.27,
+      "bull_drivers": [
+        "roce pct"
+      ],
+      "change_abs": 0.53,
+      "change_pct": 0.15,
+      "close": 356.65,
+      "data_gaps": [
+        [
+          "screener",
+          "Not in screener",
+          "Screener runs at 8:30 AM on trading days"
+        ]
+      ],
+      "date": "2026-06-30",
+      "debt_equity": 118.13,
+      "dividend_yield": 3.19,
+      "entry": "₹352–₹357",
+      "llm_chart_narrative": "NTPC is in a distribution phase, with a bearish Ichimoku cloud and a bearish cross between Tenkan and Kijun. The stock is trading near the resistance level of ₹358.8, and a breakdown below ₹352.5 could lead to further declines.",
+      "llm_confidence": "MEDIUM",
+      "llm_doc_narrative": "NTPC's Q1FY27 results show a PAT beat driven by revenue growth, but earnings quality is a concern due to weak operating cash flow conversion. The company's high leverage and negative free cash flow also pose risks.",
+      "llm_dominant_pattern": "distribution",
+      "llm_green_flags": [],
+      "llm_pattern_flags": [
+        "distribution",
+        "heavy-prerun"
+      ],
+      "llm_pre_run_risk": "HIGH",
+      "llm_resistance": 358.8,
+      "llm_risk_flags": [
+        "cash-flow-weak"
+      ],
+      "llm_support": 352.5,
+      "llm_target": 361.5,
+      "macd_hist": 0.7884,
+      "market_cap": 3442.8,
+      "meta_score": 66.0,
+      "mfi": 61.9,
+      "ml": 88,
+      "momentum_score": 40.7,
+      "name": "NTPC",
+      "np_yoy_pct": 51.4,
+      "obv_trend": "Rising",
+      "pb_ratio": 1.7,
+      "pe_ratio": 11.7,
+      "price": "₹357",
+      "promoter_pct": 53.6,
+      "quality": "High quality",
+      "r1": "₹359",
+      "r2": "₹362",
+      "ret_5d": -2.62,
+      "revenue_yoy_pct": -1.8,
+      "risk": 2.7,
+      "roe": 13.7,
+      "rsi": 55.4,
+      "s1": "₹352",
+      "screener_action": "",
+      "screener_conviction": "",
+      "screener_rr": "",
+      "screener_stage": "",
+      "screener_thesis": "",
+      "sec": 0,
+      "sector": "Utilities",
+      "shap": [
+        {
+          "f": "roce_pct",
+          "v": 0.93
+        },
+        {
+          "f": "nifty_50d_trend_pct",
+          "v": -0.5
+        },
+        {
+          "f": "vix_us",
+          "v": -0.3
+        }
+      ],
+      "signal": "MUST BUY",
+      "sizing_hint": "Full",
+      "sl": "₹346",
+      "sma_200": 378.1,
+      "sma_50": 380.1,
+      "stoch_k": 36.3,
+      "t1": "₹376",
+      "t2": "₹389",
+      "ticker": "NTPC",
+      "tt_count": 0,
+      "volume": 438707,
+      "week52_high": 414.4,
+      "week52_low": 315.6,
+      "williams_r": -63.7,
+      "win": 88
+    },
+    {
+      "adjusted_score": 98,
+      "adx": 26.2,
+      "analyst_n": null,
+      "analyst_rec": "none",
+      "analyst_target": null,
+      "avg_volume": 95776,
+      "bb_position": 0.754,
+      "bear_risks": [
+        "max drawdown -3.0%"
+      ],
+      "beta": 0.16,
+      "bull_drivers": [
+        "roce pct"
+      ],
+      "change_abs": 2.36,
+      "change_pct": 0.37,
+      "close": 638.15,
+      "data_gaps": [
+        [
+          "screener",
+          "Not in screener",
+          "Screener runs at 8:30 AM on trading days"
+        ]
+      ],
+      "date": "2026-06-30",
+      "debt_equity": 24.13,
+      "dividend_yield": 2.36,
+      "entry": "₹629–₹638",
+      "llm_chart_narrative": "The stock is currently trading below the 52W high and above the 50W support level.",
+      "llm_confidence": "",
+      "llm_doc_narrative": "",
+      "llm_dominant_pattern": "distribution",
+      "llm_green_flags": [],
+      "llm_pattern_flags": [
+        "distribution",
+        "breakdown"
+      ],
+      "llm_pre_run_risk": "",
+      "llm_resistance": 668.1,
+      "llm_risk_flags": [],
+      "llm_support": 567.0,
+      "llm_target": 688.1,
+      "macd_hist": 0.0676,
+      "market_cap": 28.9,
+      "meta_score": 64.6,
+      "mfi": 62.8,
+      "ml": 98,
+      "momentum_score": 17.1,
+      "name": "Siyaram Silk Mills",
+      "np_yoy_pct": 31.9,
+      "obv_trend": "Rising",
+      "pb_ratio": 2.0,
+      "pe_ratio": 12.5,
+      "price": "₹638",
+      "promoter_pct": 69.3,
+      "quality": "High quality",
+      "r1": "₹647",
+      "r2": "₹657",
+      "ret_5d": 1.19,
+      "revenue_yoy_pct": 15.9,
+      "risk": -3.0,
+      "roe": 16.8,
+      "rsi": 53.0,
+      "s1": "₹629",
+      "screener_action": "",
+      "screener_conviction": "",
+      "screener_rr": "",
+      "screener_stage": "",
+      "screener_thesis": "",
+      "sec": 0,
+      "sector": "Consumer Cyclical",
+      "shap": [
+        {
+          "f": "roce_pct",
+          "v": 0.85
+        },
+        {
+          "f": "nifty_50d_trend_pct",
+          "v": -0.47
+        },
+        {
+          "f": "vix_us",
+          "v": -0.35
+        }
+      ],
+      "signal": "MUST BUY",
+      "sizing_hint": "Full",
+      "sl": "₹619",
+      "sma_200": 557.4,
+      "sma_50": 594.3,
+      "stoch_k": 59.4,
+      "t1": "₹705",
+      "t2": "₹750",
+      "ticker": "SIYSIL",
+      "tt_count": 0,
+      "volume": 1031,
+      "week52_high": 848.8,
+      "week52_low": 433.4,
+      "williams_r": -40.6,
+      "win": 98
     },
     {
       "adjusted_score": 95,
@@ -1397,12 +1484,19 @@
       ],
       "beta": 0.13,
       "bull_drivers": [
-        "adx norm"
+        "roce pct",
+        "tt pct from 52w high"
       ],
       "change_abs": 8.29,
       "change_pct": 1.04,
       "close": 796.85,
-      "data_gaps": [],
+      "data_gaps": [
+        [
+          "screener",
+          "Not in screener",
+          "Screener runs at 8:30 AM on trading days"
+        ]
+      ],
       "date": "2026-06-30",
       "debt_equity": 4.86,
       "dividend_yield": 1.58,
@@ -1423,7 +1517,7 @@
       "llm_target": 861.1,
       "macd_hist": 0.5967,
       "market_cap": 196.1,
-      "meta_score": 60.7,
+      "meta_score": 63.6,
       "mfi": 49.1,
       "ml": 95,
       "momentum_score": 67.1,
@@ -1443,25 +1537,25 @@
       "roe": 38.7,
       "rsi": 62.3,
       "s1": "₹782",
-      "screener_action": "ENTER NOW",
-      "screener_conviction": "MEDIUM",
-      "screener_rr": "1:3",
-      "screener_stage": "STAGE2-ADVANCING",
-      "screener_thesis": "CAMS has been basing at ₹732.45-705.91 for a while, and its recent ADX of 21.32 indicates a potential top forming. The ₹795 level is the upper support level for this base completion setup.",
+      "screener_action": "",
+      "screener_conviction": "",
+      "screener_rr": "",
+      "screener_stage": "",
+      "screener_thesis": "",
       "sec": 0,
       "sector": "Technology",
       "shap": [
         {
-          "f": "horizon_imm_rr",
-          "v": -0.4
+          "f": "roce_pct",
+          "v": 0.78
         },
         {
-          "f": "adx_norm",
-          "v": 0.3
+          "f": "nifty_50d_trend_pct",
+          "v": -0.46
         },
         {
-          "f": "horizon_alignment",
-          "v": -0.15
+          "f": "tt_pct_from_52w_high",
+          "v": 0.36
         }
       ],
       "signal": "MUST BUY",
@@ -1473,7 +1567,7 @@
       "t1": "₹862",
       "t2": "₹905",
       "ticker": "CAMS",
-      "tt_count": 5,
+      "tt_count": 0,
       "volume": 77593,
       "week52_high": 863.7,
       "week52_low": 611.4,
@@ -1493,12 +1587,18 @@
       ],
       "beta": 0.02,
       "bull_drivers": [
-        "volatility"
+        "roce pct"
       ],
       "change_abs": 13.71,
       "change_pct": 0.88,
       "close": 1558.1,
-      "data_gaps": [],
+      "data_gaps": [
+        [
+          "screener",
+          "Not in screener",
+          "Screener runs at 8:30 AM on trading days"
+        ]
+      ],
       "date": "2026-06-30",
       "debt_equity": 75.97,
       "dividend_yield": 0.65,
@@ -1519,7 +1619,7 @@
       "llm_target": 1673.8,
       "macd_hist": -7.2588,
       "market_cap": 197.4,
-      "meta_score": 60.5,
+      "meta_score": 63.3,
       "mfi": 60.9,
       "ml": 94,
       "momentum_score": 79.5,
@@ -1539,25 +1639,25 @@
       "roe": 10.8,
       "rsi": 58.8,
       "s1": "₹1,525",
-      "screener_action": "ENTER NOW",
-      "screener_conviction": "HIGH",
-      "screener_rr": "1:2",
-      "screener_stage": "STAGE2-ADVANCING",
-      "screener_thesis": "Deepak Fertilisers is entering Stage 2 with a strong MA stack above both 50 and 200-day MAs, near its 52-week high, and with a healthy RSI of 58.75. The stock has also shown a price drift above its 52-week low and is trending with a rising ADX. With a sector breadth of 7 stocks signalling, this setup has a high probability of success.",
+      "screener_action": "",
+      "screener_conviction": "",
+      "screener_rr": "",
+      "screener_stage": "",
+      "screener_thesis": "",
       "sec": 0,
       "sector": "Basic Materials",
       "shap": [
         {
-          "f": "volatility_20d",
-          "v": 0.38
+          "f": "roce_pct",
+          "v": 0.8
         },
         {
-          "f": "horizon_imm_rr",
-          "v": -0.3
+          "f": "nifty_50d_trend_pct",
+          "v": -0.46
         },
         {
-          "f": "adx_norm",
-          "v": -0.27
+          "f": "vix_us",
+          "v": -0.33
         }
       ],
       "signal": "MUST BUY",
@@ -1569,305 +1669,12 @@
       "t1": "₹1,702",
       "t2": "₹1,798",
       "ticker": "DEEPAKFERT",
-      "tt_count": 5,
+      "tt_count": 0,
       "volume": 9790,
       "week52_high": 1778.6,
       "week52_low": 866.4,
       "williams_r": -39.5,
       "win": 94
-    },
-    {
-      "adjusted_score": 92,
-      "adx": 37.2,
-      "analyst_n": 12,
-      "analyst_rec": "none",
-      "analyst_target": 20131.9,
-      "avg_volume": 175728,
-      "bb_position": 0.919,
-      "bear_risks": [
-        "max drawdown -0.1%"
-      ],
-      "beta": 0.2,
-      "bull_drivers": [
-        "52-week range position",
-        "volatility"
-      ],
-      "change_abs": 944.15,
-      "change_pct": 5.05,
-      "close": 18696.0,
-      "data_gaps": [],
-      "date": "2026-06-30",
-      "debt_equity": 23.27,
-      "dividend_yield": 0.06,
-      "entry": "₹18,322–₹18,696",
-      "llm_chart_narrative": "The stock is currently consolidating within a broad range between the ₹16832 support and ₹18770 resistance levels. While the price remains above the Ichimoku cloud, the recent Tenkan-Kijun bearish cross suggests a lack of immediate upward momentum, warranting a cautious outlook until a breakout above resistance is confirmed.",
-      "llm_confidence": "",
-      "llm_doc_narrative": "",
-      "llm_dominant_pattern": "Range-bound consolidation",
-      "llm_green_flags": [],
-      "llm_pattern_flags": [
-        "range-bound",
-        "ichimoku-cloud-support"
-      ],
-      "llm_pre_run_risk": "",
-      "llm_resistance": 18770.0,
-      "llm_risk_flags": [],
-      "llm_support": 16832.0,
-      "llm_target": 19333.1,
-      "macd_hist": -13.348,
-      "market_cap": 1621.2,
-      "meta_score": 59.9,
-      "mfi": 66.0,
-      "ml": 92,
-      "momentum_score": 80.3,
-      "name": "Solar Industries",
-      "np_yoy_pct": 66.5,
-      "obv_trend": "Rising",
-      "pb_ratio": 27.0,
-      "pe_ratio": 101.0,
-      "price": "₹18,696",
-      "promoter_pct": 43.9,
-      "quality": "High quality",
-      "r1": "₹18,041",
-      "r2": "₹18,285",
-      "ret_5d": -2.88,
-      "revenue_yoy_pct": 21.2,
-      "risk": -0.1,
-      "roe": 31.3,
-      "rsi": 61.1,
-      "s1": "₹17,414",
-      "screener_action": "WATCH",
-      "screener_conviction": "MEDIUM",
-      "screener_rr": "",
-      "screener_stage": "",
-      "screener_thesis": "",
-      "sec": 0,
-      "sector": "Basic Materials",
-      "shap": [
-        {
-          "f": "tt_52w_position",
-          "v": 0.43
-        },
-        {
-          "f": "volatility_20d",
-          "v": 0.35
-        },
-        {
-          "f": "horizon_imm_rr",
-          "v": -0.3
-        }
-      ],
-      "signal": "MUST BUY",
-      "sizing_hint": "Full",
-      "sl": "₹17,516",
-      "sma_200": 15416.6,
-      "sma_50": 17143.0,
-      "stoch_k": 63.1,
-      "t1": "₹20,467",
-      "t2": "₹21,647",
-      "ticker": "SOLARINDS",
-      "tt_count": 5,
-      "volume": 7058,
-      "week52_high": 18874.0,
-      "week52_low": 11646.0,
-      "williams_r": -36.9,
-      "win": 92
-    },
-    {
-      "adjusted_score": 92,
-      "adx": 18.8,
-      "analyst_n": 30,
-      "analyst_rec": "hold",
-      "analyst_target": 1074.2,
-      "avg_volume": 1037075,
-      "bb_position": 0.799,
-      "bear_risks": [
-        "max drawdown -5.2%"
-      ],
-      "beta": 0.4,
-      "bull_drivers": [
-        "adx norm",
-        "52-week range position"
-      ],
-      "change_abs": -8.68,
-      "change_pct": -0.78,
-      "close": 1112.6,
-      "data_gaps": [],
-      "date": "2026-06-30",
-      "debt_equity": 42.24,
-      "dividend_yield": 0.09,
-      "entry": "₹1,105–₹1,113",
-      "llm_chart_narrative": "ZYDUSLIFE is exhibiting a constructive consolidation pattern, maintaining support above the ₹1048.9 level while testing the overhead resistance at ₹1126.0. The Ichimoku bullish alignment and recent volume-backed strength suggest a potential breakout toward the ₹1159.8 target, provided the price holds above the cloud base.",
-      "llm_confidence": "",
-      "llm_doc_narrative": "",
-      "llm_dominant_pattern": "Ascending Triangle",
-      "llm_green_flags": [],
-      "llm_pattern_flags": [
-        "bullish-consolidation",
-        "ichimoku-bullish"
-      ],
-      "llm_pre_run_risk": "",
-      "llm_resistance": 1126.0,
-      "llm_risk_flags": [],
-      "llm_support": 1048.9,
-      "llm_target": 1159.8,
-      "macd_hist": -1.7848,
-      "market_cap": 1116.4,
-      "meta_score": 59.9,
-      "mfi": 51.8,
-      "ml": 92,
-      "momentum_score": 62.4,
-      "name": "Zydus Lifesciences",
-      "np_yoy_pct": -38.8,
-      "obv_trend": "Rising",
-      "pb_ratio": 4.4,
-      "pe_ratio": 22.2,
-      "price": "₹1,113",
-      "promoter_pct": 75.8,
-      "quality": "High quality",
-      "r1": "₹1,131",
-      "r2": "₹1,142",
-      "ret_5d": 0.51,
-      "revenue_yoy_pct": -35.7,
-      "risk": -5.2,
-      "roe": 18.3,
-      "rsi": 54.6,
-      "s1": "₹1,105",
-      "screener_action": "WATCH",
-      "screener_conviction": "MEDIUM",
-      "screener_rr": "",
-      "screener_stage": "",
-      "screener_thesis": "",
-      "sec": 0,
-      "sector": "Healthcare",
-      "shap": [
-        {
-          "f": "horizon_imm_rr",
-          "v": -0.4
-        },
-        {
-          "f": "adx_norm",
-          "v": 0.26
-        },
-        {
-          "f": "tt_52w_position",
-          "v": 0.24
-        }
-      ],
-      "signal": "MUST BUY",
-      "sizing_hint": "Full",
-      "sl": "₹1,079",
-      "sma_200": 965.8,
-      "sma_50": 1027.5,
-      "stoch_k": 88.8,
-      "t1": "₹1,176",
-      "t2": "₹1,218",
-      "ticker": "ZYDUSLIFE",
-      "tt_count": 5,
-      "volume": 34898,
-      "week52_high": 1128.5,
-      "week52_low": 835.5,
-      "williams_r": -11.2,
-      "win": 92
-    },
-    {
-      "adjusted_score": 92,
-      "adx": 11.8,
-      "analyst_n": 19,
-      "analyst_rec": "buy",
-      "analyst_target": 1362.2,
-      "avg_volume": 2792511,
-      "bb_position": 0.904,
-      "bear_risks": [
-        "max drawdown -3.3%"
-      ],
-      "beta": -0.27,
-      "bull_drivers": [
-        "adx norm"
-      ],
-      "change_abs": 8.45,
-      "change_pct": 0.74,
-      "close": 1141.5,
-      "data_gaps": [
-        [
-          "llm",
-          "No LLM analysis",
-          "Enriched after BSE filing"
-        ]
-      ],
-      "date": "2026-06-30",
-      "debt_equity": 1.07,
-      "dividend_yield": null,
-      "entry": "₹1,119–₹1,142",
-      "llm_chart_narrative": "",
-      "llm_confidence": "",
-      "llm_doc_narrative": "",
-      "llm_dominant_pattern": "",
-      "llm_green_flags": [],
-      "llm_pattern_flags": [],
-      "llm_pre_run_risk": "",
-      "llm_resistance": null,
-      "llm_risk_flags": [],
-      "llm_support": null,
-      "llm_target": null,
-      "macd_hist": 7.5128,
-      "market_cap": 729.0,
-      "meta_score": 59.9,
-      "mfi": 65.5,
-      "ml": 92,
-      "momentum_score": 82.1,
-      "name": "One97 Communications",
-      "np_yoy_pct": 120.5,
-      "obv_trend": "Rising",
-      "pb_ratio": 4.6,
-      "pe_ratio": 134.3,
-      "price": "₹1,142",
-      "promoter_pct": 28.0,
-      "quality": "High quality",
-      "r1": "₹1,146",
-      "r2": "₹1,159",
-      "ret_5d": 4.69,
-      "revenue_yoy_pct": -37.1,
-      "risk": -3.3,
-      "roe": 3.6,
-      "rsi": 64.9,
-      "s1": "₹1,118",
-      "screener_action": "WATCH",
-      "screener_conviction": "MEDIUM",
-      "screener_rr": "",
-      "screener_stage": "",
-      "screener_thesis": "",
-      "sec": 0,
-      "sector": "Technology",
-      "shap": [
-        {
-          "f": "horizon_imm_rr",
-          "v": -0.39
-        },
-        {
-          "f": "adx_norm",
-          "v": 0.39
-        },
-        {
-          "f": "horizon_alignment",
-          "v": -0.15
-        }
-      ],
-      "signal": "MUST BUY",
-      "sizing_hint": "Full",
-      "sl": "₹1,104",
-      "sma_200": 1103.3,
-      "sma_50": 1113.3,
-      "stoch_k": 96.2,
-      "t1": "₹1,236",
-      "t2": "₹1,299",
-      "ticker": "PAYTM",
-      "tt_count": 4,
-      "volume": 79684,
-      "week52_high": 1381.8,
-      "week52_low": 896.1,
-      "williams_r": -3.9,
-      "win": 92
     },
     {
       "adjusted_score": 93,
@@ -1882,12 +1689,18 @@
       ],
       "beta": -0.24,
       "bull_drivers": [
-        "adx norm"
+        "roce pct"
       ],
       "change_abs": 10.65,
       "change_pct": 1.21,
       "close": 879.8,
-      "data_gaps": [],
+      "data_gaps": [
+        [
+          "screener",
+          "Not in screener",
+          "Screener runs at 8:30 AM on trading days"
+        ]
+      ],
       "date": "2026-06-30",
       "debt_equity": 3.31,
       "dividend_yield": 1.37,
@@ -1908,7 +1721,7 @@
       "llm_target": 955.8,
       "macd_hist": 2.6397,
       "market_cap": 151.8,
-      "meta_score": 60.2,
+      "meta_score": 63.0,
       "mfi": 60.4,
       "ml": 93,
       "momentum_score": 72.4,
@@ -1928,8 +1741,8 @@
       "roe": 22.3,
       "rsi": 58.8,
       "s1": "₹862",
-      "screener_action": "WATCH",
-      "screener_conviction": "MEDIUM",
+      "screener_action": "",
+      "screener_conviction": "",
       "screener_rr": "",
       "screener_stage": "",
       "screener_thesis": "",
@@ -1937,16 +1750,16 @@
       "sector": "Technology",
       "shap": [
         {
-          "f": "horizon_imm_rr",
-          "v": -0.4
+          "f": "roce_pct",
+          "v": 0.83
         },
         {
-          "f": "adx_norm",
-          "v": 0.34
+          "f": "nifty_50d_trend_pct",
+          "v": -0.37
         },
         {
-          "f": "horizon_alignment",
-          "v": -0.14
+          "f": "tt_52w_position",
+          "v": -0.32
         }
       ],
       "signal": "MUST BUY",
@@ -1958,7 +1771,7 @@
       "t1": "₹950",
       "t2": "₹997",
       "ticker": "KFINTECH",
-      "tt_count": 1,
+      "tt_count": 0,
       "volume": 147286,
       "week52_high": 1357.0,
       "week52_low": 785.0,
@@ -1966,66 +1779,178 @@
       "win": 93
     },
     {
-      "adjusted_score": 86,
-      "adx": 15.4,
-      "analyst_n": 11,
-      "analyst_rec": "none",
-      "analyst_target": 3496.7,
-      "avg_volume": 838610,
-      "bb_position": 0.376,
+      "adjusted_score": 92,
+      "adx": 11.8,
+      "analyst_n": 19,
+      "analyst_rec": "buy",
+      "analyst_target": 1362.2,
+      "avg_volume": 2792511,
+      "bb_position": 0.904,
       "bear_risks": [
-        "max drawdown -1.7%"
+        "max drawdown -3.3%"
       ],
-      "beta": 0.33,
+      "beta": -0.27,
       "bull_drivers": [
+        "roce pct",
         "adx norm"
       ],
-      "change_abs": 19.84,
-      "change_pct": 0.64,
-      "close": 3100.0,
-      "data_gaps": [],
+      "change_abs": 8.45,
+      "change_pct": 0.74,
+      "close": 1141.5,
+      "data_gaps": [
+        [
+          "llm",
+          "No LLM analysis",
+          "Enriched after BSE filing"
+        ],
+        [
+          "screener",
+          "Not in screener",
+          "Screener runs at 8:30 AM on trading days"
+        ]
+      ],
       "date": "2026-06-30",
-      "debt_equity": 134.14,
-      "dividend_yield": 0.32,
-      "entry": "₹3,053–₹3,100",
-      "llm_chart_narrative": "Grasim is currently trading within the Ichimoku cloud range of ₹2946-₹3127, indicating a period of indecisive consolidation. While the Tenkan-Kijun bullish cross suggests underlying strength, the price remains capped by the ₹3200 resistance level, requiring a breakout on increased volume to validate a move toward the ₹3296 target.",
+      "debt_equity": 1.07,
+      "dividend_yield": null,
+      "entry": "₹1,119–₹1,142",
+      "llm_chart_narrative": "",
       "llm_confidence": "",
       "llm_doc_narrative": "",
-      "llm_dominant_pattern": "Consolidation within Ichimoku Cloud",
+      "llm_dominant_pattern": "",
+      "llm_green_flags": [],
+      "llm_pattern_flags": [],
+      "llm_pre_run_risk": "",
+      "llm_resistance": null,
+      "llm_risk_flags": [],
+      "llm_support": null,
+      "llm_target": null,
+      "macd_hist": 7.5128,
+      "market_cap": 729.0,
+      "meta_score": 62.6,
+      "mfi": 65.5,
+      "ml": 92,
+      "momentum_score": 82.1,
+      "name": "One97 Communications",
+      "np_yoy_pct": 120.5,
+      "obv_trend": "Rising",
+      "pb_ratio": 4.6,
+      "pe_ratio": 134.3,
+      "price": "₹1,142",
+      "promoter_pct": 28.0,
+      "quality": "High quality",
+      "r1": "₹1,146",
+      "r2": "₹1,159",
+      "ret_5d": 4.69,
+      "revenue_yoy_pct": -37.1,
+      "risk": -3.3,
+      "roe": 3.6,
+      "rsi": 64.9,
+      "s1": "₹1,118",
+      "screener_action": "",
+      "screener_conviction": "",
+      "screener_rr": "",
+      "screener_stage": "",
+      "screener_thesis": "",
+      "sec": 0,
+      "sector": "Technology",
+      "shap": [
+        {
+          "f": "roce_pct",
+          "v": 0.78
+        },
+        {
+          "f": "adx_norm",
+          "v": 0.54
+        },
+        {
+          "f": "nifty_50d_trend_pct",
+          "v": -0.38
+        }
+      ],
+      "signal": "MUST BUY",
+      "sizing_hint": "Full",
+      "sl": "₹1,104",
+      "sma_200": 1103.3,
+      "sma_50": 1113.3,
+      "stoch_k": 96.2,
+      "t1": "₹1,236",
+      "t2": "₹1,299",
+      "ticker": "PAYTM",
+      "tt_count": 0,
+      "volume": 79684,
+      "week52_high": 1381.8,
+      "week52_low": 896.1,
+      "williams_r": -3.9,
+      "win": 92
+    },
+    {
+      "adjusted_score": 92,
+      "adx": 37.2,
+      "analyst_n": 12,
+      "analyst_rec": "none",
+      "analyst_target": 20131.9,
+      "avg_volume": 175728,
+      "bb_position": 0.919,
+      "bear_risks": [
+        "max drawdown -0.1%"
+      ],
+      "beta": 0.2,
+      "bull_drivers": [
+        "roce pct",
+        "tt pct from 52w high"
+      ],
+      "change_abs": 944.15,
+      "change_pct": 5.05,
+      "close": 18696.0,
+      "data_gaps": [
+        [
+          "screener",
+          "Not in screener",
+          "Screener runs at 8:30 AM on trading days"
+        ]
+      ],
+      "date": "2026-06-30",
+      "debt_equity": 23.27,
+      "dividend_yield": 0.06,
+      "entry": "₹18,322–₹18,696",
+      "llm_chart_narrative": "The stock is currently consolidating within a broad range between the ₹16832 support and ₹18770 resistance levels. While the price remains above the Ichimoku cloud, the recent Tenkan-Kijun bearish cross suggests a lack of immediate upward momentum, warranting a cautious outlook until a breakout above resistance is confirmed.",
+      "llm_confidence": "",
+      "llm_doc_narrative": "",
+      "llm_dominant_pattern": "Range-bound consolidation",
       "llm_green_flags": [],
       "llm_pattern_flags": [
-        "consolidation",
-        "ichimoku-cloud-bound"
+        "range-bound",
+        "ichimoku-cloud-support"
       ],
       "llm_pre_run_risk": "",
-      "llm_resistance": 3200.0,
+      "llm_resistance": 18770.0,
       "llm_risk_flags": [],
-      "llm_support": 3034.9,
-      "llm_target": 3296.0,
-      "macd_hist": -13.2236,
-      "market_cap": 2099.2,
-      "meta_score": 58.3,
-      "mfi": 46.1,
-      "ml": 86,
-      "momentum_score": 73.4,
-      "name": "Grasim Industries",
-      "np_yoy_pct": 43.1,
-      "obv_trend": "Falling",
-      "pb_ratio": 2.0,
-      "pe_ratio": 42.5,
-      "price": "₹3,100",
-      "promoter_pct": 49.8,
+      "llm_support": 16832.0,
+      "llm_target": 19333.1,
+      "macd_hist": -13.348,
+      "market_cap": 1621.2,
+      "meta_score": 62.6,
+      "mfi": 66.0,
+      "ml": 92,
+      "momentum_score": 80.3,
+      "name": "Solar Industries",
+      "np_yoy_pct": 66.5,
+      "obv_trend": "Rising",
+      "pb_ratio": 27.0,
+      "pe_ratio": 101.0,
+      "price": "₹18,696",
+      "promoter_pct": 43.9,
       "quality": "High quality",
-      "r1": "₹3,126",
-      "r2": "₹3,172",
-      "ret_5d": -1.54,
-      "revenue_yoy_pct": 31.9,
-      "risk": 1.7,
-      "roe": 6.3,
-      "rsi": 55.2,
-      "s1": "₹3,053",
-      "screener_action": "WATCH",
-      "screener_conviction": "MEDIUM",
+      "r1": "₹18,041",
+      "r2": "₹18,285",
+      "ret_5d": -2.88,
+      "revenue_yoy_pct": 21.2,
+      "risk": -0.1,
+      "roe": 31.3,
+      "rsi": 61.1,
+      "s1": "₹17,414",
+      "screener_action": "",
+      "screener_conviction": "",
       "screener_rr": "",
       "screener_stage": "",
       "screener_thesis": "",
@@ -2033,33 +1958,136 @@
       "sector": "Basic Materials",
       "shap": [
         {
-          "f": "horizon_imm_rr",
-          "v": -0.4
+          "f": "roce_pct",
+          "v": 0.79
         },
         {
-          "f": "adx_norm",
-          "v": 0.39
+          "f": "nifty_50d_trend_pct",
+          "v": -0.44
         },
         {
-          "f": "macd_sign",
-          "v": -0.21
+          "f": "tt_pct_from_52w_high",
+          "v": 0.38
         }
       ],
       "signal": "MUST BUY",
       "sizing_hint": "Full",
-      "sl": "₹3,007",
-      "sma_200": 2884.5,
-      "sma_50": 3019.4,
-      "stoch_k": 32.6,
-      "t1": "₹3,251",
-      "t2": "₹3,352",
-      "ticker": "GRASIM",
-      "tt_count": 4,
-      "volume": 12841,
-      "week52_high": 3200.0,
-      "week52_low": 2502.5,
-      "williams_r": -67.4,
-      "win": 86
+      "sl": "₹17,516",
+      "sma_200": 15416.6,
+      "sma_50": 17143.0,
+      "stoch_k": 63.1,
+      "t1": "₹20,467",
+      "t2": "₹21,647",
+      "ticker": "SOLARINDS",
+      "tt_count": 0,
+      "volume": 7058,
+      "week52_high": 18874.0,
+      "week52_low": 11646.0,
+      "williams_r": -36.9,
+      "win": 92
+    },
+    {
+      "adjusted_score": 92,
+      "adx": 18.8,
+      "analyst_n": 30,
+      "analyst_rec": "hold",
+      "analyst_target": 1074.2,
+      "avg_volume": 1037075,
+      "bb_position": 0.799,
+      "bear_risks": [
+        "max drawdown -5.2%"
+      ],
+      "beta": 0.4,
+      "bull_drivers": [
+        "roce pct",
+        "tt pct from 52w high"
+      ],
+      "change_abs": -8.68,
+      "change_pct": -0.78,
+      "close": 1112.6,
+      "data_gaps": [
+        [
+          "screener",
+          "Not in screener",
+          "Screener runs at 8:30 AM on trading days"
+        ]
+      ],
+      "date": "2026-06-30",
+      "debt_equity": 42.24,
+      "dividend_yield": 0.09,
+      "entry": "₹1,105–₹1,113",
+      "llm_chart_narrative": "ZYDUSLIFE is exhibiting a constructive consolidation pattern, maintaining support above the ₹1048.9 level while testing the overhead resistance at ₹1126.0. The Ichimoku bullish alignment and recent volume-backed strength suggest a potential breakout toward the ₹1159.8 target, provided the price holds above the cloud base.",
+      "llm_confidence": "",
+      "llm_doc_narrative": "",
+      "llm_dominant_pattern": "Ascending Triangle",
+      "llm_green_flags": [],
+      "llm_pattern_flags": [
+        "bullish-consolidation",
+        "ichimoku-bullish"
+      ],
+      "llm_pre_run_risk": "",
+      "llm_resistance": 1126.0,
+      "llm_risk_flags": [],
+      "llm_support": 1048.9,
+      "llm_target": 1159.8,
+      "macd_hist": -1.7848,
+      "market_cap": 1116.4,
+      "meta_score": 62.6,
+      "mfi": 51.8,
+      "ml": 92,
+      "momentum_score": 62.4,
+      "name": "Zydus Lifesciences",
+      "np_yoy_pct": -38.8,
+      "obv_trend": "Rising",
+      "pb_ratio": 4.4,
+      "pe_ratio": 22.2,
+      "price": "₹1,113",
+      "promoter_pct": 75.8,
+      "quality": "High quality",
+      "r1": "₹1,131",
+      "r2": "₹1,142",
+      "ret_5d": 0.51,
+      "revenue_yoy_pct": -35.7,
+      "risk": -5.2,
+      "roe": 18.3,
+      "rsi": 54.6,
+      "s1": "₹1,105",
+      "screener_action": "",
+      "screener_conviction": "",
+      "screener_rr": "",
+      "screener_stage": "",
+      "screener_thesis": "",
+      "sec": 0,
+      "sector": "Healthcare",
+      "shap": [
+        {
+          "f": "roce_pct",
+          "v": 0.8
+        },
+        {
+          "f": "nifty_50d_trend_pct",
+          "v": -0.46
+        },
+        {
+          "f": "tt_pct_from_52w_high",
+          "v": 0.39
+        }
+      ],
+      "signal": "MUST BUY",
+      "sizing_hint": "Full",
+      "sl": "₹1,079",
+      "sma_200": 965.8,
+      "sma_50": 1027.5,
+      "stoch_k": 88.8,
+      "t1": "₹1,176",
+      "t2": "₹1,218",
+      "ticker": "ZYDUSLIFE",
+      "tt_count": 0,
+      "volume": 34898,
+      "week52_high": 1128.5,
+      "week52_low": 835.5,
+      "williams_r": -11.2,
+      "win": 92
     },
     {
       "adjusted_score": 87,
@@ -2074,12 +2102,19 @@
       ],
       "beta": 0.04,
       "bull_drivers": [
+        "roce pct",
         "adx norm"
       ],
       "change_abs": -109.23,
       "change_pct": -3.16,
       "close": 3456.8,
-      "data_gaps": [],
+      "data_gaps": [
+        [
+          "screener",
+          "Not in screener",
+          "Screener runs at 8:30 AM on trading days"
+        ]
+      ],
       "date": "2026-06-29",
       "debt_equity": 306.09,
       "dividend_yield": 0.34,
@@ -2100,7 +2135,7 @@
       "llm_target": 3710.4,
       "macd_hist": 18.0525,
       "market_cap": 1642.8,
-      "meta_score": 58.5,
+      "meta_score": 61.0,
       "mfi": 53.8,
       "ml": 87,
       "momentum_score": 40.1,
@@ -2120,8 +2155,8 @@
       "roe": 31.6,
       "rsi": 60.2,
       "s1": "₹3,480",
-      "screener_action": "WATCH",
-      "screener_conviction": "MEDIUM",
+      "screener_action": "",
+      "screener_conviction": "",
       "screener_rr": "",
       "screener_stage": "",
       "screener_thesis": "",
@@ -2129,16 +2164,16 @@
       "sector": "Consumer Cyclical",
       "shap": [
         {
-          "f": "horizon_imm_rr",
-          "v": -0.44
+          "f": "roce_pct",
+          "v": 0.77
         },
         {
           "f": "adx_norm",
-          "v": 0.24
+          "v": 0.54
         },
         {
-          "f": "volume_spike",
-          "v": -0.22
+          "f": "nifty_50d_trend_pct",
+          "v": -0.38
         }
       ],
       "signal": "MUST BUY",
@@ -2150,7 +2185,7 @@
       "t1": "₹3,708",
       "t2": "₹3,875",
       "ticker": "TVSMOTOR",
-      "tt_count": 2,
+      "tt_count": 0,
       "volume": 4095832,
       "week52_high": 3970.0,
       "week52_low": 2728.7,
@@ -2158,104 +2193,107 @@
       "win": 87
     },
     {
-      "adjusted_score": 92,
-      "adx": 22.3,
-      "analyst_n": 14,
+      "adjusted_score": 86,
+      "adx": 15.4,
+      "analyst_n": 11,
       "analyst_rec": "none",
-      "analyst_target": 2189.6,
-      "avg_volume": 346326,
-      "bb_position": 1.439,
+      "analyst_target": 3496.7,
+      "avg_volume": 838610,
+      "bb_position": 0.376,
       "bear_risks": [
-        "max drawdown -3.3%"
+        "max drawdown -1.7%"
       ],
-      "beta": 0.5,
+      "beta": 0.33,
       "bull_drivers": [
-        "52-week range position",
+        "roce pct",
         "adx norm"
       ],
-      "change_abs": 128.24,
-      "change_pct": 5.14,
-      "close": 2495.0,
+      "change_abs": 19.84,
+      "change_pct": 0.64,
+      "close": 3100.0,
       "data_gaps": [
         [
-          "llm",
-          "No LLM analysis",
-          "Enriched after BSE filing"
+          "screener",
+          "Not in screener",
+          "Screener runs at 8:30 AM on trading days"
         ]
       ],
       "date": "2026-06-30",
-      "debt_equity": 2.74,
-      "dividend_yield": 0.84,
-      "entry": "₹2,445–₹2,495",
-      "llm_chart_narrative": "",
+      "debt_equity": 134.14,
+      "dividend_yield": 0.32,
+      "entry": "₹3,053–₹3,100",
+      "llm_chart_narrative": "Grasim is currently trading within the Ichimoku cloud range of ₹2946-₹3127, indicating a period of indecisive consolidation. While the Tenkan-Kijun bullish cross suggests underlying strength, the price remains capped by the ₹3200 resistance level, requiring a breakout on increased volume to validate a move toward the ₹3296 target.",
       "llm_confidence": "",
       "llm_doc_narrative": "",
-      "llm_dominant_pattern": "",
+      "llm_dominant_pattern": "Consolidation within Ichimoku Cloud",
       "llm_green_flags": [],
-      "llm_pattern_flags": [],
+      "llm_pattern_flags": [
+        "consolidation",
+        "ichimoku-cloud-bound"
+      ],
       "llm_pre_run_risk": "",
-      "llm_resistance": null,
+      "llm_resistance": 3200.0,
       "llm_risk_flags": [],
-      "llm_support": null,
-      "llm_target": null,
-      "macd_hist": 10.938,
-      "market_cap": 394.2,
-      "meta_score": 56.3,
-      "mfi": 70.3,
-      "ml": 92,
-      "momentum_score": 98.8,
-      "name": "Gland Pharma",
-      "np_yoy_pct": 44.8,
-      "obv_trend": "Rising",
-      "pb_ratio": 4.0,
-      "pe_ratio": 40.1,
-      "price": "₹2,495",
-      "promoter_pct": 51.8,
+      "llm_support": 3034.9,
+      "llm_target": 3296.0,
+      "macd_hist": -13.2236,
+      "market_cap": 2099.2,
+      "meta_score": 60.7,
+      "mfi": 46.1,
+      "ml": 86,
+      "momentum_score": 73.4,
+      "name": "Grasim Industries",
+      "np_yoy_pct": 43.1,
+      "obv_trend": "Falling",
+      "pb_ratio": 2.0,
+      "pe_ratio": 42.5,
+      "price": "₹3,100",
+      "promoter_pct": 49.8,
       "quality": "High quality",
-      "r1": "₹2,403",
-      "r2": "₹2,433",
-      "ret_5d": 3.92,
-      "revenue_yoy_pct": 22.5,
-      "risk": -3.3,
-      "roe": 10.5,
-      "rsi": 74.2,
-      "s1": "₹2,321",
-      "screener_action": "WATCH",
-      "screener_conviction": "MEDIUM",
+      "r1": "₹3,126",
+      "r2": "₹3,172",
+      "ret_5d": -1.54,
+      "revenue_yoy_pct": 31.9,
+      "risk": 1.7,
+      "roe": 6.3,
+      "rsi": 55.2,
+      "s1": "₹3,053",
+      "screener_action": "",
+      "screener_conviction": "",
       "screener_rr": "",
       "screener_stage": "",
       "screener_thesis": "",
       "sec": 0,
-      "sector": "Healthcare",
+      "sector": "Basic Materials",
       "shap": [
         {
-          "f": "tt_52w_position",
-          "v": 0.36
-        },
-        {
-          "f": "horizon_imm_rr",
-          "v": -0.36
+          "f": "roce_pct",
+          "v": 0.88
         },
         {
           "f": "adx_norm",
-          "v": 0.31
+          "v": 0.55
+        },
+        {
+          "f": "nifty_50d_trend_pct",
+          "v": -0.43
         }
       ],
       "signal": "MUST BUY",
       "sizing_hint": "Full",
-      "sl": "₹2,344",
-      "sma_200": 1928.1,
-      "sma_50": 2106.7,
-      "stoch_k": 86.5,
-      "t1": "₹2,721",
-      "t2": "₹2,872",
-      "ticker": "GLAND",
-      "tt_count": 5,
-      "volume": 77232,
-      "week52_high": 2528.3,
-      "week52_low": 1573.6,
-      "williams_r": -13.5,
-      "win": 92
+      "sl": "₹3,007",
+      "sma_200": 2884.5,
+      "sma_50": 3019.4,
+      "stoch_k": 32.6,
+      "t1": "₹3,251",
+      "t2": "₹3,352",
+      "ticker": "GRASIM",
+      "tt_count": 0,
+      "volume": 12841,
+      "week52_high": 3200.0,
+      "week52_low": 2502.5,
+      "williams_r": -67.4,
+      "win": 86
     },
     {
       "adjusted_score": 84,
@@ -2270,13 +2308,18 @@
       ],
       "beta": 0.18,
       "bull_drivers": [
-        "adx norm",
-        "volatility"
+        "roce pct"
       ],
       "change_abs": 3.94,
       "change_pct": 1.08,
       "close": 364.5,
-      "data_gaps": [],
+      "data_gaps": [
+        [
+          "screener",
+          "Not in screener",
+          "Screener runs at 8:30 AM on trading days"
+        ]
+      ],
       "date": "2026-06-30",
       "debt_equity": 98.24,
       "dividend_yield": null,
@@ -2297,7 +2340,7 @@
       "llm_target": 395.9,
       "macd_hist": -0.3281,
       "market_cap": 32.4,
-      "meta_score": 57.7,
+      "meta_score": 60.0,
       "mfi": 78.5,
       "ml": 84,
       "momentum_score": 26.8,
@@ -2317,8 +2360,8 @@
       "roe": -3.7,
       "rsi": 55.7,
       "s1": "₹356",
-      "screener_action": "WATCH",
-      "screener_conviction": "MEDIUM",
+      "screener_action": "",
+      "screener_conviction": "",
       "screener_rr": "",
       "screener_stage": "",
       "screener_thesis": "",
@@ -2326,16 +2369,16 @@
       "sector": "Real Estate",
       "shap": [
         {
-          "f": "horizon_imm_rr",
-          "v": -0.4
+          "f": "roce_pct",
+          "v": 0.9
         },
         {
-          "f": "adx_norm",
-          "v": 0.34
+          "f": "nifty_50d_trend_pct",
+          "v": -0.43
         },
         {
-          "f": "volatility_20d",
-          "v": 0.15
+          "f": "vix_us",
+          "v": -0.33
         }
       ],
       "signal": "STRONG BUY",
@@ -2347,7 +2390,7 @@
       "t1": "₹396",
       "t2": "₹417",
       "ticker": "KOLTEPATIL",
-      "tt_count": 2,
+      "tt_count": 0,
       "volume": 5287,
       "week52_high": 497.6,
       "week52_low": 292.2,
@@ -2355,131 +2398,40 @@
       "win": 84
     },
     {
-      "adjusted_score": 90,
-      "adx": 50.5,
-      "analyst_n": 25,
-      "analyst_rec": "hold",
-      "analyst_target": 301.2,
-      "avg_volume": 6335963,
-      "bb_position": 0.875,
-      "bear_risks": [
-        "max drawdown -3.9%"
-      ],
-      "beta": 0.4,
-      "bull_drivers": [
-        "52-week range position"
-      ],
-      "change_abs": 9.05,
-      "change_pct": 2.91,
-      "close": 310.85,
-      "data_gaps": [],
-      "date": "2026-06-30",
-      "debt_equity": 82.41,
-      "dividend_yield": null,
-      "entry": "₹305–₹311",
-      "llm_chart_narrative": "Nykaa has demonstrated strong momentum, breaking out of its consolidation phase with significant volume spikes on June 18th and 29th. The stock is currently trading well above the support level of ₹257.8 and is testing the resistance at ₹309.8, suggesting a potential move toward the target of ₹319.1.",
-      "llm_confidence": "",
-      "llm_doc_narrative": "",
-      "llm_dominant_pattern": "Ascending Channel Breakout",
-      "llm_green_flags": [],
-      "llm_pattern_flags": [
-        "bullish-momentum",
-        "volume-expansion",
-        "breakout"
-      ],
-      "llm_pre_run_risk": "",
-      "llm_resistance": 309.8,
-      "llm_risk_flags": [],
-      "llm_support": 257.8,
-      "llm_target": 319.1,
-      "macd_hist": 2.4106,
-      "market_cap": 865.7,
-      "meta_score": 55.8,
-      "mfi": 89.5,
-      "ml": 90,
-      "momentum_score": 87.6,
-      "name": "Nykaa (FSN E-Commerce)",
-      "np_yoy_pct": 173.3,
-      "obv_trend": "Rising",
-      "pb_ratio": 62.8,
-      "pe_ratio": 450.5,
-      "price": "₹311",
-      "promoter_pct": 56.1,
-      "quality": "High quality",
-      "r1": "₹307",
-      "r2": "₹311",
-      "ret_5d": -0.08,
-      "revenue_yoy_pct": 14.6,
-      "risk": 3.9,
-      "roe": 14.3,
-      "rsi": 85.4,
-      "s1": "₹299",
-      "screener_action": "WATCH",
-      "screener_conviction": "MEDIUM",
-      "screener_rr": "",
-      "screener_stage": "",
-      "screener_thesis": "",
-      "sec": 0,
-      "sector": "Consumer Cyclical",
-      "shap": [
-        {
-          "f": "tt_52w_position",
-          "v": 0.44
-        },
-        {
-          "f": "horizon_imm_rr",
-          "v": -0.3
-        },
-        {
-          "f": "adx_norm",
-          "v": -0.25
-        }
-      ],
-      "signal": "MUST BUY",
-      "sizing_hint": "Full",
-      "sl": "₹296",
-      "sma_200": 265.7,
-      "sma_50": 274.3,
-      "stoch_k": 86.2,
-      "t1": "₹334",
-      "t2": "₹349",
-      "ticker": "NYKAA",
-      "tt_count": 5,
-      "volume": 236520,
-      "week52_high": 312.9,
-      "week52_low": 197.6,
-      "williams_r": -13.8,
-      "win": 90
-    },
-    {
-      "adjusted_score": 82,
-      "adx": 42.9,
-      "analyst_n": 8,
+      "adjusted_score": 92,
+      "adx": 22.3,
+      "analyst_n": 14,
       "analyst_rec": "none",
-      "analyst_target": 1840.1,
-      "avg_volume": 477422,
-      "bb_position": 0.907,
+      "analyst_target": 2189.6,
+      "avg_volume": 346326,
+      "bb_position": 1.439,
       "bear_risks": [
-        "max drawdown -0.3%"
+        "max drawdown -3.3%"
       ],
-      "beta": 0.43,
+      "beta": 0.5,
       "bull_drivers": [
-        "52-week range position"
+        "roce pct",
+        "tt pct from 52w high"
       ],
-      "change_abs": 35.95,
-      "change_pct": 1.99,
-      "close": 1806.4,
+      "change_abs": 128.24,
+      "change_pct": 5.14,
+      "close": 2495.0,
       "data_gaps": [
         [
           "llm",
           "No LLM analysis",
           "Enriched after BSE filing"
+        ],
+        [
+          "screener",
+          "Not in screener",
+          "Screener runs at 8:30 AM on trading days"
         ]
       ],
       "date": "2026-06-30",
-      "debt_equity": 282.32,
-      "dividend_yield": 1.58,
-      "entry": "₹1,770–₹1,806",
+      "debt_equity": 2.74,
+      "dividend_yield": 0.84,
+      "entry": "₹2,445–₹2,495",
       "llm_chart_narrative": "",
       "llm_confidence": "",
       "llm_doc_narrative": "",
@@ -2491,64 +2443,64 @@
       "llm_risk_flags": [],
       "llm_support": null,
       "llm_target": null,
-      "macd_hist": 8.827,
-      "market_cap": 329.1,
-      "meta_score": 53.5,
-      "mfi": 68.7,
-      "ml": 82,
-      "momentum_score": 98.0,
-      "name": "Nuvama Wealth Management",
-      "np_yoy_pct": -29.6,
+      "macd_hist": 10.938,
+      "market_cap": 394.2,
+      "meta_score": 58.9,
+      "mfi": 70.3,
+      "ml": 92,
+      "momentum_score": 98.8,
+      "name": "Gland Pharma",
+      "np_yoy_pct": 44.8,
       "obv_trend": "Rising",
-      "pb_ratio": 8.0,
-      "pe_ratio": 32.2,
-      "price": "₹1,806",
-      "promoter_pct": 58.9,
-      "quality": "Medium quality",
-      "r1": "₹1,795",
-      "r2": "₹1,819",
-      "ret_5d": 3.52,
-      "revenue_yoy_pct": -21.1,
-      "risk": -0.3,
-      "roe": 27.3,
-      "rsi": 80.9,
-      "s1": "₹1,739",
-      "screener_action": "WATCH",
-      "screener_conviction": "MEDIUM",
+      "pb_ratio": 4.0,
+      "pe_ratio": 40.1,
+      "price": "₹2,495",
+      "promoter_pct": 51.8,
+      "quality": "High quality",
+      "r1": "₹2,403",
+      "r2": "₹2,433",
+      "ret_5d": 3.92,
+      "revenue_yoy_pct": 22.5,
+      "risk": -3.3,
+      "roe": 10.5,
+      "rsi": 74.2,
+      "s1": "₹2,321",
+      "screener_action": "",
+      "screener_conviction": "",
       "screener_rr": "",
       "screener_stage": "",
       "screener_thesis": "",
       "sec": 0,
-      "sector": "Financial Services",
+      "sector": "Healthcare",
       "shap": [
         {
-          "f": "tt_52w_position",
-          "v": 0.44
+          "f": "roce_pct",
+          "v": 0.78
         },
         {
-          "f": "adx_norm",
-          "v": -0.26
+          "f": "nifty_50d_trend_pct",
+          "v": -0.43
         },
         {
-          "f": "horizon_imm_rr",
-          "v": -0.24
+          "f": "tt_pct_from_52w_high",
+          "v": 0.38
         }
       ],
-      "signal": "STRONG BUY",
+      "signal": "MUST BUY",
       "sizing_hint": "Full",
-      "sl": "₹1,707",
-      "sma_200": 1385.6,
-      "sma_50": 1527.3,
-      "stoch_k": 99.2,
-      "t1": "₹1,986",
-      "t2": "₹2,106",
-      "ticker": "NUVAMA",
-      "tt_count": 5,
-      "volume": 84149,
-      "week52_high": 1825.0,
-      "week52_low": 1096.9,
-      "williams_r": -0.8,
-      "win": 82
+      "sl": "₹2,344",
+      "sma_200": 1928.1,
+      "sma_50": 2106.7,
+      "stoch_k": 86.5,
+      "t1": "₹2,721",
+      "t2": "₹2,872",
+      "ticker": "GLAND",
+      "tt_count": 0,
+      "volume": 77232,
+      "week52_high": 2528.3,
+      "week52_low": 1573.6,
+      "williams_r": -13.5,
+      "win": 92
     },
     {
       "adjusted_score": 90,
@@ -2563,7 +2515,8 @@
       ],
       "beta": 0.1,
       "bull_drivers": [
-        "volume spike"
+        "roce pct",
+        "stoch position"
       ],
       "change_abs": 27.14,
       "change_pct": 2.36,
@@ -2596,7 +2549,7 @@
       "llm_target": 1193.8,
       "macd_hist": 12.8841,
       "market_cap": 1119.1,
-      "meta_score": 55.8,
+      "meta_score": 58.2,
       "mfi": 77.4,
       "ml": 90,
       "momentum_score": 77.3,
@@ -2625,16 +2578,16 @@
       "sector": "Healthcare",
       "shap": [
         {
-          "f": "horizon_imm_rr",
-          "v": -0.32
+          "f": "roce_pct",
+          "v": 0.78
         },
         {
-          "f": "adx_norm",
-          "v": -0.19
+          "f": "nifty_50d_trend_pct",
+          "v": -0.44
         },
         {
-          "f": "volume_spike",
-          "v": 0.18
+          "f": "stoch_position",
+          "v": 0.36
         }
       ],
       "signal": "MUST BUY",
@@ -2654,6 +2607,110 @@
       "win": 90
     },
     {
+      "adjusted_score": 90,
+      "adx": 50.5,
+      "analyst_n": 25,
+      "analyst_rec": "hold",
+      "analyst_target": 301.2,
+      "avg_volume": 6335963,
+      "bb_position": 0.875,
+      "bear_risks": [
+        "max drawdown -3.9%"
+      ],
+      "beta": 0.4,
+      "bull_drivers": [
+        "roce pct",
+        "tt pct from 52w high"
+      ],
+      "change_abs": 9.05,
+      "change_pct": 2.91,
+      "close": 310.85,
+      "data_gaps": [
+        [
+          "screener",
+          "Not in screener",
+          "Screener runs at 8:30 AM on trading days"
+        ]
+      ],
+      "date": "2026-06-30",
+      "debt_equity": 82.41,
+      "dividend_yield": null,
+      "entry": "₹305–₹311",
+      "llm_chart_narrative": "Nykaa has demonstrated strong momentum, breaking out of its consolidation phase with significant volume spikes on June 18th and 29th. The stock is currently trading well above the support level of ₹257.8 and is testing the resistance at ₹309.8, suggesting a potential move toward the target of ₹319.1.",
+      "llm_confidence": "",
+      "llm_doc_narrative": "",
+      "llm_dominant_pattern": "Ascending Channel Breakout",
+      "llm_green_flags": [],
+      "llm_pattern_flags": [
+        "bullish-momentum",
+        "volume-expansion",
+        "breakout"
+      ],
+      "llm_pre_run_risk": "",
+      "llm_resistance": 309.8,
+      "llm_risk_flags": [],
+      "llm_support": 257.8,
+      "llm_target": 319.1,
+      "macd_hist": 2.4106,
+      "market_cap": 865.7,
+      "meta_score": 58.2,
+      "mfi": 89.5,
+      "ml": 90,
+      "momentum_score": 87.6,
+      "name": "Nykaa (FSN E-Commerce)",
+      "np_yoy_pct": 173.3,
+      "obv_trend": "Rising",
+      "pb_ratio": 62.8,
+      "pe_ratio": 450.5,
+      "price": "₹311",
+      "promoter_pct": 56.1,
+      "quality": "High quality",
+      "r1": "₹307",
+      "r2": "₹311",
+      "ret_5d": -0.08,
+      "revenue_yoy_pct": 14.6,
+      "risk": 3.9,
+      "roe": 14.3,
+      "rsi": 85.4,
+      "s1": "₹299",
+      "screener_action": "",
+      "screener_conviction": "",
+      "screener_rr": "",
+      "screener_stage": "",
+      "screener_thesis": "",
+      "sec": 0,
+      "sector": "Consumer Cyclical",
+      "shap": [
+        {
+          "f": "roce_pct",
+          "v": 0.79
+        },
+        {
+          "f": "nifty_50d_trend_pct",
+          "v": -0.45
+        },
+        {
+          "f": "tt_pct_from_52w_high",
+          "v": 0.39
+        }
+      ],
+      "signal": "MUST BUY",
+      "sizing_hint": "Full",
+      "sl": "₹296",
+      "sma_200": 265.7,
+      "sma_50": 274.3,
+      "stoch_k": 86.2,
+      "t1": "₹334",
+      "t2": "₹349",
+      "ticker": "NYKAA",
+      "tt_count": 0,
+      "volume": 236520,
+      "week52_high": 312.9,
+      "week52_low": 197.6,
+      "williams_r": -13.8,
+      "win": 90
+    },
+    {
       "adjusted_score": 82,
       "adx": 29.2,
       "analyst_n": 31,
@@ -2666,13 +2723,19 @@
       ],
       "beta": 0.18,
       "bull_drivers": [
-        "adx norm",
-        "52-week range position"
+        "roce pct",
+        "tt pct from 52w high"
       ],
       "change_abs": 26.91,
       "change_pct": 0.31,
       "close": 8682.0,
-      "data_gaps": [],
+      "data_gaps": [
+        [
+          "screener",
+          "Not in screener",
+          "Screener runs at 8:30 AM on trading days"
+        ]
+      ],
       "date": "2026-06-30",
       "debt_equity": 85.15,
       "dividend_yield": 0.23,
@@ -2693,7 +2756,7 @@
       "llm_target": 8996.0,
       "macd_hist": 5.4581,
       "market_cap": 1250.9,
-      "meta_score": 53.5,
+      "meta_score": 55.5,
       "mfi": 66.0,
       "ml": 82,
       "momentum_score": 71.7,
@@ -2713,8 +2776,8 @@
       "roe": 21.5,
       "rsi": 72.1,
       "s1": "₹8,595",
-      "screener_action": "WATCH",
-      "screener_conviction": "MEDIUM",
+      "screener_action": "",
+      "screener_conviction": "",
       "screener_rr": "",
       "screener_stage": "",
       "screener_thesis": "",
@@ -2722,16 +2785,16 @@
       "sector": "Healthcare",
       "shap": [
         {
-          "f": "horizon_imm_rr",
-          "v": -0.35
+          "f": "roce_pct",
+          "v": 0.81
         },
         {
-          "f": "adx_norm",
-          "v": 0.35
+          "f": "nifty_50d_trend_pct",
+          "v": -0.47
         },
         {
-          "f": "tt_52w_position",
-          "v": 0.34
+          "f": "tt_pct_from_52w_high",
+          "v": 0.39
         }
       ],
       "signal": "STRONG BUY",
@@ -2743,11 +2806,116 @@
       "t1": "₹9,036",
       "t2": "₹9,273",
       "ticker": "APOLLOHOSP",
-      "tt_count": 4,
+      "tt_count": 0,
       "volume": 34996,
       "week52_high": 8770.0,
       "week52_low": 6696.5,
       "williams_r": -9.7,
+      "win": 82
+    },
+    {
+      "adjusted_score": 82,
+      "adx": 42.9,
+      "analyst_n": 8,
+      "analyst_rec": "none",
+      "analyst_target": 1840.1,
+      "avg_volume": 477422,
+      "bb_position": 0.907,
+      "bear_risks": [
+        "max drawdown -0.3%"
+      ],
+      "beta": 0.43,
+      "bull_drivers": [
+        "roce pct",
+        "tt pct from 52w high"
+      ],
+      "change_abs": 35.95,
+      "change_pct": 1.99,
+      "close": 1806.4,
+      "data_gaps": [
+        [
+          "llm",
+          "No LLM analysis",
+          "Enriched after BSE filing"
+        ],
+        [
+          "screener",
+          "Not in screener",
+          "Screener runs at 8:30 AM on trading days"
+        ]
+      ],
+      "date": "2026-06-30",
+      "debt_equity": 282.32,
+      "dividend_yield": 1.58,
+      "entry": "₹1,770–₹1,806",
+      "llm_chart_narrative": "",
+      "llm_confidence": "",
+      "llm_doc_narrative": "",
+      "llm_dominant_pattern": "",
+      "llm_green_flags": [],
+      "llm_pattern_flags": [],
+      "llm_pre_run_risk": "",
+      "llm_resistance": null,
+      "llm_risk_flags": [],
+      "llm_support": null,
+      "llm_target": null,
+      "macd_hist": 8.827,
+      "market_cap": 329.1,
+      "meta_score": 55.5,
+      "mfi": 68.7,
+      "ml": 82,
+      "momentum_score": 98.0,
+      "name": "Nuvama Wealth Management",
+      "np_yoy_pct": -29.6,
+      "obv_trend": "Rising",
+      "pb_ratio": 8.0,
+      "pe_ratio": 32.2,
+      "price": "₹1,806",
+      "promoter_pct": 58.9,
+      "quality": "Medium quality",
+      "r1": "₹1,795",
+      "r2": "₹1,819",
+      "ret_5d": 3.52,
+      "revenue_yoy_pct": -21.1,
+      "risk": -0.3,
+      "roe": 27.3,
+      "rsi": 80.9,
+      "s1": "₹1,739",
+      "screener_action": "",
+      "screener_conviction": "",
+      "screener_rr": "",
+      "screener_stage": "",
+      "screener_thesis": "",
+      "sec": 0,
+      "sector": "Financial Services",
+      "shap": [
+        {
+          "f": "roce_pct",
+          "v": 0.78
+        },
+        {
+          "f": "nifty_50d_trend_pct",
+          "v": -0.43
+        },
+        {
+          "f": "tt_pct_from_52w_high",
+          "v": 0.38
+        }
+      ],
+      "signal": "STRONG BUY",
+      "sizing_hint": "Full",
+      "sl": "₹1,707",
+      "sma_200": 1385.6,
+      "sma_50": 1527.3,
+      "stoch_k": 99.2,
+      "t1": "₹1,986",
+      "t2": "₹2,106",
+      "ticker": "NUVAMA",
+      "tt_count": 0,
+      "volume": 84149,
+      "week52_high": 1825.0,
+      "week52_low": 1096.9,
+      "williams_r": -0.8,
       "win": 82
     },
     {
@@ -2763,13 +2931,19 @@
       ],
       "beta": 0.07,
       "bull_drivers": [
-        "52-week range position",
-        "volatility"
+        "roce pct",
+        "tt pct from 52w high"
       ],
       "change_abs": 18.87,
       "change_pct": 2.32,
       "close": 813.25,
-      "data_gaps": [],
+      "data_gaps": [
+        [
+          "screener",
+          "Not in screener",
+          "Screener runs at 8:30 AM on trading days"
+        ]
+      ],
       "date": "2026-06-30",
       "debt_equity": 29.73,
       "dividend_yield": 0.22,
@@ -2790,7 +2964,7 @@
       "llm_target": 842.2,
       "macd_hist": 1.5834,
       "market_cap": 196.8,
-      "meta_score": 51.8,
+      "meta_score": 52.8,
       "mfi": 50.1,
       "ml": 93,
       "momentum_score": 67.9,
@@ -2810,8 +2984,8 @@
       "roe": 13.5,
       "rsi": 65.0,
       "s1": "₹770",
-      "screener_action": "WATCH",
-      "screener_conviction": "MEDIUM",
+      "screener_action": "",
+      "screener_conviction": "",
       "screener_rr": "",
       "screener_stage": "",
       "screener_thesis": "",
@@ -2819,16 +2993,16 @@
       "sector": "Healthcare",
       "shap": [
         {
-          "f": "horizon_imm_rr",
-          "v": -0.37
+          "f": "roce_pct",
+          "v": 0.76
         },
         {
-          "f": "tt_52w_position",
-          "v": 0.33
+          "f": "nifty_50d_trend_pct",
+          "v": -0.43
         },
         {
-          "f": "volatility_20d",
-          "v": 0.29
+          "f": "tt_pct_from_52w_high",
+          "v": 0.38
         }
       ],
       "signal": "MUST BUY",
@@ -2840,7 +3014,7 @@
       "t1": "₹888",
       "t2": "₹938",
       "ticker": "GRANULES",
-      "tt_count": 5,
+      "tt_count": 0,
       "volume": 65800,
       "week52_high": 817.7,
       "week52_low": 432.6,
@@ -2860,13 +3034,19 @@
       ],
       "beta": 0.27,
       "bull_drivers": [
-        "adx norm",
-        "volatility"
+        "roce pct",
+        "adx norm"
       ],
       "change_abs": 5.8,
       "change_pct": 0.15,
       "close": 3865.6,
-      "data_gaps": [],
+      "data_gaps": [
+        [
+          "screener",
+          "Not in screener",
+          "Screener runs at 8:30 AM on trading days"
+        ]
+      ],
       "date": "2026-06-30",
       "debt_equity": 0.0,
       "dividend_yield": 0.26,
@@ -2888,7 +3068,7 @@
       "llm_target": 4346.5,
       "macd_hist": -29.2205,
       "market_cap": 1586.6,
-      "meta_score": 49.2,
+      "meta_score": 50.2,
       "mfi": 39.5,
       "ml": 82,
       "momentum_score": 39.4,
@@ -2908,8 +3088,8 @@
       "roe": 36.0,
       "rsi": 45.4,
       "s1": "₹3,816",
-      "screener_action": "WATCH",
-      "screener_conviction": "MEDIUM",
+      "screener_action": "",
+      "screener_conviction": "",
       "screener_rr": "",
       "screener_stage": "",
       "screener_thesis": "",
@@ -2917,16 +3097,16 @@
       "sector": "Financial Services",
       "shap": [
         {
-          "f": "horizon_imm_rr",
-          "v": -0.4
+          "f": "roce_pct",
+          "v": 0.87
         },
         {
           "f": "adx_norm",
-          "v": 0.37
+          "v": 0.54
         },
         {
-          "f": "volatility_20d",
-          "v": 0.18
+          "f": "nifty_50d_trend_pct",
+          "v": -0.36
         }
       ],
       "signal": "STRONG BUY",
@@ -2938,7 +3118,7 @@
       "t1": "₹4,200",
       "t2": "₹4,422",
       "ticker": "BSE",
-      "tt_count": 4,
+      "tt_count": 0,
       "volume": 267562,
       "week52_high": 4446.8,
       "week52_low": 2021.5,
@@ -5430,7 +5610,7 @@
       "win": 0
     },
     {
-      "adjusted_score": 55,
+      "adjusted_score": 58,
       "adx": 41.0,
       "analyst_n": 37,
       "analyst_rec": "buy",
@@ -6141,28 +6321,27 @@
     }
   ],
   "in_focus_date": "2026-06-30",
-  "in_focus_stale": false,
+  "in_focus_stale": true,
   "model_bar": {
     "brier_n": 550,
-    "brier_score": 0.235,
+    "brier_score": 0.2333,
     "calibrated": true,
-    "calibration": 59,
-    "current_win_rate": 58.8,
-    "cv_roc_auc": 58.8,
-    "delta_2w": -4.2,
-    "delta_today": 4.1,
-    "delta_week": -15.6,
-    "llm_avg_chart_adj": -2.2,
-    "llm_avg_doc_adj": 0.3,
-    "llm_covered": 341,
-    "llm_groq": 55,
+    "calibration": 56,
+    "current_win_rate": 55.7,
+    "cv_roc_auc": 55.7,
+    "delta_2w": -3.2,
+    "delta_today": -3.1,
+    "delta_week": -0.5,
+    "llm_avg_chart_adj": -2.1,
+    "llm_avg_doc_adj": 0.2,
+    "llm_covered": 345,
+    "llm_groq": 58,
     "llm_model": "Groq 70B",
-    "llm_total": 385,
+    "llm_total": 389,
     "n_samples": 660,
-    "precision": 73,
-    "recall": 30,
+    "precision": 87,
+    "recall": 16,
     "trend_14d": [
-      63.0,
       58.9,
       63.2,
       63.2,
@@ -6175,36 +6354,385 @@
       55.6,
       56.1,
       54.7,
-      58.8
+      58.8,
+      55.7
     ]
   },
   "overview": {
-    "banknifty_abs": null,
-    "banknifty_close": null,
-    "banknifty_pct": null,
-    "date": "2026-06-30",
-    "generated_at": "2026-06-30T22:02:52.015667",
-    "india_vix": null,
-    "india_vix_context": null,
-    "india_vix_pct": null,
     "market_headwind": false,
-    "midcap_abs": null,
-    "midcap_close": null,
-    "midcap_pct": null,
-    "nifty_close": null,
-    "nifty_pct": null,
-    "nifty_regime_pct": -0.34,
-    "niftyit_abs": null,
-    "niftyit_close": null,
-    "niftyit_pct": null,
-    "sensex_close": null,
-    "sensex_pct": null,
-    "top_gainer_pct": 5.62,
-    "top_gainer_ticker": "COCHINSHIP.NS",
-    "top_loser_pct": -5.98,
-    "top_loser_ticker": "GENUSPOWER.NS"
+    "nifty_regime_pct": -0.34
   },
   "results": [
+    {
+      "adjusted_score": 58,
+      "adx": 59.8,
+      "analyst_n": null,
+      "analyst_rec": "",
+      "analyst_target": null,
+      "analyzed_at": "2026-06-30T23:01:37.866299",
+      "avg_volume": 2459435,
+      "bb_position": null,
+      "beta": null,
+      "cash_flow_signal": "NOT_APPLICABLE",
+      "change_abs": -2.75,
+      "change_pct": -2.57,
+      "date": "2026-06-30",
+      "debt_equity": null,
+      "dividend_yield": null,
+      "entry": "₹117",
+      "id": 298432,
+      "llm_chart_narrative": "The stock is consolidating above the ₹114.8 support level following a strong recovery from the mid-June lows. With price action holding above the VWAP and Ichimoku cloud, the setup remains constructive, though the proximity to the ₹118.7 resistance suggests a need for volume expansion to reach the ₹121.1 target.",
+      "llm_confidence": "MEDIUM",
+      "llm_doc_narrative": "Lemon Tree Hotels' Q1FY27 results show a moderate composite score of 56/100. While revenue growth was modest at 2.5%, PAT surged 41.5% QoQ. The company's high leverage debt of 96.4x poses a risk, but the recent buyback announcement and promoter buying activity are positive signs.",
+      "llm_dominant_pattern": "Bullish Consolidation",
+      "llm_green_flags": [
+        "buyback-announced",
+        "promoter-buying"
+      ],
+      "llm_pattern_flags": [
+        "bullish-consolidation",
+        "support-retest"
+      ],
+      "llm_pre_run_risk": "LOW",
+      "llm_resistance": 118.7,
+      "llm_risk_flags": [
+        "high-leverage-debt"
+      ],
+      "llm_support": 114.8,
+      "llm_target": 121.1,
+      "macd_hist": -0.8252,
+      "market_cap": null,
+      "mfi": null,
+      "ml": 56,
+      "name": "Lemon Tree Hotels Limited",
+      "obv_trend": null,
+      "pb_ratio": null,
+      "pe_ratio": null,
+      "price": "₹117",
+      "promoter_pct": null,
+      "quality": "Low quality",
+      "quarter": "Q1FY27",
+      "r1": "₹118",
+      "r2": "₹120",
+      "result_ml": 85,
+      "risk": -5.2,
+      "roe": null,
+      "rsi": null,
+      "s1": "₹115",
+      "sector": "Consumer Cyclical",
+      "shap": [
+        {
+          "f": "roce_pct",
+          "v": 0.94
+        },
+        {
+          "f": "nifty_50d_trend_pct",
+          "v": -0.43
+        },
+        {
+          "f": "tt_pct_from_52w_high",
+          "v": -0.27
+        }
+      ],
+      "sig_cls": "badge-watch-buy",
+      "signal": "WATCH & BUY",
+      "sl": null,
+      "sma_200": null,
+      "sma_50": null,
+      "stoch_k": null,
+      "synthesis_ann_types": "",
+      "synthesis_narrative": "",
+      "synthesis_score": null,
+      "t1": null,
+      "t2": null,
+      "ticker": "LEMONTREE",
+      "type": "ORDER",
+      "type_cls": "type-mou",
+      "verdict": "STRONG BUY",
+      "volume": 2919562,
+      "week52_high": null,
+      "week52_low": null,
+      "williams_r": null,
+      "win": 56
+    },
+    {
+      "adjusted_score": 44,
+      "adx": 32.5,
+      "analyst_n": 28,
+      "analyst_rec": "strong_buy",
+      "analyst_target": 436.9,
+      "analyzed_at": "2026-06-30T22:12:24.611446",
+      "avg_volume": 11976743,
+      "bb_position": 0.441,
+      "beta": 0.27,
+      "cash_flow_signal": "NEGATIVE",
+      "change_abs": 0.53,
+      "change_pct": 0.15,
+      "date": "2026-06-30",
+      "debt_equity": 118.13,
+      "dividend_yield": 3.19,
+      "entry": "₹357",
+      "id": 298430,
+      "llm_chart_narrative": "NTPC is in a distribution phase, with a bearish Ichimoku cloud and a bearish cross between Tenkan and Kijun. The stock is trading near the resistance level of ₹358.8, and a breakdown below ₹352.5 could lead to further declines.",
+      "llm_confidence": "MEDIUM",
+      "llm_doc_narrative": "NTPC's Q1FY27 results show a PAT beat driven by revenue growth, but earnings quality is a concern due to weak operating cash flow conversion. The company's high leverage and negative free cash flow also pose risks.",
+      "llm_dominant_pattern": "distribution",
+      "llm_green_flags": [],
+      "llm_pattern_flags": [
+        "distribution",
+        "heavy-prerun"
+      ],
+      "llm_pre_run_risk": "HIGH",
+      "llm_resistance": 358.8,
+      "llm_risk_flags": [
+        "cash-flow-weak"
+      ],
+      "llm_support": 352.5,
+      "llm_target": 361.5,
+      "macd_hist": 0.7884,
+      "market_cap": 3442.8,
+      "mfi": 61.9,
+      "ml": 54,
+      "name": "NTPC Limited",
+      "obv_trend": "Rising",
+      "pb_ratio": 1.7,
+      "pe_ratio": 11.7,
+      "price": "₹357",
+      "promoter_pct": 53.6,
+      "quality": "Low quality",
+      "quarter": "Q1FY27",
+      "r1": "₹358",
+      "r2": "₹360",
+      "result_ml": 64,
+      "risk": 2.7,
+      "roe": 13.7,
+      "rsi": 55.4,
+      "s1": "₹352",
+      "sector": "Utilities",
+      "shap": [
+        {
+          "f": "roce_pct",
+          "v": 0.92
+        },
+        {
+          "f": "nifty_50d_trend_pct",
+          "v": -0.51
+        },
+        {
+          "f": "vix_us",
+          "v": -0.3
+        }
+      ],
+      "sig_cls": "badge-watch-buy",
+      "signal": "WATCH & BUY",
+      "sl": "340.56",
+      "sma_200": 378.1,
+      "sma_50": 380.1,
+      "stoch_k": 36.3,
+      "synthesis_ann_types": "",
+      "synthesis_narrative": "",
+      "synthesis_score": null,
+      "t1": "417.59",
+      "t2": "420.79",
+      "ticker": "NTPC",
+      "type": "Corp.",
+      "type_cls": "type-corp",
+      "verdict": "WATCH & BUY",
+      "volume": 438707,
+      "week52_high": 414.4,
+      "week52_low": 315.6,
+      "williams_r": -63.7,
+      "win": 54
+    },
+    {
+      "adjusted_score": 52,
+      "adx": 60.6,
+      "analyst_n": null,
+      "analyst_rec": "",
+      "analyst_target": null,
+      "analyzed_at": "2026-06-30T22:10:16.256388",
+      "avg_volume": 17637,
+      "bb_position": null,
+      "beta": null,
+      "cash_flow_signal": "NEGATIVE",
+      "change_abs": -21.47,
+      "change_pct": -1.51,
+      "date": "2026-06-30",
+      "debt_equity": null,
+      "dividend_yield": null,
+      "entry": "₹1,666",
+      "id": 298428,
+      "llm_chart_narrative": "RANEHOLDIN is exhibiting strong bullish momentum, trading above the Ichimoku cloud and VWAP, though the MFI at 82 indicates significant overbought conditions. Given the historical pre-run reversal observed on 2026-05-15 and the potential for a -11.21% drawdown, the stock faces elevated risk of a near-term correction despite the current uptrend.",
+      "llm_confidence": "MEDIUM",
+      "llm_doc_narrative": "Rane Holdings Limited's Q1FY27 results show a PAT beat driven by revenue growth, but concerns around high leverage, negative free cash flow, and thin net margins remain. The stock's price above the 50-DMA and bullish MACD are positive signs, but the company's debt servicing risk and earnings quality risk need to be monitored.",
+      "llm_dominant_pattern": "Bullish Trend with Overbought Consolidation",
+      "llm_green_flags": [
+        "price-above-50-DMA",
+        "macd-bullish",
+        "obv-up"
+      ],
+      "llm_pattern_flags": [
+        "bullish-trend",
+        "overbought",
+        "heavy-prerun",
+        "ichimoku-bullish"
+      ],
+      "llm_pre_run_risk": "HIGH",
+      "llm_resistance": 1758.2,
+      "llm_risk_flags": [
+        "high-leverage-D-E",
+        "negative-free-cash-flow",
+        "below-200-EMA",
+        "thin-net-margin"
+      ],
+      "llm_support": 1639.7,
+      "llm_target": 1795.0,
+      "macd_hist": 3.3828,
+      "market_cap": null,
+      "mfi": null,
+      "ml": 55,
+      "name": "Rane Holdings Limited",
+      "obv_trend": null,
+      "pb_ratio": null,
+      "pe_ratio": null,
+      "price": "₹1,666",
+      "promoter_pct": null,
+      "quality": "Low quality",
+      "quarter": "Q1FY27",
+      "r1": "₹1,712",
+      "r2": "₹1,783",
+      "result_ml": 64,
+      "risk": -5.7,
+      "roe": null,
+      "rsi": null,
+      "s1": "₹1,640",
+      "sector": "Consumer Cyclical",
+      "shap": [
+        {
+          "f": "roce_pct",
+          "v": 0.95
+        },
+        {
+          "f": "nifty_50d_trend_pct",
+          "v": -0.44
+        },
+        {
+          "f": "vix_us",
+          "v": -0.28
+        }
+      ],
+      "sig_cls": "badge-watch-buy",
+      "signal": "WATCH & BUY",
+      "sl": null,
+      "sma_200": null,
+      "sma_50": null,
+      "stoch_k": null,
+      "synthesis_ann_types": "",
+      "synthesis_narrative": "",
+      "synthesis_score": null,
+      "t1": null,
+      "t2": null,
+      "ticker": "RANEHOLDIN",
+      "type": "Corp.",
+      "type_cls": "type-corp",
+      "verdict": "WATCH & BUY",
+      "volume": 11281,
+      "week52_high": null,
+      "week52_low": null,
+      "williams_r": null,
+      "win": 55
+    },
+    {
+      "adjusted_score": 28,
+      "adx": null,
+      "analyst_n": null,
+      "analyst_rec": "",
+      "analyst_target": null,
+      "analyzed_at": "2026-06-30T22:09:54.437354",
+      "avg_volume": null,
+      "bb_position": null,
+      "beta": null,
+      "cash_flow_signal": "NEGATIVE",
+      "change_abs": -28.52,
+      "change_pct": -2.03,
+      "date": "2026-06-30",
+      "debt_equity": null,
+      "dividend_yield": null,
+      "entry": "₹1,405",
+      "id": 298427,
+      "llm_chart_narrative": "TECHM is currently trading below the Ichimoku cloud and VWAP, indicating a bearish trend with price struggling to reclaim the pivot point of ₹1439. Given the XGBoost worst-case drawdown prediction of -11.21% and the bearish Tenkan-Kijun cross, the stock remains vulnerable to further downside pressure toward the ₹1344 support level.",
+      "llm_confidence": "HIGH",
+      "llm_doc_narrative": "Despite a headline PAT beat, the company's high debt-to-equity ratio of 7.27x poses significant solvency risks in a high-interest environment. The technical structure remains bearish with the stock trading below both 50-DMA and 200-DMA, suggesting that earnings quality is insufficient to offset the underlying structural weakness.",
+      "llm_dominant_pattern": "Bearish Consolidation",
+      "llm_green_flags": [],
+      "llm_pattern_flags": [
+        "bearish-cloud-breakdown",
+        "distribution",
+        "weak-momentum"
+      ],
+      "llm_pre_run_risk": "HIGH",
+      "llm_resistance": 1448.9,
+      "llm_risk_flags": [
+        "debt-increase",
+        "margin-compression"
+      ],
+      "llm_support": 1344.0,
+      "llm_target": 1464.1,
+      "macd_hist": -4.4886,
+      "market_cap": null,
+      "mfi": null,
+      "ml": 48,
+      "name": "Tech Mahindra Limited",
+      "obv_trend": null,
+      "pb_ratio": 4.2,
+      "pe_ratio": 25.9,
+      "price": "₹1,405",
+      "promoter_pct": 37.0,
+      "quality": "Low quality",
+      "quarter": "Q1FY27",
+      "r1": "₹1,427",
+      "r2": "₹1,456",
+      "result_ml": 64,
+      "risk": -45.2,
+      "roe": null,
+      "rsi": 37.2,
+      "s1": "₹1,424",
+      "sector": "Technology",
+      "shap": [
+        {
+          "f": "roce_pct",
+          "v": 0.9
+        },
+        {
+          "f": "adx_norm",
+          "v": 0.58
+        },
+        {
+          "f": "nifty_50d_trend_pct",
+          "v": -0.42
+        }
+      ],
+      "sig_cls": "badge-hold",
+      "signal": "HOLD",
+      "sl": null,
+      "sma_200": null,
+      "sma_50": null,
+      "stoch_k": null,
+      "synthesis_ann_types": "",
+      "synthesis_narrative": "",
+      "synthesis_score": null,
+      "t1": null,
+      "t2": null,
+      "ticker": "TECHM",
+      "type": "QR",
+      "type_cls": "type-q",
+      "verdict": "WATCH & BUY",
+      "volume": null,
+      "week52_high": 1854.0,
+      "week52_low": 1304.1,
+      "williams_r": null,
+      "win": 48
+    },
     {
       "adjusted_score": 58,
       "adx": 59.7,
@@ -6262,16 +6790,16 @@
       "sector": "Consumer Cyclical",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": -0.52
+          "f": "roce_pct",
+          "v": 0.95
         },
         {
-          "f": "horizon_imm_rr",
-          "v": -0.33
+          "f": "nifty_50d_trend_pct",
+          "v": -0.44
         },
         {
-          "f": "volatility_20d",
-          "v": -0.31
+          "f": "vix_us",
+          "v": -0.28
         }
       ],
       "sig_cls": "badge-watch-buy",
@@ -6351,15 +6879,15 @@
       "sector": "Industrials",
       "shap": [
         {
-          "f": "horizon_imm_rr",
-          "v": -0.32
+          "f": "roce_pct",
+          "v": 0.94
         },
         {
-          "f": "adx_norm",
-          "v": -0.3
+          "f": "nifty_50d_trend_pct",
+          "v": -0.44
         },
         {
-          "f": "volatility_20d",
+          "f": "vix_us",
           "v": -0.27
         }
       ],
@@ -6442,16 +6970,16 @@
       "sector": "Industrials",
       "shap": [
         {
-          "f": "horizon_imm_rr",
-          "v": -0.33
+          "f": "roce_pct",
+          "v": 0.93
         },
         {
-          "f": "volatility_20d",
-          "v": -0.33
+          "f": "nifty_50d_trend_pct",
+          "v": -0.4
         },
         {
-          "f": "adx_norm",
-          "v": -0.3
+          "f": "tt_pct_from_52w_high",
+          "v": -0.27
         }
       ],
       "sig_cls": "badge-watch-buy",
@@ -6533,16 +7061,16 @@
       "sector": "Consumer Defensive",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": -0.69
+          "f": "roce_pct",
+          "v": 0.94
         },
         {
-          "f": "horizon_imm_rr",
-          "v": -0.27
+          "f": "nifty_50d_trend_pct",
+          "v": -0.44
         },
         {
-          "f": "volatility_20d",
-          "v": -0.24
+          "f": "vix_us",
+          "v": -0.28
         }
       ],
       "sig_cls": "badge-buy",
@@ -6626,16 +7154,16 @@
       "sector": "Healthcare",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": -0.82
+          "f": "roce_pct",
+          "v": 0.95
         },
         {
-          "f": "horizon_imm_rr",
-          "v": -0.27
+          "f": "nifty_50d_trend_pct",
+          "v": -0.44
         },
         {
-          "f": "volatility_20d",
-          "v": -0.24
+          "f": "vix_us",
+          "v": -0.29
         }
       ],
       "sig_cls": "badge-buy",
@@ -6716,16 +7244,16 @@
       "sector": "Healthcare",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": -0.83
+          "f": "roce_pct",
+          "v": 0.95
         },
         {
-          "f": "horizon_imm_rr",
-          "v": -0.27
+          "f": "nifty_50d_trend_pct",
+          "v": -0.44
         },
         {
-          "f": "volatility_20d",
-          "v": -0.24
+          "f": "vix_us",
+          "v": -0.29
         }
       ],
       "sig_cls": "badge-buy",
@@ -6808,16 +7336,16 @@
       "sector": "Industrials",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": -0.32
+          "f": "roce_pct",
+          "v": 0.81
         },
         {
-          "f": "pre_run_risk_encoded",
-          "v": -0.16
+          "f": "nifty_50d_trend_pct",
+          "v": -0.48
         },
         {
-          "f": "pre10_return_pct",
-          "v": 0.16
+          "f": "tt_pct_from_52w_high",
+          "v": 0.38
         }
       ],
       "sig_cls": "badge-buy",
@@ -6900,16 +7428,16 @@
       "sector": "Financial Services",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": -0.83
+          "f": "roce_pct",
+          "v": 0.95
         },
         {
-          "f": "horizon_imm_rr",
-          "v": -0.27
+          "f": "nifty_50d_trend_pct",
+          "v": -0.44
         },
         {
-          "f": "volatility_20d",
-          "v": -0.24
+          "f": "vix_us",
+          "v": -0.29
         }
       ],
       "sig_cls": "badge-hold",
@@ -6992,16 +7520,16 @@
       "sector": "Industrials",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": -0.36
+          "f": "roce_pct",
+          "v": 0.95
         },
         {
-          "f": "horizon_imm_rr",
-          "v": -0.33
+          "f": "nifty_50d_trend_pct",
+          "v": -0.44
         },
         {
-          "f": "volatility_20d",
-          "v": -0.32
+          "f": "vix_us",
+          "v": -0.28
         }
       ],
       "sig_cls": "badge-buy",
@@ -7084,16 +7612,16 @@
       "sector": "Industrials",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": -0.82
+          "f": "roce_pct",
+          "v": 0.95
         },
         {
-          "f": "horizon_imm_rr",
-          "v": -0.27
+          "f": "nifty_50d_trend_pct",
+          "v": -0.44
         },
         {
-          "f": "volatility_20d",
-          "v": -0.24
+          "f": "vix_us",
+          "v": -0.29
         }
       ],
       "sig_cls": "badge-watch-buy",
@@ -7174,16 +7702,16 @@
       "sector": "Industrials",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": -0.41
+          "f": "roce_pct",
+          "v": 0.93
         },
         {
-          "f": "horizon_imm_rr",
-          "v": -0.32
+          "f": "nifty_50d_trend_pct",
+          "v": -0.43
         },
         {
-          "f": "volatility_20d",
-          "v": -0.25
+          "f": "vix_us",
+          "v": -0.27
         }
       ],
       "sig_cls": "badge-watch-buy",
@@ -7263,16 +7791,16 @@
       "sector": "Technology",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": -0.82
+          "f": "roce_pct",
+          "v": 0.95
         },
         {
-          "f": "volatility_20d",
-          "v": -0.3
+          "f": "nifty_50d_trend_pct",
+          "v": -0.44
         },
         {
-          "f": "horizon_imm_rr",
-          "v": -0.27
+          "f": "vix_us",
+          "v": -0.29
         }
       ],
       "sig_cls": "badge-watch-buy",
@@ -7357,16 +7885,16 @@
       "sector": "Industrials",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": -0.51
+          "f": "roce_pct",
+          "v": 0.95
         },
         {
-          "f": "horizon_imm_rr",
-          "v": -0.32
+          "f": "nifty_50d_trend_pct",
+          "v": -0.44
         },
         {
-          "f": "volatility_20d",
-          "v": -0.25
+          "f": "vix_us",
+          "v": -0.28
         }
       ],
       "sig_cls": "badge-buy",
@@ -7447,16 +7975,16 @@
       "sector": "Industrials",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": -0.58
+          "f": "roce_pct",
+          "v": 0.95
         },
         {
-          "f": "volatility_20d",
-          "v": -0.32
+          "f": "nifty_50d_trend_pct",
+          "v": -0.43
         },
         {
-          "f": "horizon_imm_rr",
-          "v": -0.31
+          "f": "vix_us",
+          "v": -0.28
         }
       ],
       "sig_cls": "badge-buy",
@@ -7538,16 +8066,16 @@
       "sector": "Technology",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": -0.39
+          "f": "roce_pct",
+          "v": 0.95
         },
         {
-          "f": "volatility_20d",
-          "v": -0.32
+          "f": "nifty_50d_trend_pct",
+          "v": -0.44
         },
         {
-          "f": "horizon_imm_rr",
-          "v": -0.31
+          "f": "vix_us",
+          "v": -0.28
         }
       ],
       "sig_cls": "badge-hold",
@@ -7627,16 +8155,16 @@
       "sector": "Energy",
       "shap": [
         {
-          "f": "adx_norm",
+          "f": "roce_pct",
+          "v": 0.93
+        },
+        {
+          "f": "nifty_50d_trend_pct",
           "v": -0.43
         },
         {
-          "f": "horizon_imm_rr",
-          "v": -0.33
-        },
-        {
-          "f": "volatility_20d",
-          "v": -0.32
+          "f": "vix_us",
+          "v": -0.27
         }
       ],
       "sig_cls": "badge-watch-buy",
@@ -7717,16 +8245,16 @@
       "sector": "Technology",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": -0.42
+          "f": "roce_pct",
+          "v": 0.94
         },
         {
-          "f": "volatility_20d",
-          "v": -0.33
+          "f": "nifty_50d_trend_pct",
+          "v": -0.43
         },
         {
-          "f": "horizon_imm_rr",
-          "v": -0.31
+          "f": "vix_us",
+          "v": -0.28
         }
       ],
       "sig_cls": "badge-watch-buy",
@@ -7808,15 +8336,15 @@
       "sector": "Industrials",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": -0.68
+          "f": "roce_pct",
+          "v": 0.95
         },
         {
-          "f": "volatility_20d",
-          "v": -0.31
+          "f": "nifty_50d_trend_pct",
+          "v": -0.44
         },
         {
-          "f": "horizon_imm_rr",
+          "f": "vix_us",
           "v": -0.29
         }
       ],
@@ -7897,16 +8425,16 @@
       "sector": "Technology",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": -0.43
+          "f": "roce_pct",
+          "v": 0.94
         },
         {
-          "f": "volatility_20d",
-          "v": -0.33
+          "f": "nifty_50d_trend_pct",
+          "v": -0.4
         },
         {
-          "f": "horizon_imm_rr",
-          "v": -0.31
+          "f": "tt_pct_from_52w_high",
+          "v": -0.27
         }
       ],
       "sig_cls": "badge-watch-buy",
@@ -7988,16 +8516,16 @@
       "sector": "Real Estate",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": 0.36
+          "f": "roce_pct",
+          "v": 0.82
         },
         {
-          "f": "pre_run_risk_encoded",
-          "v": -0.2
+          "f": "nifty_50d_trend_pct",
+          "v": -0.39
         },
         {
-          "f": "pre10_return_pct",
-          "v": 0.18
+          "f": "stoch_position",
+          "v": 0.26
         }
       ],
       "sig_cls": "badge-buy",
@@ -8079,16 +8607,16 @@
       "sector": "Consumer Defensive",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": -0.48
+          "f": "roce_pct",
+          "v": 0.86
         },
         {
-          "f": "volatility_20d",
-          "v": -0.29
+          "f": "tt_52w_position",
+          "v": 0.41
         },
         {
-          "f": "pre10_return_pct",
-          "v": 0.17
+          "f": "nifty_50d_trend_pct",
+          "v": -0.41
         }
       ],
       "sig_cls": "badge-watch-buy",
@@ -8113,16 +8641,16 @@
       "win": 56
     },
     {
-      "adjusted_score": 56,
+      "adjusted_score": 55,
       "adx": 22.0,
       "analyst_n": 7,
       "analyst_rec": "none",
       "analyst_target": 712.9,
-      "analyzed_at": "2026-06-30T21:49:28.996913",
+      "analyzed_at": "2026-06-30T23:01:18.962783",
       "avg_volume": 3152340,
       "bb_position": 0.368,
       "beta": 0.57,
-      "cash_flow_signal": "NEGATIVE",
+      "cash_flow_signal": "NEUTRAL",
       "change_abs": 3.3,
       "change_pct": 0.7,
       "date": "2026-06-30",
@@ -8130,18 +8658,22 @@
       "dividend_yield": 1.28,
       "entry": "₹472",
       "id": 292814,
-      "llm_chart_narrative": "The stock is in a distribution phase, with a clear resistance level at ₹475.6 and support at ₹462.9. The pre-run risk is LOW, indicating a relatively stable market.",
+      "llm_chart_narrative": "NEWGEN is currently trading in a consolidation phase below the Ichimoku cloud and the VWAP of ₹500, indicating persistent bearish pressure. With the price hovering near the pivot resistance of ₹475.6 and an XGBoost predicted drawdown of -11.21%, the stock remains vulnerable to further downside testing the ₹462.9 support level.",
       "llm_confidence": "MEDIUM",
-      "llm_doc_narrative": "Newgen Software Technologies Limited's Q1FY27 results show a moderate composite score of 59/100, with revenue growth of 13.2% QoQ and PAT growth of 68.3%. However, the company's cash flow quality is a concern, with operating cash flow at 55.6% of PAT, indicating a weak cash conversion.",
-      "llm_dominant_pattern": "distribution",
-      "llm_green_flags": [],
-      "llm_pattern_flags": [
-        "distribution"
+      "llm_doc_narrative": "Newgen Software Technologies Limited's Q1FY27 results show a moderate composite score of 59/100. While revenue and PAT have increased, the company's debt-to-equity ratio has increased to 2.21, indicating a potential debt servicing risk. However, the improving working capital is a positive sign.",
+      "llm_dominant_pattern": "Consolidation within a downtrend",
+      "llm_green_flags": [
+        "improving-working-capital"
       ],
-      "llm_pre_run_risk": "LOW",
+      "llm_pattern_flags": [
+        "distribution",
+        "bearish-ichimoku-cross",
+        "below-vwap"
+      ],
+      "llm_pre_run_risk": "MEDIUM",
       "llm_resistance": 475.6,
       "llm_risk_flags": [
-        "cash-flow-weak"
+        "debt-increase"
       ],
       "llm_support": 462.9,
       "llm_target": 482.9,
@@ -8167,16 +8699,16 @@
       "sector": "Technology",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": 0.42
+          "f": "roce_pct",
+          "v": 0.92
         },
         {
-          "f": "volatility_20d",
-          "v": 0.3
+          "f": "vix_us",
+          "v": -0.31
         },
         {
-          "f": "pre10_return_pct",
-          "v": 0.21
+          "f": "nifty_50d_trend_pct",
+          "v": -0.28
         }
       ],
       "sig_cls": "badge-watch-buy",
@@ -8257,16 +8789,16 @@
       "sector": "Industrials",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": -0.76
+          "f": "roce_pct",
+          "v": 0.95
         },
         {
-          "f": "horizon_imm_rr",
-          "v": -0.28
+          "f": "nifty_50d_trend_pct",
+          "v": -0.44
         },
         {
-          "f": "volatility_20d",
-          "v": -0.23
+          "f": "vix_us",
+          "v": -0.29
         }
       ],
       "sig_cls": "badge-watch-buy",
@@ -8348,16 +8880,16 @@
       "sector": "Industrials",
       "shap": [
         {
+          "f": "roce_pct",
+          "v": 0.91
+        },
+        {
           "f": "adx_norm",
-          "v": 0.42
+          "v": 0.56
         },
         {
-          "f": "horizon_imm_rr",
-          "v": -0.38
-        },
-        {
-          "f": "volatility_20d",
-          "v": -0.29
+          "f": "nifty_50d_trend_pct",
+          "v": -0.35
         }
       ],
       "sig_cls": "badge-hold",
@@ -8440,16 +8972,16 @@
       "sector": "",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": -0.92
+          "f": "roce_pct",
+          "v": 0.95
         },
         {
-          "f": "volatility_20d",
-          "v": -0.3
+          "f": "nifty_50d_trend_pct",
+          "v": -0.44
         },
         {
-          "f": "horizon_imm_rr",
-          "v": -0.27
+          "f": "vix_us",
+          "v": -0.29
         }
       ],
       "sig_cls": "badge-hold",
@@ -8530,16 +9062,16 @@
       "sector": "",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": -0.61
+          "f": "roce_pct",
+          "v": 0.94
         },
         {
-          "f": "horizon_imm_rr",
-          "v": -0.29
+          "f": "nifty_50d_trend_pct",
+          "v": -0.43
         },
         {
-          "f": "volatility_20d",
-          "v": -0.25
+          "f": "vix_us",
+          "v": -0.28
         }
       ],
       "sig_cls": "badge-watch-buy",
@@ -8621,16 +9153,16 @@
       "sector": "Technology",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": -0.33
+          "f": "roce_pct",
+          "v": 0.94
         },
         {
-          "f": "horizon_imm_rr",
-          "v": -0.32
+          "f": "nifty_50d_trend_pct",
+          "v": -0.44
         },
         {
-          "f": "volatility_20d",
-          "v": -0.26
+          "f": "vix_us",
+          "v": -0.28
         }
       ],
       "sig_cls": "badge-watch-buy",
@@ -8711,16 +9243,16 @@
       "sector": "Industrials",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": -0.36
+          "f": "roce_pct",
+          "v": 0.87
         },
         {
-          "f": "pre_run_risk_encoded",
-          "v": -0.17
+          "f": "nifty_50d_trend_pct",
+          "v": -0.45
         },
         {
-          "f": "volatility_20d",
-          "v": 0.17
+          "f": "vix_us",
+          "v": -0.28
         }
       ],
       "sig_cls": "badge-hold",
@@ -8802,16 +9334,16 @@
       "sector": "",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": -0.9
+          "f": "roce_pct",
+          "v": 0.95
         },
         {
-          "f": "horizon_imm_rr",
-          "v": -0.26
+          "f": "nifty_50d_trend_pct",
+          "v": -0.44
         },
         {
-          "f": "volatility_20d",
-          "v": -0.24
+          "f": "vix_us",
+          "v": -0.29
         }
       ],
       "sig_cls": "badge-watch-buy",
@@ -8892,16 +9424,16 @@
       "sector": "",
       "shap": [
         {
-          "f": "adx_norm",
+          "f": "roce_pct",
+          "v": 0.93
+        },
+        {
+          "f": "nifty_50d_trend_pct",
           "v": -0.43
         },
         {
-          "f": "horizon_imm_rr",
-          "v": -0.33
-        },
-        {
-          "f": "volatility_20d",
-          "v": -0.32
+          "f": "vix_us",
+          "v": -0.27
         }
       ],
       "sig_cls": "badge-hold",
@@ -8982,16 +9514,16 @@
       "sector": "Consumer Cyclical",
       "shap": [
         {
+          "f": "roce_pct",
+          "v": 0.85
+        },
+        {
           "f": "adx_norm",
-          "v": 0.48
+          "v": 0.55
         },
         {
-          "f": "volatility_20d",
-          "v": -0.38
-        },
-        {
-          "f": "macd_sign",
-          "v": -0.25
+          "f": "nifty_50d_trend_pct",
+          "v": -0.45
         }
       ],
       "sig_cls": "badge-watch-buy",
@@ -9073,15 +9605,15 @@
       "sector": "Consumer Cyclical",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": -0.7
+          "f": "roce_pct",
+          "v": 0.95
         },
         {
-          "f": "volatility_20d",
-          "v": -0.3
+          "f": "nifty_50d_trend_pct",
+          "v": -0.45
         },
         {
-          "f": "horizon_imm_rr",
+          "f": "vix_us",
           "v": -0.28
         }
       ],
@@ -9165,16 +9697,16 @@
       "sector": "Real Estate",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": 0.39
+          "f": "roce_pct",
+          "v": 0.79
         },
         {
-          "f": "pre_run_risk_encoded",
-          "v": -0.2
+          "f": "nifty_50d_trend_pct",
+          "v": -0.42
         },
         {
-          "f": "pre10_return_pct",
-          "v": 0.18
+          "f": "tt_pct_from_52w_high",
+          "v": 0.36
         }
       ],
       "sig_cls": "badge-buy",
@@ -9255,16 +9787,16 @@
       "sector": "Technology",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": 0.4
+          "f": "roce_pct",
+          "v": 0.88
         },
         {
-          "f": "macd_sign",
-          "v": -0.16
+          "f": "nifty_50d_trend_pct",
+          "v": -0.32
         },
         {
-          "f": "pre10_return_pct",
-          "v": 0.14
+          "f": "bb_position",
+          "v": 0.31
         }
       ],
       "sig_cls": "badge-watch-buy",
@@ -9345,16 +9877,16 @@
       "sector": "",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": -0.91
+          "f": "roce_pct",
+          "v": 0.95
         },
         {
-          "f": "volatility_20d",
-          "v": -0.3
+          "f": "nifty_50d_trend_pct",
+          "v": -0.44
         },
         {
-          "f": "horizon_imm_rr",
-          "v": -0.27
+          "f": "vix_us",
+          "v": -0.29
         }
       ],
       "sig_cls": "badge-watch-buy",
@@ -9436,16 +9968,16 @@
       "sector": "Technology",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": 0.46
+          "f": "roce_pct",
+          "v": 0.89
         },
         {
-          "f": "macd_sign",
-          "v": -0.17
+          "f": "tt_52w_position",
+          "v": -0.29
         },
         {
-          "f": "horizon_alignment",
-          "v": -0.13
+          "f": "horizon_imm_rr",
+          "v": 0.27
         }
       ],
       "sig_cls": "badge-watch-buy",
@@ -9526,16 +10058,16 @@
       "sector": "",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": -0.59
+          "f": "roce_pct",
+          "v": 0.95
         },
         {
-          "f": "volatility_20d",
-          "v": -0.32
+          "f": "nifty_50d_trend_pct",
+          "v": -0.45
         },
         {
-          "f": "horizon_imm_rr",
-          "v": -0.31
+          "f": "vix_us",
+          "v": -0.28
         }
       ],
       "sig_cls": "badge-buy",
@@ -9616,16 +10148,16 @@
       "sector": "Energy",
       "shap": [
         {
-          "f": "horizon_imm_rr",
-          "v": 0.57
+          "f": "roce_pct",
+          "v": 0.91
         },
         {
-          "f": "adx_norm",
-          "v": 0.4
+          "f": "nifty_50d_trend_pct",
+          "v": -0.51
         },
         {
-          "f": "pre10_return_pct",
-          "v": 0.24
+          "f": "vix_us",
+          "v": -0.31
         }
       ],
       "sig_cls": "badge-watch-buy",
@@ -9706,16 +10238,16 @@
       "sector": "",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": -0.4
+          "f": "roce_pct",
+          "v": 0.95
         },
         {
-          "f": "volatility_20d",
-          "v": -0.33
+          "f": "nifty_50d_trend_pct",
+          "v": -0.43
         },
         {
-          "f": "horizon_imm_rr",
-          "v": -0.31
+          "f": "vix_us",
+          "v": -0.28
         }
       ],
       "sig_cls": "badge-watch-buy",
@@ -9797,16 +10329,16 @@
       "sector": "Basic Materials",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": -0.41
+          "f": "roce_pct",
+          "v": 0.94
         },
         {
-          "f": "volatility_20d",
-          "v": -0.33
+          "f": "nifty_50d_trend_pct",
+          "v": -0.39
         },
         {
-          "f": "horizon_imm_rr",
-          "v": -0.32
+          "f": "tt_pct_from_52w_high",
+          "v": -0.27
         }
       ],
       "sig_cls": "badge-hold",
@@ -9887,16 +10419,16 @@
       "sector": "",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": -0.83
+          "f": "roce_pct",
+          "v": 0.95
         },
         {
-          "f": "volatility_20d",
-          "v": -0.3
+          "f": "nifty_50d_trend_pct",
+          "v": -0.44
         },
         {
-          "f": "horizon_imm_rr",
-          "v": -0.27
+          "f": "vix_us",
+          "v": -0.29
         }
       ],
       "sig_cls": "badge-watch-buy",
@@ -9980,16 +10512,16 @@
       "sector": "",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": -0.36
+          "f": "roce_pct",
+          "v": 0.94
         },
         {
-          "f": "horizon_imm_rr",
-          "v": -0.33
+          "f": "nifty_50d_trend_pct",
+          "v": -0.4
         },
         {
-          "f": "volatility_20d",
-          "v": -0.33
+          "f": "tt_pct_from_52w_high",
+          "v": -0.27
         }
       ],
       "sig_cls": "badge-buy",
@@ -10071,16 +10603,16 @@
       "sector": "Financial Services",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": 0.44
+          "f": "roce_pct",
+          "v": 0.79
         },
         {
-          "f": "volatility_20d",
-          "v": 0.28
+          "f": "nifty_50d_trend_pct",
+          "v": -0.45
         },
         {
-          "f": "pre10_return_pct",
-          "v": 0.2
+          "f": "tt_pct_from_52w_high",
+          "v": 0.4
         }
       ],
       "sig_cls": "badge-buy",
@@ -10158,16 +10690,16 @@
       "sector": "Utilities",
       "shap": [
         {
-          "f": "adx_norm",
-          "v": 0.36
+          "f": "roce_pct",
+          "v": 0.86
         },
         {
-          "f": "horizon_alignment",
-          "v": -0.14
+          "f": "nifty_50d_trend_pct",
+          "v": -0.47
         },
         {
-          "f": "pre10_return_pct",
-          "v": 0.12
+          "f": "tt_pct_from_52w_high",
+          "v": 0.37
         }
       ],
       "sig_cls": "badge-watch-buy",
@@ -10247,16 +10779,16 @@
       "sector": "Consumer Cyclical",
       "shap": [
         {
+          "f": "roce_pct",
+          "v": 0.86
+        },
+        {
           "f": "adx_norm",
-          "v": 0.47
+          "v": 0.54
         },
         {
-          "f": "macd_sign",
-          "v": -0.17
-        },
-        {
-          "f": "horizon_alignment",
-          "v": -0.15
+          "f": "nifty_50d_trend_pct",
+          "v": -0.38
         }
       ],
       "sig_cls": "badge-hold",
@@ -10331,16 +10863,16 @@
       "sector": "",
       "shap": [
         {
-          "f": "horizon_imm_rr",
-          "v": -0.33
+          "f": "roce_pct",
+          "v": 0.93
         },
         {
-          "f": "volatility_20d",
-          "v": -0.33
+          "f": "nifty_50d_trend_pct",
+          "v": -0.43
         },
         {
-          "f": "adx_norm",
-          "v": -0.3
+          "f": "vix_us",
+          "v": -0.27
         }
       ],
       "sig_cls": "badge-sell",
@@ -10363,361 +10895,6 @@
       "week52_low": null,
       "williams_r": null,
       "win": 35
-    },
-    {
-      "adjusted_score": 57,
-      "adx": 51.9,
-      "analyst_n": null,
-      "analyst_rec": "",
-      "analyst_target": null,
-      "analyzed_at": "2026-06-30T22:02:21.637661",
-      "avg_volume": 3031032,
-      "bb_position": null,
-      "beta": null,
-      "cash_flow_signal": "NOT_APPLICABLE",
-      "change_abs": -1.31,
-      "change_pct": -1.27,
-      "date": "2026-06-27",
-      "debt_equity": null,
-      "dividend_yield": null,
-      "entry": "₹110",
-      "id": 1563,
-      "llm_chart_narrative": "The stock is currently trading in a consolidation phase between the ₹100.3 support and ₹114.9 resistance levels after failing to sustain the mid-May breakout. Given the significant XGBoost downside risk and the price remaining below the Ichimoku cloud, the technical outlook remains cautious with a bias toward range-bound volatility.",
-      "llm_confidence": "HIGH",
-      "llm_doc_narrative": "The order win of Rs. 6.28 crores from Western Railway is a routine operational development that provides minor revenue visibility but is immaterial relative to the company's overall scale. As this is a small-ticket contract for specialized infrastructure protection, it does not materially alter the company's earnings quality or cash flow profile.",
-      "llm_dominant_pattern": "Consolidation within a range",
-      "llm_green_flags": [
-        "new-order-win"
-      ],
-      "llm_pattern_flags": [
-        "range-bound",
-        "ichimoku-bearish"
-      ],
-      "llm_pre_run_risk": "HIGH",
-      "llm_resistance": 114.9,
-      "llm_risk_flags": [],
-      "llm_support": 100.3,
-      "llm_target": 118.3,
-      "macd_hist": -0.528,
-      "market_cap": null,
-      "mfi": null,
-      "ml": 59,
-      "name": "Texmaco Rail & Engineering Limited",
-      "obv_trend": null,
-      "pb_ratio": null,
-      "pe_ratio": null,
-      "price": "₹110",
-      "promoter_pct": null,
-      "quality": "Low quality",
-      "quarter": "Q1FY27",
-      "r1": null,
-      "r2": null,
-      "result_ml": 64,
-      "risk": -7.0,
-      "roe": null,
-      "rsi": null,
-      "s1": null,
-      "sector": "",
-      "shap": [
-        {
-          "f": "adx_norm",
-          "v": -0.36
-        },
-        {
-          "f": "volatility_20d",
-          "v": -0.32
-        },
-        {
-          "f": "horizon_imm_rr",
-          "v": -0.32
-        }
-      ],
-      "sig_cls": "badge-watch-buy",
-      "signal": "WATCH & BUY",
-      "sl": "₹74",
-      "sma_200": null,
-      "sma_50": null,
-      "stoch_k": null,
-      "synthesis_ann_types": "",
-      "synthesis_narrative": "",
-      "synthesis_score": null,
-      "t1": "₹133",
-      "t2": "₹134",
-      "ticker": "TEXRAIL",
-      "type": "MOU",
-      "type_cls": "type-mou",
-      "verdict": "STRONG BUY",
-      "volume": 2089369,
-      "week52_high": null,
-      "week52_low": null,
-      "williams_r": null,
-      "win": 59
-    },
-    {
-      "adjusted_score": 34,
-      "adx": 35.9,
-      "analyst_n": null,
-      "analyst_rec": "",
-      "analyst_target": null,
-      "analyzed_at": "2026-06-30T22:02:21.626295",
-      "avg_volume": 1119,
-      "bb_position": null,
-      "beta": null,
-      "cash_flow_signal": "NOT_APPLICABLE",
-      "change_abs": 1.95,
-      "change_pct": 3.61,
-      "date": "2026-06-27",
-      "debt_equity": null,
-      "dividend_yield": null,
-      "entry": "₹48",
-      "id": 1560,
-      "llm_chart_narrative": "EASTSILK is exhibiting a persistent downtrend, consistently failing to reclaim the ₹58.0 resistance level while trading well below the Ichimoku cloud. Given the significant XGBoost drawdown prediction of -63.24% and the recent breakdown below the ₹50 psychological support, the technical outlook remains bearish with high downside risk.",
-      "llm_confidence": "HIGH",
-      "llm_doc_narrative": "The announcement pertains solely to the appointment of a new CFO and Internal Auditor, which are administrative governance updates rather than financial performance indicators. As this is not a financial results disclosure, there is no impact on earnings quality or cash flow assessment.",
-      "llm_dominant_pattern": "Downtrend Channel",
-      "llm_green_flags": [],
-      "llm_pattern_flags": [
-        "downtrend",
-        "distribution",
-        "bearish-ichimoku-cross"
-      ],
-      "llm_pre_run_risk": "HIGH",
-      "llm_resistance": 58.0,
-      "llm_risk_flags": [],
-      "llm_support": 46.8,
-      "llm_target": 59.7,
-      "macd_hist": -0.3234,
-      "market_cap": null,
-      "mfi": null,
-      "ml": 42,
-      "name": "Eastern Silk Industries Limited",
-      "obv_trend": null,
-      "pb_ratio": null,
-      "pe_ratio": null,
-      "price": "₹49",
-      "promoter_pct": null,
-      "quality": "Low quality",
-      "quarter": "Q1FY27",
-      "r1": null,
-      "r2": null,
-      "result_ml": 64,
-      "risk": -14.0,
-      "roe": null,
-      "rsi": null,
-      "s1": null,
-      "sector": "",
-      "shap": [
-        {
-          "f": "volatility_20d",
-          "v": -0.34
-        },
-        {
-          "f": "adx_norm",
-          "v": -0.33
-        },
-        {
-          "f": "horizon_imm_rr",
-          "v": -0.32
-        }
-      ],
-      "sig_cls": "badge-hold",
-      "signal": "HOLD",
-      "sl": "₹44",
-      "sma_200": null,
-      "sma_50": null,
-      "stoch_k": null,
-      "synthesis_ann_types": "",
-      "synthesis_narrative": "",
-      "synthesis_score": null,
-      "t1": "₹70",
-      "t2": "₹71",
-      "ticker": "EASTSILK",
-      "type": "Corp.",
-      "type_cls": "type-corp",
-      "verdict": "WATCH & BUY",
-      "volume": 382,
-      "week52_high": null,
-      "week52_low": null,
-      "williams_r": null,
-      "win": 42
-    },
-    {
-      "adjusted_score": 49,
-      "adx": 64.6,
-      "analyst_n": null,
-      "analyst_rec": "",
-      "analyst_target": null,
-      "analyzed_at": "2026-06-30T22:02:21.622637",
-      "avg_volume": 3975,
-      "bb_position": null,
-      "beta": null,
-      "cash_flow_signal": "NOT_APPLICABLE",
-      "change_abs": 5.41,
-      "change_pct": 3.42,
-      "date": "2026-06-27",
-      "debt_equity": null,
-      "dividend_yield": null,
-      "entry": "₹162",
-      "id": 1559,
-      "llm_chart_narrative": "KOTIC is currently trapped in a wide consolidation range between the ₹142 support and ₹178.4 resistance, showing significant volatility and inconsistent volume. With the price remaining below the Ichimoku cloud and a high XGBoost drawdown risk, the stock lacks the momentum to challenge the ₹183.8 target, suggesting a cautious outlook.",
-      "llm_confidence": "HIGH",
-      "llm_doc_narrative": "Kothari Industrial Corporation has secured a significant service contract worth approximately ₹9.45 crore from the Integral Coach Factory (ICF), providing revenue visibility over a 580-day execution period. While this is a positive operational development, the impact on overall margins remains to be seen given the service-heavy nature of the contract involving forklift operations and staffing.",
-      "llm_dominant_pattern": "Range-bound consolidation with bearish bias",
-      "llm_green_flags": [
-        "new-order-win"
-      ],
-      "llm_pattern_flags": [
-        "range-bound",
-        "volatility-contraction",
-        "distribution"
-      ],
-      "llm_pre_run_risk": "HIGH",
-      "llm_resistance": 178.4,
-      "llm_risk_flags": [],
-      "llm_support": 142.0,
-      "llm_target": 183.8,
-      "macd_hist": -0.8498,
-      "market_cap": null,
-      "mfi": null,
-      "ml": 47,
-      "name": "Kothari Industrial Corporation Limited",
-      "obv_trend": null,
-      "pb_ratio": null,
-      "pe_ratio": null,
-      "price": "₹163",
-      "promoter_pct": null,
-      "quality": "Low quality",
-      "quarter": "Q1FY27",
-      "r1": null,
-      "r2": null,
-      "result_ml": 64,
-      "risk": -6.8,
-      "roe": null,
-      "rsi": null,
-      "s1": null,
-      "sector": "",
-      "shap": [
-        {
-          "f": "adx_norm",
-          "v": -0.37
-        },
-        {
-          "f": "horizon_imm_rr",
-          "v": -0.33
-        },
-        {
-          "f": "volatility_20d",
-          "v": -0.31
-        }
-      ],
-      "sig_cls": "badge-hold",
-      "signal": "HOLD",
-      "sl": "₹131",
-      "sma_200": null,
-      "sma_50": null,
-      "stoch_k": null,
-      "synthesis_ann_types": "",
-      "synthesis_narrative": "",
-      "synthesis_score": null,
-      "t1": "₹229",
-      "t2": "₹235",
-      "ticker": "KOTIC",
-      "type": "ORDER",
-      "type_cls": "type-mou",
-      "verdict": "WATCH & BUY",
-      "volume": 8847,
-      "week52_high": null,
-      "week52_low": null,
-      "williams_r": null,
-      "win": 47
-    },
-    {
-      "adjusted_score": 45,
-      "adx": 49.4,
-      "analyst_n": null,
-      "analyst_rec": "",
-      "analyst_target": null,
-      "analyzed_at": "2026-06-30T22:02:21.634456",
-      "avg_volume": 6310326,
-      "bb_position": null,
-      "beta": null,
-      "cash_flow_signal": "NOT_APPLICABLE",
-      "change_abs": -1.24,
-      "change_pct": -1.79,
-      "date": "2026-06-27",
-      "debt_equity": null,
-      "dividend_yield": null,
-      "entry": "₹70",
-      "id": 1558,
-      "llm_chart_narrative": "VIKRAN is exhibiting a strong consolidation phase between the ₹65.4 support and ₹78.6 resistance, recently supported by a significant volume spike on June 29th. While the stock shows resilience, the high XGBoost drawdown risk suggests caution; however, the current price action remains constructive as it tests the upper bounds of its recent range.",
-      "llm_confidence": "HIGH",
-      "llm_doc_narrative": "This announcement is a routine regulatory disclosure regarding the closure of the trading window for the upcoming quarterly financial results. It contains no material financial data or operational updates, serving only as a standard compliance procedure under SEBI regulations.",
-      "llm_dominant_pattern": "Range Consolidation with Bullish Breakout Attempt",
-      "llm_green_flags": [],
-      "llm_pattern_flags": [
-        "volume-spike",
-        "range-bound",
-        "bullish-bias"
-      ],
-      "llm_pre_run_risk": "HIGH",
-      "llm_resistance": 78.6,
-      "llm_risk_flags": [],
-      "llm_support": 65.4,
-      "llm_target": 81.0,
-      "macd_hist": -0.1295,
-      "market_cap": null,
-      "mfi": null,
-      "ml": 43,
-      "name": "VIKRAN ENGINEERING LTD",
-      "obv_trend": null,
-      "pb_ratio": null,
-      "pe_ratio": null,
-      "price": "₹70",
-      "promoter_pct": null,
-      "quality": "Low quality",
-      "quarter": "Q1FY27",
-      "r1": null,
-      "r2": null,
-      "result_ml": 64,
-      "risk": -7.7,
-      "roe": null,
-      "rsi": null,
-      "s1": null,
-      "sector": "",
-      "shap": [
-        {
-          "f": "adx_norm",
-          "v": -0.4
-        },
-        {
-          "f": "volatility_20d",
-          "v": -0.32
-        },
-        {
-          "f": "horizon_imm_rr",
-          "v": -0.31
-        }
-      ],
-      "sig_cls": "badge-hold",
-      "signal": "HOLD",
-      "sl": "₹48",
-      "sma_200": null,
-      "sma_50": null,
-      "stoch_k": null,
-      "synthesis_ann_types": "",
-      "synthesis_narrative": "",
-      "synthesis_score": null,
-      "t1": "₹83",
-      "t2": "₹84",
-      "ticker": "VIKRAN",
-      "type": "Corp.",
-      "type_cls": "type-corp",
-      "verdict": "WATCH & BUY",
-      "volume": 1265294,
-      "week52_high": null,
-      "week52_low": null,
-      "williams_r": null,
-      "win": 43
     }
   ],
   "sector_forecast": {
@@ -10856,326 +11033,10 @@
       }
     ]
   },
-  "updated_at": "22:09",
+  "updated_at": "02:55",
   "screener": {
-    "date": "2026-06-30",
-    "results": [
-      {
-        "action": "WATCH",
-        "analogue": "",
-        "conviction": "MEDIUM",
-        "created_at": "2026-06-30T15:58:27.807966+00:00",
-        "entry_zone": "1451.69 - 1368.46",
-        "momentum_score": null,
-        "risk_reward": "",
-        "risks": [],
-        "sector": "Financial Services",
-        "signal_count": 12,
-        "signals": [
-          "tt-above-200ma",
-          "tt-ma-stack",
-          "tt-above-50ma",
-          "tt-near-52w-high",
-          "tt-above-52w-low",
-          "macd-bullish",
-          "adx-trending",
-          "price-drift",
-          "5d-momentum",
-          "20d-momentum",
-          "model-agrees",
-          "model-strong"
-        ],
-        "stage": "",
-        "stop_loss": "1038.98",
-        "target": "1834.41",
-        "thesis": "",
-        "ticker": "NUVAMA",
-        "mode": "general"
-      },
-      {
-        "action": "WATCH",
-        "analogue": "",
-        "conviction": "MEDIUM",
-        "created_at": "2026-06-30T15:58:27.807966+00:00",
-        "entry_zone": "1357.71 - 1318.98",
-        "momentum_score": null,
-        "risk_reward": "",
-        "risks": [],
-        "sector": "Healthcare",
-        "signal_count": 12,
-        "signals": [
-          "tt-above-200ma",
-          "tt-ma-stack",
-          "tt-above-50ma",
-          "tt-near-52w-high",
-          "rsi-healthy",
-          "macd-bullish",
-          "adx-trending",
-          "stoch-room",
-          "price-drift",
-          "20d-momentum",
-          "model-agrees",
-          "model-strong"
-        ],
-        "stage": "",
-        "stop_loss": "1155.43",
-        "target": "1540.92",
-        "thesis": "",
-        "ticker": "ERIS",
-        "mode": "general"
-      },
-      {
-        "action": "WATCH",
-        "analogue": "",
-        "conviction": "MEDIUM",
-        "created_at": "2026-06-30T15:58:27.807966+00:00",
-        "entry_zone": "1546.15 - 1514.96",
-        "momentum_score": null,
-        "risk_reward": "",
-        "risks": [],
-        "sector": "Healthcare",
-        "signal_count": 12,
-        "signals": [
-          "tt-above-200ma",
-          "tt-ma-stack",
-          "tt-above-50ma",
-          "tt-near-52w-high",
-          "tt-above-52w-low",
-          "rsi-healthy",
-          "macd-bullish",
-          "price-drift",
-          "5d-momentum",
-          "20d-momentum",
-          "model-agrees",
-          "model-strong"
-        ],
-        "stage": "",
-        "stop_loss": "1373.79",
-        "target": "1698.40",
-        "thesis": "",
-        "ticker": "IPCALAB",
-        "mode": "general"
-      },
-      {
-        "action": "ENTER NOW",
-        "analogue": "Some other Indian pharma company setups in the same sector have resolved similarly.",
-        "conviction": "MEDIUM",
-        "created_at": "2026-06-30T15:58:27.807966+00:00",
-        "entry_zone": "at market",
-        "momentum_score": null,
-        "risk_reward": "1:3",
-        "risks": [
-          "2-3 signals with no MA stack, low sector breadth"
-        ],
-        "sector": "Technology",
-        "signal_count": 11,
-        "signals": [
-          "tt-above-200ma",
-          "tt-ma-stack",
-          "tt-above-50ma",
-          "tt-near-52w-high",
-          "tt-above-52w-low",
-          "rsi-healthy",
-          "macd-bullish",
-          "stoch-room",
-          "price-drift",
-          "model-agrees",
-          "model-strong"
-        ],
-        "stage": "STAGE2-ADVANCING",
-        "stop_loss": "598.44",
-        "target": "855.68",
-        "thesis": "CAMS has been basing at ₹732.45-705.91 for a while, and its recent ADX of 21.32 indicates a potential top forming. The ₹795 level is the upper support level for this base completion setup.",
-        "ticker": "CAMS",
-        "mode": "general"
-      },
-      {
-        "action": "WATCH",
-        "analogue": "",
-        "conviction": "MEDIUM",
-        "created_at": "2026-06-30T15:58:27.807966+00:00",
-        "entry_zone": "703.25 - 679.40",
-        "momentum_score": null,
-        "risk_reward": "",
-        "risks": [],
-        "sector": "Healthcare",
-        "signal_count": 11,
-        "signals": [
-          "tt-above-200ma",
-          "tt-ma-stack",
-          "tt-above-50ma",
-          "tt-near-52w-high",
-          "tt-above-52w-low",
-          "rsi-healthy",
-          "macd-bullish",
-          "price-drift",
-          "5d-momentum",
-          "model-agrees",
-          "model-strong"
-        ],
-        "stage": "",
-        "stop_loss": "577.30",
-        "target": "816.75",
-        "thesis": "",
-        "ticker": "GRANULES",
-        "mode": "general"
-      },
-      {
-        "action": "WATCH",
-        "analogue": "",
-        "conviction": "MEDIUM",
-        "created_at": "2026-06-30T15:58:27.807966+00:00",
-        "entry_zone": "8786.63 - 8251.29",
-        "momentum_score": null,
-        "risk_reward": "",
-        "risks": [],
-        "sector": "Technology",
-        "signal_count": 11,
-        "signals": [
-          "tt-above-200ma",
-          "tt-ma-stack",
-          "tt-above-50ma",
-          "tt-near-52w-high",
-          "tt-above-52w-low",
-          "macd-bullish",
-          "adx-trending",
-          "5d-momentum",
-          "20d-momentum",
-          "model-agrees",
-          "model-strong"
-        ],
-        "stage": "",
-        "stop_loss": "6222.55",
-        "target": "11202.86",
-        "thesis": "",
-        "ticker": "OFSS",
-        "mode": "general"
-      },
-      {
-        "action": "WATCH",
-        "analogue": "",
-        "conviction": "MEDIUM",
-        "created_at": "2026-06-30T15:58:27.807966+00:00",
-        "entry_zone": "1425.70 - 1388.03",
-        "momentum_score": null,
-        "risk_reward": "",
-        "risks": [],
-        "sector": "Healthcare",
-        "signal_count": 11,
-        "signals": [
-          "tt-above-200ma",
-          "tt-ma-stack",
-          "tt-above-50ma",
-          "tt-near-52w-high",
-          "tt-above-52w-low",
-          "macd-bullish",
-          "price-drift",
-          "5d-momentum",
-          "20d-momentum",
-          "model-agrees",
-          "model-strong"
-        ],
-        "stage": "",
-        "stop_loss": "1231.99",
-        "target": "1602.36",
-        "thesis": "",
-        "ticker": "AUROPHARMA",
-        "mode": "general"
-      },
-      {
-        "action": "WATCH",
-        "analogue": "",
-        "conviction": "MEDIUM",
-        "created_at": "2026-06-30T15:58:27.807966+00:00",
-        "entry_zone": "2037.40 - 1946.45",
-        "momentum_score": null,
-        "risk_reward": "",
-        "risks": [],
-        "sector": "Healthcare",
-        "signal_count": 11,
-        "signals": [
-          "tt-above-200ma",
-          "tt-ma-stack",
-          "tt-above-50ma",
-          "tt-near-52w-high",
-          "tt-above-52w-low",
-          "macd-bullish",
-          "price-drift",
-          "5d-momentum",
-          "20d-momentum",
-          "model-agrees",
-          "model-strong"
-        ],
-        "stage": "",
-        "stop_loss": "1576.51",
-        "target": "2460.54",
-        "thesis": "",
-        "ticker": "GLAND",
-        "mode": "general"
-      },
-      {
-        "action": "WATCH",
-        "analogue": "",
-        "conviction": "MEDIUM",
-        "created_at": "2026-06-30T15:58:27.807966+00:00",
-        "entry_zone": "15437.00 - 14625.87",
-        "momentum_score": null,
-        "risk_reward": "",
-        "risks": [],
-        "sector": "Basic Materials",
-        "signal_count": 11,
-        "signals": [
-          "tt-above-200ma",
-          "tt-ma-stack",
-          "tt-above-50ma",
-          "tt-near-52w-high",
-          "tt-above-52w-low",
-          "rsi-healthy",
-          "adx-trending",
-          "stoch-room",
-          "price-drift",
-          "model-agrees",
-          "model-strong"
-        ],
-        "stage": "",
-        "stop_loss": "11409.79",
-        "target": "19169.11",
-        "thesis": "",
-        "ticker": "SOLARINDS",
-        "mode": "general"
-      },
-      {
-        "action": "WATCH",
-        "analogue": "",
-        "conviction": "MEDIUM",
-        "created_at": "2026-06-30T15:58:27.807966+00:00",
-        "entry_zone": "1092.50 - 1061.70",
-        "momentum_score": null,
-        "risk_reward": "",
-        "risks": [],
-        "sector": "Technology",
-        "signal_count": 11,
-        "signals": [
-          "tt-above-200ma",
-          "tt-ma-stack",
-          "tt-above-50ma",
-          "tt-near-52w-high",
-          "rsi-healthy",
-          "macd-bullish",
-          "price-drift",
-          "5d-momentum",
-          "20d-momentum",
-          "model-agrees",
-          "model-strong"
-        ],
-        "stage": "",
-        "stop_loss": "930.55",
-        "target": "1238.73",
-        "thesis": "",
-        "ticker": "PAYTM",
-        "mode": "general"
-      }
-    ]
+    "date": "2026-07-01",
+    "results": []
   },
-  "synced_at": "2026-06-30T16:40:08.317716+00:00"
+  "synced_at": "2026-06-30T21:25:10.933537+00:00"
 }

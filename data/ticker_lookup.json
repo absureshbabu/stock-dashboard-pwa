@@ -1,15 +1,5 @@
 [
   {
-    "ticker": "UJJIVANSFB",
-    "name": "Ujjivan Small Finance",
-    "score": 63,
-    "signal": "BUY NOW",
-    "entry": "₹65–₹66",
-    "sl": "₹64",
-    "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
-  },
-  {
     "ticker": "ASIANPAINT",
     "name": "Asian Paints",
     "score": 68,
@@ -17,107 +7,7 @@
     "entry": "₹2,669–₹2,689",
     "sl": "₹2,608",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
-  },
-  {
-    "ticker": "GRANULES",
-    "name": "Granules India",
-    "score": 62,
-    "signal": "BUY NOW",
-    "entry": "₹881",
-    "sl": "₹854",
-    "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
-  },
-  {
-    "ticker": "ULTRACEMCO",
-    "name": "UltraTech Cement",
-    "score": 63,
-    "signal": "BUY NOW",
-    "entry": "₹11,659–₹11,727",
-    "sl": "₹11,375",
-    "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
-  },
-  {
-    "ticker": "AJANTPHARM",
-    "name": "Ajanta Pharma",
-    "score": 66,
-    "signal": "BUY NOW",
-    "entry": "₹3,402–₹3,419",
-    "sl": "₹3,317",
-    "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
-  },
-  {
-    "ticker": "SUVEN",
-    "name": "Suven Pharma",
-    "score": 65,
-    "signal": "BUY NOW",
-    "entry": "₹326",
-    "sl": "₹316",
-    "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
-  },
-  {
-    "ticker": "KIRLOSENG",
-    "name": "Kirloskar Oil Engines",
-    "score": 64,
-    "signal": "BUY NOW",
-    "entry": "₹2,436",
-    "sl": "₹2,363",
-    "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
-  },
-  {
-    "ticker": "CHOLAFIN",
-    "name": "Cholamandalam Finance",
-    "score": 62,
-    "signal": "BUY NOW",
-    "entry": "₹1,772",
-    "sl": "₹1,718",
-    "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
-  },
-  {
-    "ticker": "IPCALAB",
-    "name": "IPCA Labs",
-    "score": 62,
-    "signal": "BUY NOW",
-    "entry": "₹1,869–₹1,901",
-    "sl": "₹1,844",
-    "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
-  },
-  {
-    "ticker": "ALKEM",
-    "name": "Alkem Labs",
-    "score": 63,
-    "signal": "BUY NOW",
-    "entry": "₹5,563",
-    "sl": "₹5,396",
-    "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
-  },
-  {
-    "ticker": "SUNPHARMA",
-    "name": "Sun Pharma",
-    "score": 63,
-    "signal": "BUY NOW",
-    "entry": "₹1,933",
-    "sl": "₹1,875",
-    "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
-  },
-  {
-    "ticker": "RATEGAIN",
-    "name": "RateGain Travel",
-    "score": 62,
-    "signal": "BUY NOW",
-    "entry": "₹958–₹977",
-    "sl": "₹923",
-    "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
     "ticker": "BAJFINANCE",
@@ -127,47 +17,97 @@
     "entry": "₹1,006–₹1,021",
     "sl": "₹950",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
-    "ticker": "TORNTPHARM",
-    "name": "Torrent Pharma",
+    "ticker": "ALKEM",
+    "name": "Alkem Labs",
+    "score": 65,
+    "signal": "BUY NOW",
+    "entry": "₹5,654",
+    "sl": "₹5,484",
+    "win_context": "",
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
+  },
+  {
+    "ticker": "IPCALAB",
+    "name": "IPCA Labs",
     "score": 64,
     "signal": "BUY NOW",
-    "entry": "₹4,763",
-    "sl": "₹4,620",
+    "entry": "₹1,839",
+    "sl": "₹1,783",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
-    "ticker": "OFSS",
-    "name": "Oracle Financial",
+    "ticker": "SUVEN",
+    "name": "Suven Pharma",
     "score": 64,
     "signal": "BUY NOW",
-    "entry": "₹11,602–₹11,771",
-    "sl": "₹11,418",
+    "entry": "₹332–₹338",
+    "sl": "₹323",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
-    "ticker": "LODHA",
-    "name": "Macrotech Developers",
+    "ticker": "NUVAMA",
+    "name": "Nuvama Wealth Management",
     "score": 63,
     "signal": "BUY NOW",
-    "entry": "₹1,165–₹1,189",
-    "sl": "₹1,131",
+    "entry": "₹1,817–₹1,854",
+    "sl": "₹1,783",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
-    "ticker": "PRESTIGE",
-    "name": "Prestige Estates",
+    "ticker": "CHOLAFIN",
+    "name": "Cholamandalam Finance",
+    "score": 62,
+    "signal": "BUY NOW",
+    "entry": "₹1,772",
+    "sl": "₹1,718",
+    "win_context": "",
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
+  },
+  {
+    "ticker": "AJANTPHARM",
+    "name": "Ajanta Pharma",
+    "score": 62,
+    "signal": "BUY NOW",
+    "entry": "₹3,364–₹3,409",
+    "sl": "₹3,307",
+    "win_context": "",
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
+  },
+  {
+    "ticker": "SUNPHARMA",
+    "name": "Sun Pharma",
+    "score": 62,
+    "signal": "BUY NOW",
+    "entry": "₹1,943–₹1,956",
+    "sl": "₹1,898",
+    "win_context": "",
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
+  },
+  {
+    "ticker": "ULTRACEMCO",
+    "name": "UltraTech Cement",
     "score": 63,
     "signal": "BUY NOW",
-    "entry": "₹1,659–₹1,693",
-    "sl": "₹1,593",
+    "entry": "₹11,659–₹11,727",
+    "sl": "₹11,375",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
+  },
+  {
+    "ticker": "RATEGAIN",
+    "name": "RateGain Travel",
+    "score": 62,
+    "signal": "BUY NOW",
+    "entry": "₹958–₹977",
+    "sl": "₹923",
+    "win_context": "",
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
     "ticker": "INDHOTEL",
@@ -177,37 +117,57 @@
     "entry": "₹733–₹733",
     "sl": "₹711",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
+  },
+  {
+    "ticker": "PRESTIGE",
+    "name": "Prestige Estates",
+    "score": 64,
+    "signal": "BUY NOW",
+    "entry": "₹1,686",
+    "sl": "₹1,635",
+    "win_context": "",
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
+  },
+  {
+    "ticker": "LODHA",
+    "name": "Macrotech Developers",
+    "score": 63,
+    "signal": "BUY NOW",
+    "entry": "₹1,165–₹1,188",
+    "sl": "₹1,131",
+    "win_context": "",
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
+  },
+  {
+    "ticker": "GANDHAR",
+    "name": "Gandhar Oil Refinery",
+    "score": 62,
+    "signal": "BUY NOW",
+    "entry": "₹224–₹228",
+    "sl": "₹213",
+    "win_context": "",
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
+  },
+  {
+    "ticker": "TORNTPHARM",
+    "name": "Torrent Pharma",
+    "score": 64,
+    "signal": "BUY NOW",
+    "entry": "₹4,763",
+    "sl": "₹4,620",
+    "win_context": "",
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
     "ticker": "CREDITACC",
     "name": "CreditAccess Grameen",
-    "score": 62,
+    "score": 64,
     "signal": "BUY NOW",
-    "entry": "₹1,476–₹1,478",
-    "sl": "₹1,434",
+    "entry": "₹1,476–₹1,498",
+    "sl": "₹1,453",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
-  },
-  {
-    "ticker": "OBEROIRLTY",
-    "name": "Oberoi Realty",
-    "score": 66,
-    "signal": "BUY NOW",
-    "entry": "₹1,888",
-    "sl": "₹1,831",
-    "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
-  },
-  {
-    "ticker": "EQUITASBNK",
-    "name": "Equitas Small Finance",
-    "score": 65,
-    "signal": "BUY NOW",
-    "entry": "₹80",
-    "sl": "₹77",
-    "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
     "ticker": "VMART",
@@ -217,7 +177,27 @@
     "entry": "₹750",
     "sl": "₹727",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
+  },
+  {
+    "ticker": "UJJIVANSFB",
+    "name": "Ujjivan Small Finance",
+    "score": 63,
+    "signal": "BUY NOW",
+    "entry": "₹65–₹66",
+    "sl": "₹64",
+    "win_context": "",
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
+  },
+  {
+    "ticker": "OBEROIRLTY",
+    "name": "Oberoi Realty",
+    "score": 66,
+    "signal": "BUY NOW",
+    "entry": "₹1,888",
+    "sl": "₹1,831",
+    "win_context": "",
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
     "ticker": "COALINDIA",
@@ -227,7 +207,17 @@
     "entry": "₹425–₹428",
     "sl": "₹415",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
+  },
+  {
+    "ticker": "EQUITASBNK",
+    "name": "Equitas Small Finance",
+    "score": 65,
+    "signal": "BUY NOW",
+    "entry": "₹80",
+    "sl": "₹77",
+    "win_context": "",
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
     "ticker": "TATASTEEL",
@@ -237,17 +227,217 @@
     "entry": "₹184–₹186",
     "sl": "₹180",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
+  },
+  {
+    "ticker": "GHCL",
+    "name": "GHCL Limited",
+    "score": 49,
+    "signal": "HOLD",
+    "entry": "₹430",
+    "sl": "₹397",
+    "win_context": "",
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
+  },
+  {
+    "ticker": "RAMBHAJO",
+    "name": "ADVIT JEWELS LIMITED",
+    "score": 56,
+    "signal": "WATCH & BUY",
+    "entry": "₹209–₹214",
+    "sl": "₹204",
+    "win_context": "",
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
+  },
+  {
+    "ticker": "RALLIS",
+    "name": "Rallis India Limited",
+    "score": 50,
+    "signal": "WATCH & BUY",
+    "entry": "₹235–₹238",
+    "sl": "₹230",
+    "win_context": "",
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
+  },
+  {
+    "ticker": "BLUESTONE",
+    "name": "BLUESTONE JEWEL LFSTL LTD",
+    "score": 48,
+    "signal": "HOLD",
+    "entry": "₹599–₹612",
+    "sl": "₹588",
+    "win_context": "",
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
+  },
+  {
+    "ticker": "INDIGO",
+    "name": "InterGlobe Aviation Limited",
+    "score": 52,
+    "signal": "WATCH & BUY",
+    "entry": "₹5146–₹5204",
+    "sl": "₹5063",
+    "win_context": "",
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
+  },
+  {
+    "ticker": "BAJAJHCARE",
+    "name": "Bajaj HealthCare Limited",
+    "score": 53,
+    "signal": "WATCH & BUY",
+    "entry": "₹376–₹385",
+    "sl": "₹366",
+    "win_context": "",
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
+  },
+  {
+    "ticker": "MAFATIND",
+    "name": "Mafatlal Industries Limited",
+    "score": 55,
+    "signal": "WATCH & BUY",
+    "entry": "₹132–₹134",
+    "sl": "₹129",
+    "win_context": "",
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
+  },
+  {
+    "ticker": "CANHLIFE",
+    "name": "CANARA HSBC LIFE INS CO L",
+    "score": 55,
+    "signal": "WATCH & BUY",
+    "entry": "₹149–₹150",
+    "sl": "₹148",
+    "win_context": "",
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
+  },
+  {
+    "ticker": "EMCURE",
+    "name": "EMCURE PHARMACEUTICALS L",
+    "score": 63,
+    "signal": "BUY NOW",
+    "entry": "₹1802–₹1836",
+    "sl": "₹1742",
+    "win_context": "",
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
+  },
+  {
+    "ticker": "VIMTALABS",
+    "name": "Vimta Labs Limited",
+    "score": 66,
+    "signal": "BUY NOW",
+    "entry": "₹512–₹545",
+    "sl": "₹493",
+    "win_context": "",
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
+  },
+  {
+    "ticker": "BLUEJET",
+    "name": "Blue Jet Healthcare Limited",
+    "score": 59,
+    "signal": "WATCH & BUY",
+    "entry": "₹576–₹588",
+    "sl": "₹563",
+    "win_context": "",
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
+  },
+  {
+    "ticker": "SGMART",
+    "name": "SG Mart Limited",
+    "score": 65,
+    "signal": "BUY NOW",
+    "entry": "₹644–₹671",
+    "sl": "₹611",
+    "win_context": "",
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
+  },
+  {
+    "ticker": "IOB",
+    "name": "Indian Overseas Bank",
+    "score": 60,
+    "signal": "BUY NOW",
+    "entry": "₹34–₹35",
+    "sl": "₹33",
+    "win_context": "",
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
+  },
+  {
+    "ticker": "DYCL",
+    "name": "DYCL.NS",
+    "score": 56,
+    "signal": "WATCH & BUY",
+    "entry": "₹397–₹428",
+    "sl": "₹349",
+    "win_context": "",
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
+  },
+  {
+    "ticker": "MAHLOG",
+    "name": "Mahindra Logistics Limited",
+    "score": 66,
+    "signal": "BUY NOW",
+    "entry": "₹380–₹400",
+    "sl": "₹366",
+    "win_context": "",
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
+  },
+  {
+    "ticker": "SHYAMMETL",
+    "name": "Shyam Metalics and Energy Limited",
+    "score": 64,
+    "signal": "BUY NOW",
+    "entry": "₹1020–₹1055",
+    "sl": "₹986",
+    "win_context": "",
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
+  },
+  {
+    "ticker": "HCLTECH",
+    "name": "HCL Technologies Limited",
+    "score": 55,
+    "signal": "WATCH & BUY",
+    "entry": "₹1206–₹1215",
+    "sl": "₹1191",
+    "win_context": "",
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
+  },
+  {
+    "ticker": "DPABHUSHAN",
+    "name": "D. P. Abhushan Limited",
+    "score": 54,
+    "signal": "WATCH & BUY",
+    "entry": "₹1288–₹1418",
+    "sl": "₹1142",
+    "win_context": "",
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
+  },
+  {
+    "ticker": "PACEDIGITK",
+    "name": "Pace Digitek Limited",
+    "score": 63,
+    "signal": "BUY NOW",
+    "entry": "₹196–₹201",
+    "sl": "₹190",
+    "win_context": "",
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
+  },
+  {
+    "ticker": "BOSCHLTD",
+    "name": "Bosch Limited",
+    "score": 63,
+    "signal": "BUY NOW",
+    "entry": "₹40533–₹40827",
+    "sl": "₹40107",
+    "win_context": "",
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
     "ticker": "ELITECON",
     "name": "Elitecon International Limited",
     "score": 36,
     "signal": "SELL NOW",
-    "entry": "₹18",
-    "sl": "",
+    "entry": "₹17–₹18",
+    "sl": "₹16",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
     "ticker": "MPSLTD",
@@ -257,7 +447,7 @@
     "entry": "₹2027–₹2086",
     "sl": "₹1958",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
     "ticker": "NATCOPHARM",
@@ -267,7 +457,7 @@
     "entry": "₹934–₹951",
     "sl": "₹923",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
     "ticker": "IDBI",
@@ -277,17 +467,17 @@
     "entry": "₹85–₹86",
     "sl": "₹84",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
     "ticker": "EIDPARRY",
     "name": "E.I.D.- Parry (India) Limited",
     "score": 47,
     "signal": "HOLD",
-    "entry": "₹751",
-    "sl": "",
+    "entry": "₹750–₹758",
+    "sl": "₹739",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
     "ticker": "PNB",
@@ -297,7 +487,7 @@
     "entry": "₹105–₹105",
     "sl": "₹104",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
     "ticker": "YESBANK",
@@ -307,17 +497,17 @@
     "entry": "₹23–₹24",
     "sl": "₹23",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
     "ticker": "RMCL",
     "name": "Radha Madhav Corporation Limited",
     "score": 44,
     "signal": "HOLD",
-    "entry": "₹200",
-    "sl": "",
+    "entry": "₹200–₹200",
+    "sl": "₹200",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
     "ticker": "AXISBANK",
@@ -327,7 +517,7 @@
     "entry": "₹1311–₹1322",
     "sl": "₹1294",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
     "ticker": "DCMSHRIRAM",
@@ -337,7 +527,7 @@
     "entry": "₹1012–₹1021",
     "sl": "₹1001",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
     "ticker": "RELIANCE",
@@ -347,7 +537,7 @@
     "entry": "₹1305–₹1318",
     "sl": "₹1284",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
     "ticker": "BANKINDIA",
@@ -357,7 +547,7 @@
     "entry": "₹142–₹143",
     "sl": "₹141",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
     "ticker": "TURTLEMINT",
@@ -367,7 +557,7 @@
     "entry": "₹134–₹136",
     "sl": "₹131",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
     "ticker": "OMINFRAL",
@@ -377,7 +567,7 @@
     "entry": "₹83–₹90",
     "sl": "₹79",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
     "ticker": "RBLBANK",
@@ -387,17 +577,17 @@
     "entry": "₹362–₹366",
     "sl": "₹357",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
     "ticker": "POONAWALLA",
     "name": "Poonawalla Fincorp Limited",
     "score": 61,
     "signal": "BUY NOW",
-    "entry": "₹477",
-    "sl": "354.43",
+    "entry": "₹454–₹471",
+    "sl": "₹440",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
     "ticker": "PILITA",
@@ -407,17 +597,17 @@
     "entry": "₹9–₹9",
     "sl": "₹9",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
     "ticker": "JAYNECOIND",
     "name": "Jayaswal Neco Industries Limited",
     "score": 54,
     "signal": "WATCH & BUY",
-    "entry": "₹90",
-    "sl": "",
+    "entry": "₹81–₹86",
+    "sl": "₹78",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
     "ticker": "MCLEODRUSS",
@@ -427,7 +617,7 @@
     "entry": "₹54–₹56",
     "sl": "₹52",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
     "ticker": "PVSL",
@@ -437,7 +627,7 @@
     "entry": "₹96–₹98",
     "sl": "₹95",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
     "ticker": "EMMBI",
@@ -447,7 +637,7 @@
     "entry": "₹88–₹91",
     "sl": "₹87",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
     "ticker": "ORKLAINDIA",
@@ -457,7 +647,7 @@
     "entry": "₹582–₹586",
     "sl": "₹577",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
     "ticker": "CENTRALBK",
@@ -467,7 +657,7 @@
     "entry": "₹31–₹32",
     "sl": "₹30",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
     "ticker": "PTCIL",
@@ -477,7 +667,7 @@
     "entry": "₹17495–₹17796",
     "sl": "₹17050",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
     "ticker": "MTEDUCARE",
@@ -487,7 +677,7 @@
     "entry": "₹2–₹2",
     "sl": "₹2",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
     "ticker": "NRBBEARING",
@@ -497,7 +687,7 @@
     "entry": "₹394–₹411",
     "sl": "₹381",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
     "ticker": "NBCC",
@@ -507,7 +697,7 @@
     "entry": "₹96–₹97",
     "sl": "₹95",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
     "ticker": "TIMETECHNO",
@@ -517,7 +707,7 @@
     "entry": "₹200–₹202",
     "sl": "₹196",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   },
   {
     "ticker": "WEWORK",
@@ -527,206 +717,6 @@
     "entry": "₹715–₹725",
     "sl": "₹702",
     "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
-  },
-  {
-    "ticker": "5PAISA",
-    "name": "5paisa Capital Limited",
-    "score": 54,
-    "signal": "WATCH & BUY",
-    "entry": "₹378–₹387",
-    "sl": "₹371",
-    "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
-  },
-  {
-    "ticker": "SPECIALITY",
-    "name": "Speciality Restaurants Limited",
-    "score": 48,
-    "signal": "HOLD",
-    "entry": "₹127",
-    "sl": "₹88",
-    "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
-  },
-  {
-    "ticker": "TECHM",
-    "name": "Tech Mahindra Limited",
-    "score": 57,
-    "signal": "WATCH & BUY",
-    "entry": "₹1497–₹1518",
-    "sl": "₹1484",
-    "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
-  },
-  {
-    "ticker": "PIRAMALFIN",
-    "name": "PIRAMAL FINANCE LIMITED",
-    "score": 59,
-    "signal": "WATCH & BUY",
-    "entry": "₹2164–₹2185",
-    "sl": "₹2142",
-    "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
-  },
-  {
-    "ticker": "GROWW",
-    "name": "BILLIONBRAINS GARAGE VN L",
-    "score": 60,
-    "signal": "BUY NOW",
-    "entry": "₹200–₹210",
-    "sl": "₹194",
-    "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
-  },
-  {
-    "ticker": "HEROMOTOCO",
-    "name": "Hero MotoCorp Limited",
-    "score": 60,
-    "signal": "BUY NOW",
-    "entry": "₹4872–₹4900",
-    "sl": "₹4846",
-    "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
-  },
-  {
-    "ticker": "WAAREEENER",
-    "name": "WAAREE ENERGIES LIMITED",
-    "score": 56,
-    "signal": "WATCH & BUY",
-    "entry": "₹2806–₹2827",
-    "sl": "₹2781",
-    "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
-  },
-  {
-    "ticker": "POLYCAB",
-    "name": "Polycab India Limited",
-    "score": 59,
-    "signal": "WATCH & BUY",
-    "entry": "₹9053–₹9234",
-    "sl": "₹8890",
-    "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
-  },
-  {
-    "ticker": "ONWARDTEC",
-    "name": "Onward Technologies Limited",
-    "score": 63,
-    "signal": "BUY NOW",
-    "entry": "₹274–₹291",
-    "sl": "₹260",
-    "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
-  },
-  {
-    "ticker": "GREENPLY",
-    "name": "Greenply Industries Limited",
-    "score": 63,
-    "signal": "BUY NOW",
-    "entry": "₹317–₹320",
-    "sl": "₹313",
-    "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
-  },
-  {
-    "ticker": "ITI",
-    "name": "ITI Limited",
-    "score": 52,
-    "signal": "WATCH & BUY",
-    "entry": "₹277–₹290",
-    "sl": "₹268",
-    "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
-  },
-  {
-    "ticker": "ARIS",
-    "name": "Arisinfra Solutions Limited",
-    "score": 49,
-    "signal": "HOLD",
-    "entry": "₹107–₹115",
-    "sl": "₹100",
-    "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
-  },
-  {
-    "ticker": "GREENPANEL",
-    "name": "Greenpanel Industries Limited",
-    "score": 49,
-    "signal": "HOLD",
-    "entry": "₹199–₹203",
-    "sl": "₹196",
-    "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
-  },
-  {
-    "ticker": "KCPSUGIND",
-    "name": "K.C.P. Sugar and Industries Corporation Limited",
-    "score": 48,
-    "signal": "HOLD",
-    "entry": "₹22",
-    "sl": "₹21",
-    "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
-  },
-  {
-    "ticker": "EQUIPPP",
-    "name": "Equippp Social Impact Technologies Limited",
-    "score": 51,
-    "signal": "WATCH & BUY",
-    "entry": "₹23–₹24",
-    "sl": "₹22",
-    "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
-  },
-  {
-    "ticker": "BIOCON",
-    "name": "Biocon Limited",
-    "score": 53,
-    "signal": "WATCH & BUY",
-    "entry": "₹430",
-    "sl": "₹334",
-    "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
-  },
-  {
-    "ticker": "SHYAMMETL",
-    "name": "Shyam Metalics and Energy Limited",
-    "score": 64,
-    "signal": "BUY NOW",
-    "entry": "₹1026–₹1042",
-    "sl": "₹1010",
-    "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
-  },
-  {
-    "ticker": "TATACAP",
-    "name": "TATA CAPITAL LIMITED",
-    "score": 62,
-    "signal": "BUY NOW",
-    "entry": "₹351–₹354",
-    "sl": "₹349",
-    "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
-  },
-  {
-    "ticker": "MRPL",
-    "name": "Mangalore Refinery and Petrochemicals Limited",
-    "score": 57,
-    "signal": "WATCH & BUY",
-    "entry": "₹163–₹171",
-    "sl": "₹153",
-    "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
-  },
-  {
-    "ticker": "LATENTVIEW",
-    "name": "Latent View Analytics Limited",
-    "score": 56,
-    "signal": "WATCH & BUY",
-    "entry": "₹300–₹306",
-    "sl": "₹295",
-    "win_context": "",
-    "updated_at": "2026-07-20T05:03:58.810010+00:00"
+    "updated_at": "2026-07-21T01:12:17.889621+00:00"
   }
 ]

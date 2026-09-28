@@ -1,5 +1,35 @@
 [
   {
+    "ticker": "SPECIALITY",
+    "name": "Speciality Restaurants Limited",
+    "score": 60,
+    "signal": "STRONG BUY",
+    "entry": "₹153",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
+  },
+  {
+    "ticker": "SHIVAMAUTO",
+    "name": "Shivam Autotech Limited",
+    "score": 54,
+    "signal": "WATCH & BUY",
+    "entry": "₹17",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
+  },
+  {
+    "ticker": "ACC",
+    "name": "ACC Limited",
+    "score": 49,
+    "signal": "HOLD",
+    "entry": "₹1,236",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
+  },
+  {
     "ticker": "HPAL",
     "name": "HP Adhesives Limited",
     "score": 56,
@@ -7,7 +37,7 @@
     "entry": "₹35",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "VOITHPAPR",
@@ -17,7 +47,7 @@
     "entry": "₹1,450",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "AMBIKCO",
@@ -27,7 +57,7 @@
     "entry": "₹1,546",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "AUGMONT",
@@ -37,7 +67,7 @@
     "entry": "₹878",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "TVSMOTOR",
@@ -47,7 +77,7 @@
     "entry": "₹4,157",
     "sl": "3378.79",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "GLASSWALL",
@@ -57,7 +87,7 @@
     "entry": "₹274",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "SWELECTES",
@@ -67,7 +97,7 @@
     "entry": "₹587",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "MOTHERSON",
@@ -77,7 +107,7 @@
     "entry": "₹166",
     "sl": "132.92",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "QMSMEDI",
@@ -87,7 +117,7 @@
     "entry": "₹197",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "OMAXE",
@@ -97,7 +127,7 @@
     "entry": "₹119",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "DREDGECORP",
@@ -107,7 +137,7 @@
     "entry": "₹985",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "RRKABEL",
@@ -117,7 +147,7 @@
     "entry": "₹2,528",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "TRUALT",
@@ -127,7 +157,7 @@
     "entry": "₹442",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "SAKUMA",
@@ -137,7 +167,7 @@
     "entry": "₹2",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "IDBI",
@@ -147,7 +177,7 @@
     "entry": "₹84",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "YOGI",
@@ -157,7 +187,7 @@
     "entry": "₹161",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "NYKAA",
@@ -167,7 +197,7 @@
     "entry": "₹334",
     "sl": "297.61",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "GENESYS",
@@ -177,7 +207,7 @@
     "entry": "₹286",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "STLTECH",
@@ -187,7 +217,7 @@
     "entry": "₹837",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "SADHNANIQ",
@@ -197,7 +227,7 @@
     "entry": "₹3",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "STYL",
@@ -207,7 +237,7 @@
     "entry": "₹382",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "ARIHANTSUP",
@@ -217,7 +247,7 @@
     "entry": "₹243",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "RBZJEWEL",
@@ -227,7 +257,7 @@
     "entry": "₹181",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "SRTL",
@@ -237,7 +267,7 @@
     "entry": "₹38",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "STEAMHOUSE",
@@ -247,7 +277,7 @@
     "entry": "₹111",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "JYOTICNC",
@@ -257,7 +287,7 @@
     "entry": "₹1,065",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "VASCONEQ",
@@ -267,7 +297,7 @@
     "entry": "₹35",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "PAR",
@@ -277,7 +307,7 @@
     "entry": "₹131",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "CROWN",
@@ -287,7 +317,7 @@
     "entry": "₹119",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "OMNI",
@@ -297,7 +327,7 @@
     "entry": "₹534",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "MCL",
@@ -307,7 +337,7 @@
     "entry": "₹59",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "LAXMIDENTL",
@@ -317,7 +347,7 @@
     "entry": "₹195",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "MGL",
@@ -327,7 +357,7 @@
     "entry": "₹1,093",
     "sl": "1025.05",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "UCOBANK",
@@ -337,7 +367,7 @@
     "entry": "₹24",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "ZUARIIND",
@@ -347,7 +377,7 @@
     "entry": "₹279",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "MAHABANK",
@@ -357,7 +387,7 @@
     "entry": "₹84",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "RGL",
@@ -367,7 +397,7 @@
     "entry": "₹170",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "EMCURE",
@@ -377,7 +407,7 @@
     "entry": "₹1,982",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "AKI",
@@ -387,7 +417,7 @@
     "entry": "₹7",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "PREMIERPOL",
@@ -397,7 +427,7 @@
     "entry": "₹97",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "GARUDA",
@@ -407,7 +437,7 @@
     "entry": "₹184",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "SOLARINDS",
@@ -417,7 +447,7 @@
     "entry": "₹19,730",
     "sl": "16257.94",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "TEAMGTY",
@@ -427,7 +457,7 @@
     "entry": "₹240",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "UTLSOLAR",
@@ -437,7 +467,7 @@
     "entry": "₹446",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "INVPRECQ",
@@ -447,7 +477,7 @@
     "entry": "₹1,423",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "SPLPETRO",
@@ -457,7 +487,7 @@
     "entry": "₹882",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   },
   {
     "ticker": "SURAJEST",
@@ -467,36 +497,6 @@
     "entry": "₹220",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
-  },
-  {
-    "ticker": "TNPETRO",
-    "name": "Tamilnadu Petroproducts Limited",
-    "score": 54,
-    "signal": "WATCH & BUY",
-    "entry": "₹129",
-    "sl": "",
-    "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
-  },
-  {
-    "ticker": "AJRINFRA",
-    "name": "AJR Infra and Tolling Limited",
-    "score": 45,
-    "signal": "HOLD",
-    "entry": "₹1",
-    "sl": "",
-    "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
-  },
-  {
-    "ticker": "DYCL",
-    "name": "Dynamic Cables Limited",
-    "score": 56,
-    "signal": "WATCH & BUY",
-    "entry": "₹477",
-    "sl": "",
-    "win_context": "",
-    "updated_at": "2026-09-27T15:36:38.745437+00:00"
+    "updated_at": "2026-09-28T01:45:32.584750+00:00"
   }
 ]

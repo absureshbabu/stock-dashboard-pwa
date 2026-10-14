@@ -3818,7 +3818,7 @@
   "in_focus_stale": false,
   "market_selloff": {
     "active": false,
-    "nifty_pct": -0.07459403498716394,
+    "nifty_pct": -0.08097209144723258,
     "severity": "none"
   },
   "model_bar": {
@@ -9725,5 +9725,5 @@
       }
     ]
   },
-  "synced_at": "2026-10-14T04:33:48.588563+00:00"
+  "synced_at": "2026-10-14T07:07:12.220115+00:00"
 }

@@ -1,502 +1,512 @@
 [
   {
-    "ticker": "SSRETAIL",
-    "name": "SS RETAIL LIMITED",
-    "score": 42,
-    "signal": "HOLD",
-    "entry": "₹692",
-    "sl": "",
+    "ticker": "GESHIP",
+    "name": "Great Eastern Shipping",
+    "score": 60,
+    "signal": "BUY NOW",
+    "entry": "₹1,512–₹1,543",
+    "sl": "₹1,450",
     "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
   },
   {
-    "ticker": "ARSHIYA",
-    "name": "Arshiya Limited",
-    "score": 38,
-    "signal": "SELL NOW",
-    "entry": "₹nan",
+    "ticker": "AXISCADES",
+    "name": "AXISCADES Technologies Limited",
+    "score": 61,
+    "signal": "BUY NOW",
+    "entry": "₹2,091",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
   },
   {
-    "ticker": "MUFIN",
-    "name": "Mufin Green Finance Limited",
+    "ticker": "ABANSENT",
+    "name": "ABans Enterprises Limited",
+    "score": 51,
+    "signal": "WATCH & BUY",
+    "entry": "₹36",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "PNB",
+    "name": "Punjab National Bank",
+    "score": 70,
+    "signal": "STRONG BUY",
+    "entry": "₹118",
+    "sl": "101.42",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "EPACKPEB",
+    "name": "EPack Prefab Technologies Limited",
+    "score": 61,
+    "signal": "BUY NOW",
+    "entry": "₹253",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "IDBI",
+    "name": "IDBI Bank Limited",
+    "score": 63,
+    "signal": "BUY NOW",
+    "entry": "₹90",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "MRPL",
+    "name": "Mangalore Refinery and Petrochemicals Limited",
+    "score": 61,
+    "signal": "BUY NOW",
+    "entry": "₹185",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "HILINFRA",
+    "name": "Highway Infrastructure Limited",
+    "score": 57,
+    "signal": "WATCH & BUY",
+    "entry": "₹56",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "CEMPRO",
+    "name": "Cemindia Projects Limited",
+    "score": 64,
+    "signal": "BUY NOW",
+    "entry": "₹1,154",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "HATHWAY",
+    "name": "Hathway Cable and Datacom Limited",
+    "score": 53,
+    "signal": "WATCH & BUY",
+    "entry": "₹11",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "FORCEMOT",
+    "name": "Force Motors Limited",
+    "score": 66,
+    "signal": "WATCH & BUY",
+    "entry": "₹17,270",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "DRREDDY",
+    "name": "Dr. Reddy's Laboratories Limited",
+    "score": 55,
+    "signal": "WATCH & BUY",
+    "entry": "₹1,216",
+    "sl": "1072.73",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "EBGNG",
+    "name": "GNG Electronics Limited",
     "score": 59,
+    "signal": "WATCH & BUY",
+    "entry": "₹729",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "SIMPLXREA",
+    "name": "Simplex Realty Limited",
+    "score": 56,
     "signal": "WATCH & BUY",
     "entry": "₹138",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
   },
   {
-    "ticker": "LEMONTREE",
-    "name": "Lemon Tree Hotels Limited",
-    "score": 63,
+    "ticker": "WSI",
+    "name": "W.S. Industries (India) Limited",
+    "score": 43,
+    "signal": "HOLD",
+    "entry": "₹64",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "CENTRALBK",
+    "name": "Central Bank of India",
+    "score": 64,
     "signal": "BUY NOW",
-    "entry": "₹112",
+    "entry": "₹31",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
   },
   {
-    "ticker": "BMWVENTLTD",
-    "name": "BMW Ventures Limited",
-    "score": 49,
+    "ticker": "SRPL",
+    "name": "Shree Ram Proteins Limited",
+    "score": 43,
     "signal": "HOLD",
-    "entry": "₹66",
+    "entry": "₹0",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
   },
   {
-    "ticker": "DCMFINSERV",
-    "name": "DCM Financial Services Limited",
-    "score": 45,
-    "signal": "HOLD",
-    "entry": "₹5",
-    "sl": "",
-    "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
-  },
-  {
-    "ticker": "JKTYRE",
-    "name": "JK Tyre & Industries Limited",
-    "score": 49,
-    "signal": "HOLD",
-    "entry": "₹337",
-    "sl": "",
-    "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
-  },
-  {
-    "ticker": "BHARATWIRE",
-    "name": "Bharat Wire Ropes Limited",
-    "score": 44,
-    "signal": "HOLD",
-    "entry": "₹170",
-    "sl": "",
-    "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
-  },
-  {
-    "ticker": "SAGILITY",
-    "name": "Sagility Limited",
-    "score": 57,
+    "ticker": "RIIL",
+    "name": "Reliance Industrial Infrastructure Limited",
+    "score": 50,
     "signal": "WATCH & BUY",
-    "entry": "₹44",
+    "entry": "₹699",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
   },
   {
-    "ticker": "EDELWEISS",
-    "name": "Edelweiss Financial Services Limited",
+    "ticker": "KRONOX",
+    "name": "Kronox Lab Sciences Limited",
     "score": 61,
     "signal": "BUY NOW",
-    "entry": "₹134",
+    "entry": "₹219",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
   },
   {
-    "ticker": "TATAELXSI",
-    "name": "Tata Elxsi Limited",
-    "score": 57,
-    "signal": "WATCH & BUY",
-    "entry": "₹3,427",
-    "sl": "2895.82",
-    "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
-  },
-  {
-    "ticker": "DHOOTTRANS",
-    "name": "Dhoot Transmission Limited",
-    "score": 61,
-    "signal": "BUY NOW",
-    "entry": "₹1,488",
-    "sl": "",
-    "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
-  },
-  {
-    "ticker": "ADANIPORTS",
-    "name": "Adani Ports and Special Economic Zone Limited",
-    "score": 72,
-    "signal": "STRONG BUY",
-    "entry": "₹1,763",
-    "sl": "1544.71",
-    "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
-  },
-  {
-    "ticker": "DEN",
-    "name": "DEN Networks Limited",
-    "score": 46,
-    "signal": "HOLD",
-    "entry": "₹27",
-    "sl": "",
-    "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
-  },
-  {
-    "ticker": "SUNFLAG",
-    "name": "Sunflag Iron and Steel Company Limited",
-    "score": 55,
-    "signal": "WATCH & BUY",
-    "entry": "₹442",
-    "sl": "",
-    "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
-  },
-  {
-    "ticker": "LAURUSLABS",
-    "name": "Laurus Labs Limited",
+    "ticker": "IEX",
+    "name": "Indian Energy Exchange Limited",
     "score": 60,
     "signal": "BUY NOW",
-    "entry": "₹2,059",
-    "sl": "1470.94",
-    "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
-  },
-  {
-    "ticker": "DHARSUGAR",
-    "name": "Dharani Sugars and Chemicals Limited",
-    "score": 48,
-    "signal": "HOLD",
-    "entry": "₹9",
+    "entry": "₹108",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
-  },
-  {
-    "ticker": "SGL",
-    "name": "STL Global Limited",
-    "score": 50,
-    "signal": "WATCH & BUY",
-    "entry": "₹10",
-    "sl": "",
-    "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
-  },
-  {
-    "ticker": "ELEVATE",
-    "name": "Elevate Campuses Limited",
-    "score": 50,
-    "signal": "WATCH & BUY",
-    "entry": "₹324",
-    "sl": "",
-    "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
-  },
-  {
-    "ticker": "ARDEE",
-    "name": "Ardee Industries Limited",
-    "score": 45,
-    "signal": "HOLD",
-    "entry": "₹48",
-    "sl": "",
-    "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
-  },
-  {
-    "ticker": "ABAN",
-    "name": "Aban Offshore Limited",
-    "score": 57,
-    "signal": "WATCH & BUY",
-    "entry": "₹17",
-    "sl": "",
-    "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
-  },
-  {
-    "ticker": "GULFPETRO",
-    "name": "GP Petroleums Limited",
-    "score": 60,
-    "signal": "BUY NOW",
-    "entry": "₹63",
-    "sl": "",
-    "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
-  },
-  {
-    "ticker": "SEJALLTD",
-    "name": "Sejal Glass Limited",
-    "score": 61,
-    "signal": "BUY NOW",
-    "entry": "₹730",
-    "sl": "",
-    "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
-  },
-  {
-    "ticker": "TEAMGTY",
-    "name": "Team India Guaranty Limited",
-    "score": 56,
-    "signal": "WATCH & BUY",
-    "entry": "₹248",
-    "sl": "",
-    "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
-  },
-  {
-    "ticker": "RUBYMILLS",
-    "name": "The Ruby Mills Limited",
-    "score": 58,
-    "signal": "WATCH & BUY",
-    "entry": "₹492",
-    "sl": "",
-    "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
-  },
-  {
-    "ticker": "PALREDTEC",
-    "name": "Palred Technologies Limited",
-    "score": 52,
-    "signal": "WATCH & BUY",
-    "entry": "₹45",
-    "sl": "",
-    "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
-  },
-  {
-    "ticker": "ENERGYDEV",
-    "name": "Energy Development Company Limited",
-    "score": 45,
-    "signal": "HOLD",
-    "entry": "₹13",
-    "sl": "",
-    "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
-  },
-  {
-    "ticker": "SCILAL",
-    "name": "Shipping Corporation of India Land and Assets Limited",
-    "score": 52,
-    "signal": "WATCH & BUY",
-    "entry": "₹37",
-    "sl": "",
-    "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
-  },
-  {
-    "ticker": "UNIVCABLES",
-    "name": "Universal Cables Limited",
-    "score": 65,
-    "signal": "BUY NOW",
-    "entry": "₹1,510",
-    "sl": "",
-    "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
-  },
-  {
-    "ticker": "CHEMPLASTS",
-    "name": "Chemplast Sanmar Limited",
-    "score": 50,
-    "signal": "WATCH & BUY",
-    "entry": "₹210",
-    "sl": "",
-    "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
-  },
-  {
-    "ticker": "KIOCL",
-    "name": "KIOCL Limited",
-    "score": 54,
-    "signal": "WATCH & BUY",
-    "entry": "₹376",
-    "sl": "",
-    "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
-  },
-  {
-    "ticker": "KRBL",
-    "name": "KRBL Limited",
-    "score": 62,
-    "signal": "BUY NOW",
-    "entry": "₹397",
-    "sl": "335.64",
-    "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
-  },
-  {
-    "ticker": "TARACHAND",
-    "name": "Tara Chand Infralogistic Solutions Limited",
-    "score": 42,
-    "signal": "HOLD",
-    "entry": "₹45",
-    "sl": "",
-    "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
-  },
-  {
-    "ticker": "SIKKO",
-    "name": "Sikko Industries Limited",
-    "score": 58,
-    "signal": "WATCH & BUY",
-    "entry": "₹6",
-    "sl": "",
-    "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
-  },
-  {
-    "ticker": "STYLAMIND",
-    "name": "Stylam Industries Limited",
-    "score": 65,
-    "signal": "BUY NOW",
-    "entry": "₹3,272",
-    "sl": "",
-    "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
   },
   {
     "ticker": "PAYTM",
     "name": "One97 Communications Limited",
     "score": 64,
     "signal": "BUY NOW",
-    "entry": "₹1,705",
-    "sl": "1164.14",
+    "entry": "₹1,712",
+    "sl": "1165.68",
     "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
   },
   {
-    "ticker": "PPAP",
-    "name": "PPAP Automotive Limited",
-    "score": 54,
+    "ticker": "BAJAJ-AUTO",
+    "name": "Bajaj Auto Limited",
+    "score": 59,
     "signal": "WATCH & BUY",
-    "entry": "₹241",
-    "sl": "",
+    "entry": "₹10,250",
+    "sl": "9341.71",
     "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
   },
   {
-    "ticker": "JSWHL",
-    "name": "JSW Holdings Limited",
-    "score": 52,
-    "signal": "WATCH & BUY",
-    "entry": "₹11,374",
-    "sl": "",
-    "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
-  },
-  {
-    "ticker": "AARTIIND",
-    "name": "Aarti Industries Limited",
-    "score": 56,
-    "signal": "WATCH & BUY",
-    "entry": "₹488",
-    "sl": "441.08",
-    "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
-  },
-  {
-    "ticker": "GTLINFRA",
-    "name": "GTL Infrastructure Limited",
-    "score": 46,
-    "signal": "HOLD",
-    "entry": "₹1",
-    "sl": "",
-    "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
-  },
-  {
-    "ticker": "BALPHARMA",
-    "name": "Bal Pharma Limited",
-    "score": 57,
-    "signal": "WATCH & BUY",
-    "entry": "₹99",
-    "sl": "",
-    "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
-  },
-  {
-    "ticker": "ADROITIND",
-    "name": "Adroit Industries (India) Limited",
-    "score": 42,
-    "signal": "HOLD",
-    "entry": "₹184",
-    "sl": "",
-    "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
-  },
-  {
-    "ticker": "BANDHANBNK",
-    "name": "Bandhan Bank Limited",
-    "score": 56,
-    "signal": "WATCH & BUY",
-    "entry": "₹169",
-    "sl": "145.82",
-    "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
-  },
-  {
-    "ticker": "KSR",
-    "name": "KSR Footwear Limited",
-    "score": 49,
-    "signal": "HOLD",
-    "entry": "₹37",
-    "sl": "",
-    "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
-  },
-  {
-    "ticker": "ADSL",
-    "name": "Allied Digital Services Limited",
+    "ticker": "AONESTEELS",
+    "name": "A-One Steels India Limited",
     "score": 48,
     "signal": "HOLD",
-    "entry": "₹106",
+    "entry": "₹398",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
   },
   {
-    "ticker": "GLOBAL",
-    "name": "Global Education Limited",
+    "ticker": "SHYAMMETL",
+    "name": "Shyam Metalics and Energy Limited",
+    "score": 64,
+    "signal": "BUY NOW",
+    "entry": "₹1,142",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "LTM",
+    "name": "LTM Limited",
     "score": 62,
     "signal": "BUY NOW",
-    "entry": "₹140",
+    "entry": "₹4,226",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
   },
   {
-    "ticker": "BLKASHYAP",
-    "name": "B.L. Kashyap and Sons Limited",
-    "score": 50,
+    "ticker": "PREMIER",
+    "name": "Premier Limited",
+    "score": 49,
+    "signal": "HOLD",
+    "entry": "₹3",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "ZENSARTECH",
+    "name": "Zensar Technologies Limited",
+    "score": 59,
     "signal": "WATCH & BUY",
-    "entry": "₹61",
-    "sl": "",
+    "entry": "₹490",
+    "sl": "398.29",
     "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
   },
   {
-    "ticker": "BIRLAMONEY",
-    "name": "Aditya Birla Money Limited",
+    "ticker": "ELIN",
+    "name": "Elin Electronics Limited",
+    "score": 37,
+    "signal": "SELL NOW",
+    "entry": "₹79",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "GULFPETRO",
+    "name": "GP Petroleums Limited",
+    "score": 62,
+    "signal": "BUY NOW",
+    "entry": "₹66",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "MPIMANIPAL",
+    "name": "MANIPAL PAYMENT & IDE S L",
     "score": 52,
     "signal": "WATCH & BUY",
-    "entry": "₹117",
+    "entry": "₹354",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
   },
   {
-    "ticker": "CIEINDIA",
-    "name": "CIE Automotive India Limited",
-    "score": 61,
-    "signal": "BUY NOW",
-    "entry": "₹378",
-    "sl": "",
-    "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
-  },
-  {
-    "ticker": "NIACL",
-    "name": "The New India Assurance Company Limited",
+    "ticker": "TATATECH",
+    "name": "Tata Technologies Limited",
     "score": 51,
     "signal": "WATCH & BUY",
-    "entry": "₹186",
+    "entry": "₹746",
     "sl": "",
     "win_context": "",
-    "updated_at": "2026-10-14T07:07:14.799747+00:00"
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "NIITLTD",
+    "name": "NIIT Limited",
+    "score": 56,
+    "signal": "WATCH & BUY",
+    "entry": "₹85",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "LLOYDSME",
+    "name": "Lloyds Metals and Energy Limited",
+    "score": 68,
+    "signal": "STRONG BUY",
+    "entry": "₹1,844",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "SONAMLTD",
+    "name": "Sonam Limited",
+    "score": 58,
+    "signal": "WATCH & BUY",
+    "entry": "₹75",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "WHIRLPOOL",
+    "name": "Whirlpool of India Limited",
+    "score": 54,
+    "signal": "HOLD",
+    "entry": "₹847",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "SAGILITY",
+    "name": "Sagility Limited",
+    "score": 59,
+    "signal": "WATCH & BUY",
+    "entry": "₹46",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "ISGEC",
+    "name": "Isgec Heavy Engineering Limited",
+    "score": 52,
+    "signal": "WATCH & BUY",
+    "entry": "₹927",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "ICIL",
+    "name": "Indo Count Industries Limited",
+    "score": 62,
+    "signal": "BUY NOW",
+    "entry": "₹465",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "UTLSOLAR",
+    "name": "Fujiyama Power Systems Limited",
+    "score": 61,
+    "signal": "BUY NOW",
+    "entry": "₹418",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "SVLL",
+    "name": "Shree Vasu Logistics Limited",
+    "score": 58,
+    "signal": "WATCH & BUY",
+    "entry": "₹855",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "VHL",
+    "name": "Vardhman Holdings Limited",
+    "score": 62,
+    "signal": "BUY NOW",
+    "entry": "₹3,691",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "NILAINFRA",
+    "name": "Nila Infrastructures Limited",
+    "score": 61,
+    "signal": "WATCH & BUY",
+    "entry": "₹7",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "SAKHTISUG",
+    "name": "Sakthi Sugars Limited",
+    "score": 44,
+    "signal": "HOLD",
+    "entry": "₹19",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "GANGAFORGE",
+    "name": "Ganga Forging Limited",
+    "score": 44,
+    "signal": "HOLD",
+    "entry": "₹2",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "BGRENERGY",
+    "name": "BGR Energy Systems Limited",
+    "score": 53,
+    "signal": "WATCH & BUY",
+    "entry": "₹286",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "DLINKINDIA",
+    "name": "D-Link (India) Limited",
+    "score": 54,
+    "signal": "WATCH & BUY",
+    "entry": "₹430",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "GANGESSECU",
+    "name": "Ganges Securities Limited",
+    "score": 56,
+    "signal": "WATCH & BUY",
+    "entry": "₹118",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "JAMNAAUTO",
+    "name": "Jamna Auto Industries Limited",
+    "score": 58,
+    "signal": "WATCH & BUY",
+    "entry": "₹149",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "PSB",
+    "name": "Punjab & Sind Bank",
+    "score": 51,
+    "signal": "WATCH & BUY",
+    "entry": "₹22",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "GPIL",
+    "name": "Godawari Power & Ispat Limited",
+    "score": 45,
+    "signal": "HOLD",
+    "entry": "₹209",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
+  },
+  {
+    "ticker": "KROSS",
+    "name": "Kross Limited",
+    "score": 55,
+    "signal": "WATCH & BUY",
+    "entry": "₹274",
+    "sl": "",
+    "win_context": "",
+    "updated_at": "2026-10-14T23:26:26.915906+00:00"
   }
 ]
